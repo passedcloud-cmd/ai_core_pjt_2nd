@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>화가 도슨트</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=Noto+Serif+KR:wght@300;400;600&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" rel="stylesheet">
+<link href="style.css" rel="stylesheet">
+<!-- 화가 비교 결과(마크다운 표)를 HTML로 바꾸고, 그 HTML을 안전하게 정리하는 도구 -->
+<script src="https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/dompurify@3.1.6/dist/purify.min.js"></script>
+</head>
+<body>
+<!-- =============================== 상단 메뉴 =============================== -->
+<header class="top">
+  <a class="brand" href="#chat">화가 <i>Docent</i><small>PAINTER RAG</small></a>
+  <nav class="label">
+    <a href="#chat" data-view="chat">화가와 대화</a>
+    <a href="#explore" data-view="explore">조건으로 찾기</a>
+    <a href="#compare" data-view="compare">화가 비교</a>
+    <span class="search-mode">
+      <button type="button" id="mode-btn" class="label">근거 검색 · 유사도</button>
+      <span class="mode-pop" id="mode-pop" hidden>
+        <label><input type="radio" name="mode" value="similarity" checked> 유사도 검색 <small>질문과 가장 비슷한 근거 (기본)</small></label>
+        <label><input type="radio" name="mode" value="mmr"> MMR 검색 <small>겹치지 않게 골고루 (F2014)</small></label>
+      </span>
+    </span>
+  </nav>
+  <button type="button" class="pick label" id="open-picker">화가 선택 ↗</button>
+</header>
+
+<!-- 색인 없음·키 누락 등 안내 (F2012) -->
+<div class="notice" id="notice" hidden></div>
+
+<!-- =============================== ① 화가와 대화 =============================== -->
+<main id="view-chat" class="view">
+  <section class="hero">
+    <img id="hero-img" alt="">
+    <div class="caption label" id="hero-cap"></div>
+    <div class="copy">
+      <div class="label" id="hero-label"></div>
+      <h1 id="hero-title"></h1>
+      <div class="meta label"><span id="hero-count"></span><span id="hero-index"></span><a href="#ask-box">질문하러 가기 ↓</a></div>
+    </div>
+  </section>
+
+  <section class="intro">
+    <div>
+      <div class="label muted">The Painter · 화가 메타데이터</div>
+      <h2 id="intro-title"></h2>
+      <p id="intro-desc"></p>
+      <div class="facts" id="facts"></div>
+      <a class="text-link label" id="wiki-link" target="_blank" rel="noopener">한국어 위키백과 ↗</a>
+    </div>
+    <div>
+      <div class="tabs" id="gallery-tabs"></div>
+      <div class="gallery" id="gallery"></div>
+      <button type="button" class="text-link label" id="gallery-more" hidden></button>
+      <p class="fine">이미지를 누르면 크게 볼 수 있어요 · 출처: Wikidata, Wikimedia Commons, 위키백과</p>
+    </div>
+  </section>
+
+  <section class="chat" id="ask-box">
+    <div class="chat-head">
+      <h2 id="chat-title"></h2>
+      <div class="label dim">수집된 문서만 근거로 답해요 · 문서에 없으면 "확인되지 않는다"고 말해요</div>
+    </div>
+    <div id="messages"></div>
+    <form class="ask" id="ask-form">
+      <input id="ask-input" autocomplete="off" maxlength="500" placeholder="궁금한 점을 입력하세요">
+      <button class="label" type="submit">질문하기 ↗</button>
+    </form>
+    <p class="fine dim" id="examples">예시: 대표작은 뭐야? · 어떤 사조에 속해? · 말년에는 어디서 살았어?</p>
+  </section>
+</main>
+
+<!-- =============================== ② 조건으로 찾기 =============================== -->
+<main id="view-explore" class="view" hidden>
+  <section class="band">
+    <div class="inner">
+      <div class="label dim">Find a Painter · 국적 · 시대 · 사조 · 장르를 자연어로</div>
+      <h1>어떤 화가를 <em class="k">찾고 있나요</em>?</h1>
+      <form class="line-input" id="search-form">
+        <input id="search-input" maxlength="200" autocomplete="off" placeholder="예: 19세기 프랑스 인상주의 풍경화가 / 조선 시대 화가">
+        <button class="label" type="submit">찾기 ↗</button>
+      </form>
+    </div>
+  </section>
+  <section class="parsed" id="parsed" hidden></section>
+  <section class="results" id="results"></section>
+</main>
+
+<!-- =============================== ③ 화가 비교 =============================== -->
+<main id="view-compare" class="view" hidden>
+  <section class="band">
+    <div class="inner">
+      <div class="label dim">Compare · 수집된 문서만 근거로 비교해요</div>
+      <h1>두 화가를 <em class="k">나란히</em></h1>
+      <form class="pickers" id="compare-form">
+        <label><span class="label dim">화가 A</span><input id="cmp-a" list="painter-names" autocomplete="off" placeholder="이름 입력"></label>
+        <div class="vs">vs</div>
+        <label><span class="label dim">화가 B</span><input id="cmp-b" list="painter-names" autocomplete="off" placeholder="이름 입력"></label>
+        <label><span class="label dim">비교 관점 (비우면 생애·사조·대표작·화풍)</span><input id="cmp-focus" maxlength="100" autocomplete="off" placeholder="예: 풍속화의 소재와 분위기"></label>
+        <button class="label" type="submit">비교하기 ↗</button>
+      </form>
+      <datalist id="painter-names"></datalist>
+    </div>
+  </section>
+  <div id="compare-out"></div>
+</main>
+
+<!-- =============================== 화가 선택 창 =============================== -->
+<div class="overlay" id="picker" hidden>
+  <div class="picker">
+    <div class="picker-head">
+      <input id="picker-input" autocomplete="off" placeholder="화가 이름 (한글 또는 영어)">
+      <button type="button" class="label" data-close>닫기 ✕</button>
+    </div>
+    <div class="picker-list" id="picker-list"></div>
+  </div>
+</div>
+
+<!-- =============================== 크게 보기 =============================== -->
+<div class="overlay" id="lightbox" hidden>
+  <figure class="lightbox">
+    <img id="lb-img" alt="">
+    <figcaption><span id="lb-cap"></span><a id="lb-page" class="label" target="_blank" rel="noopener">원본 페이지 ↗</a><button type="button" class="label" data-close>닫기 ✕</button></figcaption>
+  </figure>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+/* =========================================================================
+   아틀리에(A안) 공통 스타일 — 화가 도슨트
+   레퍼런스 ①: 네이비·크림·버건디·골드 / 세리프 제목(Noto Serif KR + Cormorant) / 산세리프 본문(Pretendard)
+   ※ 한글 세리프에는 이탤릭이 없으므로, 한글 강조는 색(골드)으로 하고 이탤릭은 라틴 문자에만 쓴다.
+   ========================================================================= */
+:root {
+  --navy: #1B2638; --cream: #F5F2EC; --sand: #EAE5DC; --burgundy: #6E1F24; --gold: #C19A6B; --gray: #626771; --rule: #d6cfc2;
+  --serif: "Noto Serif KR", "Cormorant Garamond", serif;
+  --latin: "Cormorant Garamond", "Noto Serif KR", serif;
+  --sans: "Pretendard", -apple-system, sans-serif;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { background: var(--cream); color: var(--navy); font-family: var(--sans); }
+.label { font-family: var(--sans); font-size: 11px; font-weight: 500; letter-spacing: .22em; text-transform: uppercase; }
+em.k { font-style: normal; color: var(--gold); }              /* 한글 강조: 색으로 */
+em.l { font-family: var(--latin); font-style: italic; color: var(--gold); font-weight: 400; } /* 라틴 강조: 이탤릭 */
+sup.cite { font-family: var(--sans); font-size: 11px; font-weight: 600; color: var(--navy); background: var(--gold);
+           padding: 2px 7px; border-radius: 2px; margin-left: 3px; vertical-align: 4px; }
+
+/* 상단 메뉴 (네이비 띠 위) */
+header { display: flex; align-items: center; justify-content: space-between; padding: 28px 56px; color: var(--cream); }
+.brand { font-family: var(--latin); font-size: 26px; letter-spacing: .04em; }
+.brand small { display: block; font-family: var(--sans); font-size: 9px; letter-spacing: .4em; text-align: center; opacity: .7; margin-top: 2px; }
+nav { display: flex; gap: 40px; }
+nav a { color: var(--cream); text-decoration: none; opacity: .75; }
+nav a.on { opacity: 1; border-bottom: 1px solid var(--gold); padding-bottom: 6px; }
+.pick { border: 1px solid rgba(245,242,236,.5); padding: 12px 20px; color: var(--cream); text-decoration: none; }
+
+/* 네이비 머리 띠 (조건 탐색·비교 화면의 첫 부분) */
+.band { background: var(--navy); color: var(--cream); padding-bottom: 72px; }
+.band .inner { padding: 64px 56px 0; }
+.band h1 { font-family: var(--serif); font-weight: 300; font-size: 76px; line-height: 1.1; letter-spacing: -.03em; margin-top: 22px; }
+
+/* 밑줄 입력창 (A안 대화 입력과 같은 모양) */
+.line-input { display: flex; align-items: center; border-bottom: 1px solid rgba(245,242,236,.5); padding: 18px 0; margin-top: 48px; font-size: 22px; }
+.line-input span { flex: 1; font-family: var(--serif); font-weight: 300; }
+.line-input a { color: var(--gold); text-decoration: none; }
+
+/* 근거 목록 (큰 숫자 + 얇은 선) */
+.source { border-top: 1px solid var(--rule); padding: 16px 0; display: flex; gap: 16px; }
+.source b { font-family: var(--latin); font-size: 30px; font-weight: 400; color: var(--gold); line-height: 1; min-width: 28px; }
+.source .t { font-family: var(--serif); font-size: 17px; }
+.source .k { font-size: 12px; letter-spacing: .1em; color: var(--gray); margin-top: 4px; }

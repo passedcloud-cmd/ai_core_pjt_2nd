@@ -1,0 +1,74 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "streamlit",
+      "runtimeExecutable": "venv/Scripts/python.exe",
+      "runtimeArgs": [
+        "-m",
+        "streamlit",
+        "run",
+        "app.py",
+        "--server.headless",
+        "true",
+        "--server.port",
+        "8501"
+      ],
+      "port": 8501
+    },
+    {
+      "name": "streamlit-test",
+      "runtimeExecutable": "venv/Scripts/python.exe",
+      "runtimeArgs": [
+        "-m",
+        "streamlit",
+        "run",
+        "app.py",
+        "--server.headless",
+        "true",
+        "--server.port",
+        "8502"
+      ],
+      "port": 8502
+    },
+    {
+      "name": "test-no-key",
+      "runtimeExecutable": "venv/Scripts/python.exe",
+      "runtimeArgs": [
+        "-c",
+        "import os,sys; os.environ['OPENAI_API_KEY']=''; from streamlit.web import cli; sys.argv=['streamlit','run','app.py','--server.headless','true','--server.port','8503']; cli.main()"
+      ],
+      "port": 8503
+    },
+    {
+      "name": "test-no-index",
+      "runtimeExecutable": "venv/Scripts/python.exe",
+      "runtimeArgs": [
+        "-c",
+        "import os,sys; os.environ['CHROMA_DIR']='C:/Users/SSAFY/AppData/Local/Temp/claude/C--Users-SSAFY-Desktop-1021AI-core-pjt-2nd/4ffc4db5-fee7-4703-8332-a7e6403427c2/scratchpad/empty_chroma'; from streamlit.web import cli; sys.argv=['streamlit','run','app.py','--server.headless','true','--server.port','8504']; cli.main()"
+      ],
+      "port": 8504
+    },
+    {
+      "name": "test-bad-key",
+      "runtimeExecutable": "venv/Scripts/python.exe",
+      "runtimeArgs": [
+        "-c",
+        "import os,sys; os.environ['OPENAI_API_KEY']='sk-FAKEKEY-for-NF2004-test'; from streamlit.web import cli; sys.argv=['streamlit','run','app.py','--server.headless','true','--server.port','8505']; cli.main()"
+      ],
+      "port": 8505
+    },
+    {
+      "name": "web",
+      "runtimeExecutable": "venv/Scripts/python.exe",
+      "runtimeArgs": [
+        "-m",
+        "uvicorn",
+        "api.server:app",
+        "--port",
+        "8600"
+      ],
+      "port": 8600
+    }
+  ]
+}

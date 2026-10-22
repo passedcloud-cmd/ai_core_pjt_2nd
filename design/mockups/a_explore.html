@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>A안 · 조건으로 찾기 — 화가 도슨트 시안</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=Noto+Serif+KR:wght@300;400;600&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" rel="stylesheet">
+<link href="atelier.css" rel="stylesheet">
+<style>
+  /* 해석된 조건 + 처리 단계 */
+  .parsed { display: flex; justify-content: space-between; align-items: center; padding: 40px 56px; border-bottom: 1px solid var(--rule); }
+  .conds { display: flex; gap: 10px; align-items: center; }
+  .conds .label { color: var(--gray); margin-right: 8px; }
+  .cond { font-size: 14px; border: 1px solid var(--rule); padding: 8px 14px; background: #fff; }
+  .cond i { font-style: normal; color: var(--gray); margin-right: 6px; font-size: 12px; }
+  .steps { display: flex; gap: 22px; align-items: baseline; font-size: 13px; color: var(--gray); }
+  .steps b { font-family: var(--latin); font-size: 30px; font-weight: 500; color: var(--navy); margin-right: 4px; }
+  .steps .last b { color: var(--burgundy); }
+
+  /* 결과 카드 */
+  .results { display: grid; grid-template-columns: repeat(3, 1fr); gap: 56px 40px; padding: 64px 56px 96px; }
+  .card img { width: 100%; height: 280px; object-fit: cover; display: block; }
+  .card .top { display: flex; justify-content: space-between; align-items: baseline; margin-top: 20px; }
+  .card .no { font-family: var(--latin); font-size: 22px; color: var(--gold); }
+  .card h3 { font-family: var(--serif); font-weight: 400; font-size: 28px; }
+  .card .desc { font-size: 14px; color: var(--gray); margin-top: 6px; }
+  .card .work { font-family: var(--serif); font-size: 13px; color: var(--gray); margin-top: 14px; padding-top: 14px; border-top: 1px solid var(--rule); }
+  .card .why { font-size: 14px; margin-top: 10px; }
+  .card .why::before { content: "✓ "; color: var(--gold); font-weight: 700; }
+  .card a { display: inline-block; margin-top: 18px; color: var(--burgundy); text-decoration: none; border-bottom: 1px solid var(--burgundy); padding-bottom: 4px; }
+</style>
+</head>
+<body>
+<section class="band">
+  <header>
+    <div class="brand">화가 <i>Docent</i><small>PAINTER RAG</small></div>
+    <nav class="label"><a href="#">화가와 대화</a><a class="on" href="#">조건으로 찾기</a><a href="#">화가 비교</a><a href="#">근거 검색 방식</a></nav>
+    <a class="pick label" href="#">화가 선택 ↗</a>
+  </header>
+  <div class="inner">
+    <div class="label" style="opacity:.7">Find a Painter · 국적 · 시대 · 사조 · 장르를 자연어로</div>
+    <h1>어떤 화가를 <em class="k">찾고 있나요</em>?</h1>
+    <div class="line-input"><span>19세기 프랑스 인상주의 풍경화가</span><a class="label" href="#">찾기 ↗</a></div>
+  </div>
+</section>
+
+<section class="parsed">
+  <div class="conds">
+    <span class="label">해석된 조건</span>
+    <span class="cond"><i>국적</i>프랑스</span><span class="cond"><i>사조</i>인상주의</span><span class="cond"><i>장르</i>풍경화</span><span class="cond"><i>시대</i>19세기</span>
+  </div>
+  <div class="steps">
+    <span><b>12</b>명 조건 필터 통과</span><span>→</span><span><b>12</b>명 LLM 검증</span><span>→</span><span class="last"><b>10</b>명 일치</span>
+  </div>
+</section>
+
+<section class="results">
+  <div class="card"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Monet_-_Impression%2C_Sunrise.jpg/500px-Monet_-_Impression%2C_Sunrise.jpg" alt="">
+    <div class="top"><h3>클로드 모네</h3><span class="no">01</span></div>
+    <div class="desc">프랑스의 화가 · 유명도 23위</div>
+    <div class="work">인상, 해돋이 · 1872 · 마르모탕 모네 미술관</div>
+    <div class="why">프랑스 · 인상주의 · 풍경화 · 19~20세기</div>
+    <a class="label" href="#">모네와 대화하기 ↗</a></div>
+  <div class="card"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Edouard_Manet_-_Luncheon_on_the_Grass_-_Google_Art_Project.jpg/500px-Edouard_Manet_-_Luncheon_on_the_Grass_-_Google_Art_Project.jpg" alt="">
+    <div class="top"><h3>에두아르 마네</h3><span class="no">02</span></div>
+    <div class="desc">프랑스의 인상주의 화가 · 유명도 42위</div>
+    <div class="work">풀밭 위의 점심 식사 · 1863 · 오르세 미술관</div>
+    <div class="why">프랑스 · 인상주의 · 풍경화 · 19세기</div>
+    <a class="label" href="#">마네와 대화하기 ↗</a></div>
+  <div class="card"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Renoir%2C_Pierre-Auguste_-_Dance_at_Le_Moulin_de_la_Galette%2C_1876.jpg/500px-Renoir%2C_Pierre-Auguste_-_Dance_at_Le_Moulin_de_la_Galette%2C_1876.jpg" alt="">
+    <div class="top"><h3>오귀스트 르누아르</h3><span class="no">03</span></div>
+    <div class="desc">프랑스의 화가이자 조각가 · 유명도 47위</div>
+    <div class="work">물랭 드 라 갈레트의 무도회 · 1876 · 오르세 미술관</div>
+    <div class="why">프랑스 · 인상주의 · 풍경화 · 19~20세기</div>
+    <a class="label" href="#">르누아르와 대화하기 ↗</a></div>
+  <div class="card"><img src="https://upload.wikimedia.org/wikipedia/commons/3/3b/Pissarro_-_Pont_Boieldieu_in_Rouen%2C_Rainy_Weather.jpg" alt="">
+    <div class="top"><h3>카미유 피사로</h3><span class="no">04</span></div>
+    <div class="desc">덴마크계 프랑스 화가 · 유명도 67위</div>
+    <div class="work">루앙의 부알디외 다리, 비 오는 날 · 1896</div>
+    <div class="why">프랑스 · 인상주의 · 풍경화 · 19~20세기</div>
+    <a class="label" href="#">피사로와 대화하기 ↗</a></div>
+  <div class="card"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Alfred_Sisley_-_The_Seine_at_Port-Marly%2C_Piles_of_Sand_-_1933.1177_-_Art_Institute_of_Chicago.jpg/500px-Alfred_Sisley_-_The_Seine_at_Port-Marly%2C_Piles_of_Sand_-_1933.1177_-_Art_Institute_of_Chicago.jpg" alt="">
+    <div class="top"><h3>알프레드 시슬레</h3><span class="no">05</span></div>
+    <div class="desc">프랑스 태생의 영국 화가 · 유명도 107위</div>
+    <div class="work">포르마를리의 센 강, 모래더미 · 1875</div>
+    <div class="why">프랑스 · 인상주의 · 풍경화 · 19세기</div>
+    <a class="label" href="#">시슬레와 대화하기 ↗</a></div>
+  <div class="card"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Berthe_Morisot_-_Le_berceau.jpg/500px-Berthe_Morisot_-_Le_berceau.jpg" alt="">
+    <div class="top"><h3>베르트 모리조</h3><span class="no">06</span></div>
+    <div class="desc">유명도 116위</div>
+    <div class="work">요람 · 1872 · 오르세 미술관</div>
+    <div class="why">프랑스 · 인상주의 · 풍경화 · 19세기</div>
+    <a class="label" href="#">모리조와 대화하기 ↗</a></div>
+</section>
+</body>
+</html>

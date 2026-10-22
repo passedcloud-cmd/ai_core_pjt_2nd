@@ -1,0 +1,6 @@
+# Streamlit 설정 (streamlit run app.py 할 때 자동으로 읽힘)
+
+[client]
+# 예상 못 한 오류가 나도 브라우저에는 일반 안내만 보이고,
+# 오류 종류·내용·추적 정보(traceback)는 터미널에만 출력된다. (NF2004 내부 정보 비노출)
+showErrorDetails = "none"

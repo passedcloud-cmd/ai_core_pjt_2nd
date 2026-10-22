@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>C안 · 혼합 — 화가 도슨트 시안</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;1,400;1,500&family=Noto+Serif+KR:wght@300;400;600&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" rel="stylesheet">
+<style>
+  /* C안: ②의 구성(첫 화면 작품, 위쪽 버튼 메뉴, 따뜻한 바탕) + ①의 글꼴·색(세리프 제목, 산세리프 본문, 버건디·골드) */
+  :root {
+    --paper: #F3EFE7; --card: #FBF9F5; --ink: #1B2638; --burgundy: #6E1F24; --gold: #C19A6B; --gray: #6B6A66; --line: #DDD5C7;
+    --serif: "Noto Serif KR", serif;
+    --latin: "Cormorant Garamond", serif;
+    --sans: "Pretendard", -apple-system, sans-serif;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: var(--paper); color: var(--ink); font-family: var(--sans); }
+  .label { font-size: 11px; font-weight: 600; letter-spacing: .2em; color: var(--gray); }
+  strong { font-weight: 800; color: var(--ink); }
+
+  /* 상단: 세리프 로고 + 알약 모양 메뉴 버튼 */
+  header { display: flex; align-items: center; justify-content: space-between; padding: 22px 48px; }
+  .brand { font-family: var(--serif); font-size: 22px; font-weight: 600; }
+  .brand em { font-family: var(--latin); font-style: italic; font-weight: 500; color: var(--burgundy); margin-left: 4px; }
+  nav { display: flex; gap: 6px; background: var(--card); padding: 6px; border-radius: 999px; border: 1px solid var(--line); }
+  nav a { font-size: 14px; font-weight: 700; color: var(--ink); text-decoration: none; padding: 10px 20px; border-radius: 999px; }
+  nav a.on { background: var(--burgundy); color: #fff; }
+  .pick { background: var(--ink); color: var(--paper); font-weight: 700; font-size: 14px; padding: 12px 22px; border-radius: 999px; text-decoration: none; }
+
+  /* 첫 화면: 작품 모자이크 (큰 그림 1 + 작은 그림 2) */
+  .mosaic { display: grid; grid-template-columns: 2fr 1fr; grid-template-rows: 300px 300px; gap: 10px; padding: 0 48px; }
+  .mosaic figure { position: relative; overflow: hidden; border-radius: 6px; }
+  .mosaic figure:first-child { grid-row: span 2; }
+  .mosaic img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .mosaic figcaption { position: absolute; left: 16px; bottom: 14px; color: #fff; font-family: var(--serif); font-size: 14px; text-shadow: 0 1px 12px rgba(0,0,0,.6); }
+
+  /* 화가 소개 */
+  .title { display: grid; grid-template-columns: 1.15fr 1fr; gap: 64px; padding: 56px 48px 72px; align-items: end; border-bottom: 1px solid var(--line); margin: 0 48px; padding-left: 0; padding-right: 0; }
+  .title h1 { font-family: var(--serif); font-weight: 300; font-size: 84px; line-height: 1.05; letter-spacing: -.03em; margin-top: 16px; }
+  .title h1 .en { display: block; font-family: var(--latin); font-style: italic; font-weight: 400; color: var(--gold); font-size: 76px; }
+  .title p { font-size: 18px; line-height: 1.85; color: var(--gray); }
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 24px; }
+  .chips span { font-size: 13px; font-weight: 600; border: 1px solid var(--line); background: var(--card); padding: 7px 14px; border-radius: 999px; }
+
+  /* 작품 띠 */
+  .works { padding: 64px 48px; }
+  .works-head { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 24px; }
+  .works-head h2 { font-family: var(--serif); font-weight: 400; font-size: 32px; }
+  .row { display: grid; grid-template-columns: repeat(5, 1fr); gap: 16px; }
+  .row img { width: 100%; height: 200px; object-fit: cover; border-radius: 4px; display: block; }
+  .row figcaption { font-family: var(--serif); font-size: 15px; margin-top: 10px; }
+  .row figcaption span { display: block; font-family: var(--sans); font-size: 12px; color: var(--gray); margin-top: 3px; }
+
+  /* 대화: 카드 안에 질문·답변, 오른쪽에 근거 목록 */
+  .chat { margin: 0 48px 96px; background: var(--card); border: 1px solid var(--line); border-radius: 10px; display: grid; grid-template-columns: 1.45fr 1fr; }
+  .talk { padding: 48px; border-right: 1px solid var(--line); }
+  .talk h2 { font-family: var(--serif); font-weight: 400; font-size: 34px; margin-bottom: 32px; }
+  .talk h2 span { color: var(--burgundy); }
+  .q { font-family: var(--serif); font-size: 22px; padding-left: 18px; border-left: 3px solid var(--gold); margin-bottom: 28px; }
+  .a { font-size: 17.5px; line-height: 1.95; color: #3a3f4a; }
+  .n { display: inline-flex; align-items: center; justify-content: center; width: 20px; height: 20px; border-radius: 50%; background: var(--burgundy);
+       color: #fff; font-size: 11px; font-weight: 700; margin-left: 4px; vertical-align: 2px; }
+  .ask { display: flex; margin-top: 36px; border: 1px solid var(--ink); border-radius: 999px; padding: 6px 6px 6px 24px; align-items: center; }
+  .ask span { flex: 1; color: var(--gray); }
+  .ask a { background: var(--ink); color: var(--paper); text-decoration: none; font-weight: 700; padding: 12px 22px; border-radius: 999px; }
+  .ev { padding: 48px 40px; }
+  .ev .label { margin-bottom: 18px; }
+  .src { display: grid; grid-template-columns: 30px 58px 1fr; gap: 14px; align-items: center; padding: 16px 0; border-top: 1px solid var(--line); }
+  .src .num { font-family: var(--latin); font-size: 28px; color: var(--burgundy); }
+  .src img { width: 58px; height: 46px; object-fit: cover; border-radius: 3px; }
+  .src b { display: block; font-family: var(--serif); font-weight: 600; font-size: 16px; }
+  .src small { font-size: 12.5px; color: var(--gray); }
+  .src.off { opacity: .45; }
+  .src.off .ph { width: 58px; height: 46px; background: var(--line); border-radius: 3px; }
+</style>
+</head>
+<body>
+<header>
+  <div class="brand">화가 도슨트<em>Docent</em></div>
+  <nav><a class="on" href="#">화가와 대화</a><a href="#">조건으로 찾기</a><a href="#">화가 비교</a><a href="#">검색 방식</a></nav>
+  <a class="pick" href="#">화가 고르기</a>
+</header>
+
+<section class="mosaic">
+  <figure><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Monet_-_Impression%2C_Sunrise.jpg/1920px-Monet_-_Impression%2C_Sunrise.jpg" alt=""><figcaption>인상, 해돋이 · 1872</figcaption></figure>
+  <figure><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Claude_Monet_-_Woman_with_a_Parasol_-_Madame_Monet_and_Her_Son_-_Google_Art_Project.jpg/960px-Claude_Monet_-_Woman_with_a_Parasol_-_Madame_Monet_and_Her_Son_-_Google_Art_Project.jpg" alt="" style="object-position:center 25%"><figcaption>파라솔을 든 여인 · 1875</figcaption></figure>
+  <figure><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Claude_Monet_Seerosen_um_1915_Neue_Pinakothek-4.jpg/960px-Claude_Monet_Seerosen_um_1915_Neue_Pinakothek-4.jpg" alt=""><figcaption>수련 · 1899</figcaption></figure>
+</section>
+
+<section class="title">
+  <div>
+    <div class="label">프랑스 · 인상주의 · 1840 – 1926</div>
+    <h1>빛을 그린 사람<span class="en">Claude Monet</span></h1>
+  </div>
+  <div>
+    <p>클로드 모네는 <strong>프랑스 인상주의</strong>를 대표하는 화가예요. 같은 장소를 <strong>시간과 날씨에 따라 반복해서</strong> 그린 연작으로 잘 알려져 있어요.</p>
+    <div class="chips"><span>국적 · 프랑스</span><span>사조 · 인상주의</span><span>장르 · 풍경화</span><span>출생지 · 파리</span><span>근거 문서 6건</span></div>
+  </div>
+</section>
+
+<section class="works">
+  <div class="works-head"><h2>대표 작품</h2><span class="label">작품 40점 모두 보기 →</span></div>
+  <div class="row">
+    <figure><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Claude_Monet_-_Jardin_%C3%A0_Sainte-Adresse.jpg/960px-Claude_Monet_-_Jardin_%C3%A0_Sainte-Adresse.jpg" alt=""><figcaption>생타드레스의 정원<span>1867 · 메트로폴리탄 미술관</span></figcaption></figure>
+    <figure><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Claude_Monet_-_The_Magpie_-_Google_Art_Project.jpg/960px-Claude_Monet_-_The_Magpie_-_Google_Art_Project.jpg" alt=""><figcaption>까치<span>1868 · 오르세 미술관</span></figcaption></figure>
+    <figure><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Claude_Monet_-_Haystacks%2C_end_of_Summer_-_Google_Art_Project.jpg/960px-Claude_Monet_-_Haystacks%2C_end_of_Summer_-_Google_Art_Project.jpg" alt=""><figcaption>건초더미<span>여름의 끝</span></figcaption></figure>
+    <figure><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Claude_Monet_024.jpg/960px-Claude_Monet_024.jpg" alt=""><figcaption>정원의 여인들<span>1866 · 오르세 미술관</span></figcaption></figure>
+    <figure><img src="https://upload.wikimedia.org/wikipedia/commons/3/30/RouenCathedral_Monet_1894.jpg" alt=""><figcaption>루앙 대성당<span>1892</span></figcaption></figure>
+  </div>
+</section>
+
+<section class="chat">
+  <div class="talk">
+    <h2>모네에게 <span>묻기</span></h2>
+    <div class="q">수련 연작은 몇 점이고, 지금 어디에 있어?</div>
+    <div class="a">모네의 수련 연작은 현재 <strong>약 250점</strong> 정도가 남아 있는 것으로 알려져 있어요<span class="n">3</span>.
+      주요 소장처로는 마르모탕 모네 미술관, 오르세 미술관, 메트로폴리탄 미술관 등이 있어요<span class="n">2</span>.
+      1920년대부터는 파리 <strong>오랑주리 미술관</strong>에 수련 벽화 8점이 상설 전시되고 있답니다<span class="n">2</span>.</div>
+    <div class="ask"><span>모네에 대해 궁금한 점을 입력하세요</span><a href="#">질문하기</a></div>
+  </div>
+  <div class="ev">
+    <div class="label">이 답변의 근거</div>
+    <div class="src"><span class="num">2</span><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Claude_Monet_Seerosen_um_1915_Neue_Pinakothek-4.jpg/330px-Claude_Monet_Seerosen_um_1915_Neue_Pinakothek-4.jpg" alt=""><div><b>수련 (모네) — 역사</b><small>📖 위키백과 · 원문 보기 ↗</small></div></div>
+    <div class="src"><span class="num">3</span><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Claude_Monet_Seerosen_um_1915_Neue_Pinakothek-4.jpg/330px-Claude_Monet_Seerosen_um_1915_Neue_Pinakothek-4.jpg" alt=""><div><b>수련 (모네) — 개요</b><small>📖 위키백과 · 원문 보기 ↗</small></div></div>
+    <div class="src off"><span class="num">1</span><div class="ph"></div><div><b>클로드 모네 · 화가 메타데이터</b><small>📇 검색됐지만 인용되지 않음</small></div></div>
+  </div>
+</section>
+</body>
+</html>

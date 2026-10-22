@@ -1,0 +1,4979 @@
+[
+  {
+    "id": "Q207",
+    "name": "조지 W. 부시",
+    "description": "미국의 제43대 대통령",
+    "description_en": "43rd President of the United States (2001–2009)",
+    "source_url": "https://www.wikidata.org/wiki/Q207"
+  },
+  {
+    "id": "Q8704",
+    "name": "월트 디즈니",
+    "description": "미국의 애니메이터이자 영화 감독, 성우, 기업인",
+    "description_en": "American animator, producer, director, screenwriter, voice actor and entrepreneur, founder of The Walt Disney Company (1901–1966)",
+    "source_url": "https://www.wikidata.org/wiki/Q8704"
+  },
+  {
+    "id": "Q619",
+    "name": "니콜라우스 코페르니쿠스",
+    "description": "폴란드의 천문학자 (1473–1543)",
+    "description_en": "Polish mathematician and astronomer (1473-1543)",
+    "source_url": "https://www.wikidata.org/wiki/Q619"
+  },
+  {
+    "id": "Q392",
+    "name": "밥 딜런",
+    "description": "미국의 싱어송라이터",
+    "description_en": "American singer-songwriter (born 1941)",
+    "source_url": "https://www.wikidata.org/wiki/Q392"
+  },
+  {
+    "id": "Q8006",
+    "name": "구로사와 아키라",
+    "description": "일본의 영화 감독 (1910~1998)",
+    "description_en": "Japanese filmmaker (1910–1998)",
+    "source_url": "https://www.wikidata.org/wiki/Q8006"
+  },
+  {
+    "id": "Q15869",
+    "name": "프레디 머큐리",
+    "description": "영국의 음악가, 퀸의 리드싱어",
+    "description_en": "British singer, songwriter and musician, frontman of the rock band Queen (1946–1991)",
+    "source_url": "https://www.wikidata.org/wiki/Q15869"
+  },
+  {
+    "id": "Q41532",
+    "name": "카를 융",
+    "description": "스위스의 정신의학자 (1875–1961)",
+    "description_en": "Swiss psychiatrist and psychotherapist (1875–1961)",
+    "source_url": "https://www.wikidata.org/wiki/Q41532"
+  },
+  {
+    "id": "Q2599",
+    "name": "폴 매카트니",
+    "description": "영국의 가수, 작곡가, 비틀즈 멤버",
+    "description_en": "English musician and member of the Beatles (born 1942)",
+    "source_url": "https://www.wikidata.org/wiki/Q2599"
+  },
+  {
+    "id": "Q8873",
+    "name": "사티야지트 레이",
+    "description": "",
+    "description_en": "Indian filmmaker and writer (1921–1992)",
+    "source_url": "https://www.wikidata.org/wiki/Q8873"
+  },
+  {
+    "id": "Q6538",
+    "name": "귄터 그라스",
+    "description": "독일의 작가 (1927–2015)",
+    "description_en": "German novelist, poet, playwright, illustrator, graphic artist, and sculptor (1927-2015)",
+    "source_url": "https://www.wikidata.org/wiki/Q6538"
+  },
+  {
+    "id": "Q5383",
+    "name": "데이비드 보위",
+    "description": "잉글랜드의 싱어송라이터이자 배우",
+    "description_en": "English musician and actor (1947–2016)",
+    "source_url": "https://www.wikidata.org/wiki/Q5383"
+  },
+  {
+    "id": "Q2677",
+    "name": "빌헬름 2세",
+    "description": "독일 제국의 3대 황제",
+    "description_en": "as King of Prussia last German Emperor from 1888 to 1918 (1859–1941)",
+    "source_url": "https://www.wikidata.org/wiki/Q2677"
+  },
+  {
+    "id": "Q40504",
+    "name": "짐 캐리",
+    "description": "캐나다 태생의 미국의 배우, 희극인",
+    "description_en": "Canadian-American actor and comedian (born 1962)",
+    "source_url": "https://www.wikidata.org/wiki/Q40504"
+  },
+  {
+    "id": "Q65932",
+    "name": "앤서니 홉킨스",
+    "description": "영국 웨일스의 배우",
+    "description_en": "Welsh actor (born 1937)",
+    "source_url": "https://www.wikidata.org/wiki/Q65932"
+  },
+  {
+    "id": "Q102139",
+    "name": "마르그레테 2세",
+    "description": "덴마크의 여왕",
+    "description_en": "Queen of Denmark from 1972 to 2024 (born 1940)",
+    "source_url": "https://www.wikidata.org/wiki/Q102139"
+  },
+  {
+    "id": "Q155855",
+    "name": "카렐 차페크",
+    "description": "체코의 소설가 (1890–1938)",
+    "description_en": "Czech writer (1890–1938)",
+    "source_url": "https://www.wikidata.org/wiki/Q155855"
+  },
+  {
+    "id": "Q58720",
+    "name": "미하일 로모노소프",
+    "description": "러시아의 과학자 (1711–1765)",
+    "description_en": "Russian polymath (1711-1765)",
+    "source_url": "https://www.wikidata.org/wiki/Q58720"
+  },
+  {
+    "id": "Q18143",
+    "name": "가오싱젠",
+    "description": "중국 소설가, 극작가",
+    "description_en": "Chinese novelist and playwright (1940- )",
+    "source_url": "https://www.wikidata.org/wiki/Q18143"
+  },
+  {
+    "id": "Q47842",
+    "name": "서태후",
+    "description": "청나라 말기의 황태후 (1835–1908)",
+    "description_en": "Chinese empress (1835–1908)",
+    "source_url": "https://www.wikidata.org/wiki/Q47842"
+  },
+  {
+    "id": "Q3166534",
+    "name": "장조제프 상푸르슈",
+    "description": "",
+    "description_en": "French artist (1929-2010)",
+    "source_url": "https://www.wikidata.org/wiki/Q3166534"
+  },
+  {
+    "id": "Q103285",
+    "name": "호세 마르티",
+    "description": "쿠바의 혁명가, 작가",
+    "description_en": "Cuban poet, philosopher and nationalist (1853-1895)",
+    "source_url": "https://www.wikidata.org/wiki/Q103285"
+  },
+  {
+    "id": "Q160333",
+    "name": "프로스페르 메리메",
+    "description": "프랑스의 작가 (1803-1870)",
+    "description_en": "French writer, archaeologist and historian (1803–1870)",
+    "source_url": "https://www.wikidata.org/wiki/Q160333"
+  },
+  {
+    "id": "Q128538",
+    "name": "루가",
+    "description": "",
+    "description_en": "one of the four evangelists",
+    "source_url": "https://www.wikidata.org/wiki/Q128538"
+  },
+  {
+    "id": "Q129173",
+    "name": "베르네르 폰 헤이덴스탐",
+    "description": "스웨덴작가",
+    "description_en": "Swedish writer (1859–1940)",
+    "source_url": "https://www.wikidata.org/wiki/Q129173"
+  },
+  {
+    "id": "Q187765",
+    "name": "헨리 밀러",
+    "description": "미국의 소설가",
+    "description_en": "American novelist (1891–1980)",
+    "source_url": "https://www.wikidata.org/wiki/Q187765"
+  },
+  {
+    "id": "Q12658",
+    "name": "빌헬름 오스트발트",
+    "description": "리보니아현화학자",
+    "description_en": "Baltic German chemist (1853–1932)",
+    "source_url": "https://www.wikidata.org/wiki/Q12658"
+  },
+  {
+    "id": "Q484523",
+    "name": "자레드 레토",
+    "description": "미국 배우이자 음악가(1971년생)",
+    "description_en": "American actor, singer, musician and songwriter (born 1971)",
+    "source_url": "https://www.wikidata.org/wiki/Q484523"
+  },
+  {
+    "id": "Q193344",
+    "name": "미야모토 무사시",
+    "description": "에도 초기의 검객 (1584?~1645)",
+    "description_en": "Japanese swordsman, philosopher, strategist, writer, artist, and rōnin (1584–1645)",
+    "source_url": "https://www.wikidata.org/wiki/Q193344"
+  },
+  {
+    "id": "Q214565",
+    "name": "비어트릭스 포터",
+    "description": "영국의 작가 (1866–1943)",
+    "description_en": "British children's writer and illustrator (1866–1943)",
+    "source_url": "https://www.wikidata.org/wiki/Q214565"
+  },
+  {
+    "id": "Q154269",
+    "name": "알렉세이 레오노프",
+    "description": "",
+    "description_en": "Soviet-Russian pilot and cosmonaut, first human to conduct a spacewalk (1934–2019)",
+    "source_url": "https://www.wikidata.org/wiki/Q154269"
+  },
+  {
+    "id": "Q52937",
+    "name": "크리스티나 (스웨덴)",
+    "description": "",
+    "description_en": "Queen of Sweden, ruled from 1632 until abdication in 1654 (1626–1689)",
+    "source_url": "https://www.wikidata.org/wiki/Q52937"
+  },
+  {
+    "id": "Q154770",
+    "name": "아르놀트 쇤베르크",
+    "description": "오스트리아계 미국인의 작곡가 (1874–1951)",
+    "description_en": "Austrian-Jewish American composer (1874-1951)",
+    "source_url": "https://www.wikidata.org/wiki/Q154770"
+  },
+  {
+    "id": "Q123829",
+    "name": "조지 거슈윈",
+    "description": "미국의 작곡가 (1898–1937)",
+    "description_en": "American composer and pianist (1898–1937)",
+    "source_url": "https://www.wikidata.org/wiki/Q123829"
+  },
+  {
+    "id": "Q318750",
+    "name": "스티븐 힐런버그",
+    "description": "미국의 해양학자, 애니메이션 감독 (1961–2018)",
+    "description_en": "American marine science educator and artist (1961-2018)",
+    "source_url": "https://www.wikidata.org/wiki/Q318750"
+  },
+  {
+    "id": "Q23481",
+    "name": "프리드리히 뒤렌마트",
+    "description": "",
+    "description_en": "Swiss author and dramatist (1921–1990)",
+    "source_url": "https://www.wikidata.org/wiki/Q23481"
+  },
+  {
+    "id": "Q487125",
+    "name": "빅토르 초이",
+    "description": "소련의 록 음악가 (1962-1990)",
+    "description_en": "Soviet rock musician (1962-1990)",
+    "source_url": "https://www.wikidata.org/wiki/Q487125"
+  },
+  {
+    "id": "Q171363",
+    "name": "비고 모텐슨",
+    "description": "",
+    "description_en": "American actor",
+    "source_url": "https://www.wikidata.org/wiki/Q171363"
+  },
+  {
+    "id": "Q83484",
+    "name": "앤서니 퀸",
+    "description": "",
+    "description_en": "Mexican and American actor (1915–2001)",
+    "source_url": "https://www.wikidata.org/wiki/Q83484"
+  },
+  {
+    "id": "Q131405",
+    "name": "루이 다게르",
+    "description": "프랑스의 사진가 (1787–1851)",
+    "description_en": "French scientist, artist and photographer (1787–1851)",
+    "source_url": "https://www.wikidata.org/wiki/Q131405"
+  },
+  {
+    "id": "Q316901",
+    "name": "에디 라마",
+    "description": "",
+    "description_en": "Prime Minister of Albania since 2013 (born 1964)",
+    "source_url": "https://www.wikidata.org/wiki/Q316901"
+  },
+  {
+    "id": "Q162389",
+    "name": "토니 커티스",
+    "description": "미국의 배우 (1925–2010)",
+    "description_en": "American actor (1925–2010)",
+    "source_url": "https://www.wikidata.org/wiki/Q162389"
+  },
+  {
+    "id": "Q102711",
+    "name": "데니스 호퍼",
+    "description": "미국 배우",
+    "description_en": "American actor and film director (1936–2010)",
+    "source_url": "https://www.wikidata.org/wiki/Q102711"
+  },
+  {
+    "id": "Q106685",
+    "name": "안제이 바이다",
+    "description": "",
+    "description_en": "Polish film director (1926–2016)",
+    "source_url": "https://www.wikidata.org/wiki/Q106685"
+  },
+  {
+    "id": "Q188375",
+    "name": "루시 류",
+    "description": "",
+    "description_en": "American actress (born 1968)",
+    "source_url": "https://www.wikidata.org/wiki/Q188375"
+  },
+  {
+    "id": "Q55433",
+    "name": "미켈란젤로 안토니오니",
+    "description": "",
+    "description_en": "Italian film director and screenwriter (1912–2007)",
+    "source_url": "https://www.wikidata.org/wiki/Q55433"
+  },
+  {
+    "id": "Q168359",
+    "name": "장 마레",
+    "description": "프랑스의 배우, 무대 연출가",
+    "description_en": "French actor and theatre director (1913-1998)",
+    "source_url": "https://www.wikidata.org/wiki/Q168359"
+  },
+  {
+    "id": "Q47900",
+    "name": "네스토르 마흐노",
+    "description": "",
+    "description_en": "Ukrainian anarchist revolutionary (1888–1934)",
+    "source_url": "https://www.wikidata.org/wiki/Q47900"
+  },
+  {
+    "id": "Q153172",
+    "name": "반젤리스",
+    "description": "그리스 작곡가",
+    "description_en": "Greek composer (1943-2022)",
+    "source_url": "https://www.wikidata.org/wiki/Q153172"
+  },
+  {
+    "id": "Q187166",
+    "name": "앙토냉 아르토",
+    "description": "프랑스의 배우, 시인, 소설가, 연극가 (1896-1948)",
+    "description_en": "French-Occitanian poet, playwright, actor and theatre director (1896-1948)",
+    "source_url": "https://www.wikidata.org/wiki/Q187166"
+  },
+  {
+    "id": "Q104340",
+    "name": "해럴드 로이드",
+    "description": "미국 코미디언",
+    "description_en": "American actor and comedian (1893–1971)",
+    "source_url": "https://www.wikidata.org/wiki/Q104340"
+  },
+  {
+    "id": "Q205721",
+    "name": "조니 미첼",
+    "description": "",
+    "description_en": "Canadian musician",
+    "source_url": "https://www.wikidata.org/wiki/Q205721"
+  },
+  {
+    "id": "Q4538",
+    "name": "조너선 윈터스",
+    "description": "",
+    "description_en": "American comedian, actor, artist (1925–2013)",
+    "source_url": "https://www.wikidata.org/wiki/Q4538"
+  },
+  {
+    "id": "Q55210",
+    "name": "아바스 키아로스타미",
+    "description": "이란의 영화 감독, 각본가 (1940-2016)",
+    "description_en": "Iranian film director, screenwriter, photographer and film producer (1940-2016)",
+    "source_url": "https://www.wikidata.org/wiki/Q55210"
+  },
+  {
+    "id": "Q192496",
+    "name": "로버트 풀턴",
+    "description": "",
+    "description_en": "American engineer and inventor (1765–1815)",
+    "source_url": "https://www.wikidata.org/wiki/Q192496"
+  },
+  {
+    "id": "Q312829",
+    "name": "새뮤얼 버틀러 (소설가)",
+    "description": "",
+    "description_en": "English novelist and critic (1835–1902)",
+    "source_url": "https://www.wikidata.org/wiki/Q312829"
+  },
+  {
+    "id": "Q295233",
+    "name": "존 레귀자모",
+    "description": "미국의 배우, 코미디언",
+    "description_en": "American actor, comedian, producer, and writer (born 1960)",
+    "source_url": "https://www.wikidata.org/wiki/Q295233"
+  },
+  {
+    "id": "Q1698",
+    "name": "세르주 갱스부르",
+    "description": "프랑스 음악가이자 배우(1928–1991)",
+    "description_en": "French singer, songwriter, composer, writer, actor and director (1928–1991)",
+    "source_url": "https://www.wikidata.org/wiki/Q1698"
+  },
+  {
+    "id": "Q152094",
+    "name": "알렉산드라 표도로브나 (1872년)",
+    "description": "러시아 제국의 니콜라이 2세의 황후",
+    "description_en": "Empress consort of Russia (1872–1918)",
+    "source_url": "https://www.wikidata.org/wiki/Q152094"
+  },
+  {
+    "id": "Q19201",
+    "name": "마이크 시노다",
+    "description": "",
+    "description_en": "American musician, rapper, singer and songwriter",
+    "source_url": "https://www.wikidata.org/wiki/Q19201"
+  },
+  {
+    "id": "Q60093",
+    "name": "콘라트 추제",
+    "description": "",
+    "description_en": "German computer scientist and engineer (1910 - 1995)",
+    "source_url": "https://www.wikidata.org/wiki/Q60093"
+  },
+  {
+    "id": "Q152245",
+    "name": "영국 여왕 부군 앨버트",
+    "description": "영국의 여왕 부군 (1840-1861)",
+    "description_en": "Consort of Queen Victoria from 1840 to 1861 (1819–1861)",
+    "source_url": "https://www.wikidata.org/wiki/Q152245"
+  },
+  {
+    "id": "Q122370",
+    "name": "고트프리트 켈러",
+    "description": "스위스의 작가 (1819-1890)",
+    "description_en": "Swiss poet and writer of German literature (1819–1890)",
+    "source_url": "https://www.wikidata.org/wiki/Q122370"
+  },
+  {
+    "id": "Q152260",
+    "name": "덴마크의 알렉산드라",
+    "description": "",
+    "description_en": "Queen consort of the United Kingdom from 1901 to 1910",
+    "source_url": "https://www.wikidata.org/wiki/Q152260"
+  },
+  {
+    "id": "Q569003",
+    "name": "브라이언 이노",
+    "description": "영국 음악가, 음악 프로듀서, 음악 이론가, 시각 예술가",
+    "description_en": "British musician, music producer, music theorist and visual artist (born 1948)",
+    "source_url": "https://www.wikidata.org/wiki/Q569003"
+  },
+  {
+    "id": "Q361642",
+    "name": "마레크 그레후타",
+    "description": "",
+    "description_en": "Polish singer and composer (1945-2006)",
+    "source_url": "https://www.wikidata.org/wiki/Q361642"
+  },
+  {
+    "id": "Q189407",
+    "name": "글로리아 스튜어트",
+    "description": "미국의 배우, 시각 예술가 (1910–2010)",
+    "description_en": "American actress (1910–2010)",
+    "source_url": "https://www.wikidata.org/wiki/Q189407"
+  },
+  {
+    "id": "Q206505",
+    "name": "아돌포 페레스 에스키벨",
+    "description": "아르헨티나의 사회 운동가",
+    "description_en": "Argentine activist, architect and sculptor",
+    "source_url": "https://www.wikidata.org/wiki/Q206505"
+  },
+  {
+    "id": "Q217070",
+    "name": "로랑 파비위스",
+    "description": "",
+    "description_en": "87th Prime Minister of France (born 1946)",
+    "source_url": "https://www.wikidata.org/wiki/Q217070"
+  },
+  {
+    "id": "Q44407",
+    "name": "로널드 골리앗",
+    "description": "",
+    "description_en": "Brazilian actor and comedian (1929–2005)",
+    "source_url": "https://www.wikidata.org/wiki/Q44407"
+  },
+  {
+    "id": "Q55391",
+    "name": "로베르 브레송",
+    "description": "프랑스 영화 감독",
+    "description_en": "French film director (1901–1999)",
+    "source_url": "https://www.wikidata.org/wiki/Q55391"
+  },
+  {
+    "id": "Q157191",
+    "name": "마르셀 마르소",
+    "description": "",
+    "description_en": "French actor and mime artist (1923–2007)",
+    "source_url": "https://www.wikidata.org/wiki/Q157191"
+  },
+  {
+    "id": "Q203768",
+    "name": "압뒬메지트 2세",
+    "description": "",
+    "description_en": "last caliph of the Ottoman Dynasty (1868–1944)",
+    "source_url": "https://www.wikidata.org/wiki/Q203768"
+  },
+  {
+    "id": "Q46053",
+    "name": "클라이브 던",
+    "description": "",
+    "description_en": "British actor (1920–2012)",
+    "source_url": "https://www.wikidata.org/wiki/Q46053"
+  },
+  {
+    "id": "Q158874",
+    "name": "카를루스 (포르투갈)",
+    "description": "",
+    "description_en": "King of Portugal from 1889 to 1908 (1863–1908)",
+    "source_url": "https://www.wikidata.org/wiki/Q158874"
+  },
+  {
+    "id": "Q159416",
+    "name": "나시르 앗딘 샤",
+    "description": "",
+    "description_en": "Shah of Qajar Iran from 1848 to 1896",
+    "source_url": "https://www.wikidata.org/wiki/Q159416"
+  },
+  {
+    "id": "Q193273",
+    "name": "고란 브레고비치",
+    "description": "보스니아 헤르체고비나의 음악가이자 작곡가",
+    "description_en": "musician and composer from Bosnia and Herzegovina",
+    "source_url": "https://www.wikidata.org/wiki/Q193273"
+  },
+  {
+    "id": "Q311311",
+    "name": "세르게이 파라자노프",
+    "description": "",
+    "description_en": "Soviet Armenian and Georgian film director (1924-1990)",
+    "source_url": "https://www.wikidata.org/wiki/Q311311"
+  },
+  {
+    "id": "Q205435",
+    "name": "빌리 제인",
+    "description": "미국의 배우",
+    "description_en": "American actor (born 1966)",
+    "source_url": "https://www.wikidata.org/wiki/Q205435"
+  },
+  {
+    "id": "Q309759",
+    "name": "에드워드 리어",
+    "description": "",
+    "description_en": "British artist, illustrator, author and poet (1812-1888)",
+    "source_url": "https://www.wikidata.org/wiki/Q309759"
+  },
+  {
+    "id": "Q216896",
+    "name": "L. 론 허버드",
+    "description": "사이언톨로지교의 창시자",
+    "description_en": "American writer and Scientology founder (1911–1986)",
+    "source_url": "https://www.wikidata.org/wiki/Q216896"
+  },
+  {
+    "id": "Q207592",
+    "name": "실비아 크리스털",
+    "description": "네덜란드의 패션 모델, 영화 여배우 (1952-2012)",
+    "description_en": "Dutch actress, model, recording artist (1952-2012)",
+    "source_url": "https://www.wikidata.org/wiki/Q207592"
+  },
+  {
+    "id": "Q182874",
+    "name": "조설근",
+    "description": "청나라 시대 중국의 소설가 (1715–1763)",
+    "description_en": "Chinese novelist and poet (1710–1765)",
+    "source_url": "https://www.wikidata.org/wiki/Q182874"
+  },
+  {
+    "id": "Q153601",
+    "name": "마리아 표도로브나 (1847년)",
+    "description": "",
+    "description_en": "Empress consort of Russia (1847–1928)",
+    "source_url": "https://www.wikidata.org/wiki/Q153601"
+  },
+  {
+    "id": "Q273228",
+    "name": "아민토레 판파니",
+    "description": "",
+    "description_en": "Italian politician statesman (1908–1999)",
+    "source_url": "https://www.wikidata.org/wiki/Q273228"
+  },
+  {
+    "id": "Q161389",
+    "name": "와치라웃",
+    "description": "타이 짜끄리 왕조의 제6대 군주로 라마 6세이다.",
+    "description_en": "King of Siam from 1910 to 1925",
+    "source_url": "https://www.wikidata.org/wiki/Q161389"
+  },
+  {
+    "id": "Q309589",
+    "name": "피터 커싱",
+    "description": "잉글랜드의 배우 (1913–1994)",
+    "description_en": "British actor (1913–1994)",
+    "source_url": "https://www.wikidata.org/wiki/Q309589"
+  },
+  {
+    "id": "Q18832",
+    "name": "스와보미르 므로제크",
+    "description": "",
+    "description_en": "Polish dramatist and writer (1930–2013)",
+    "source_url": "https://www.wikidata.org/wiki/Q18832"
+  },
+  {
+    "id": "Q206685",
+    "name": "알베르 우데르조",
+    "description": "",
+    "description_en": "French comic book artist (1927–2020)",
+    "source_url": "https://www.wikidata.org/wiki/Q206685"
+  },
+  {
+    "id": "Q276280",
+    "name": "요한 하위징아",
+    "description": "네덜란드의 역사가 (1872-1945)",
+    "description_en": "Dutch cultural historian (1872–1945)",
+    "source_url": "https://www.wikidata.org/wiki/Q276280"
+  },
+  {
+    "id": "Q124890",
+    "name": "스뱌토슬라프 리흐테르",
+    "description": "",
+    "description_en": "Soviet pianist (1915-1997)",
+    "source_url": "https://www.wikidata.org/wiki/Q124890"
+  },
+  {
+    "id": "Q76726",
+    "name": "페터 베렌스",
+    "description": "독일의 건축가, 디자이너 (1868~1940)",
+    "description_en": "German architect and designer (1868-1940)",
+    "source_url": "https://www.wikidata.org/wiki/Q76726"
+  },
+  {
+    "id": "Q116728",
+    "name": "프린세스 로열 빅토리아",
+    "description": "독일제국의 황후, 영국의 공주",
+    "description_en": "British princess (1840-1901), Empress of Germany and Queen consort of Prussia from March to June 1888",
+    "source_url": "https://www.wikidata.org/wiki/Q116728"
+  },
+  {
+    "id": "Q263324",
+    "name": "윌리엄 해나",
+    "description": "",
+    "description_en": "American animator (1910–2001)",
+    "source_url": "https://www.wikidata.org/wiki/Q263324"
+  },
+  {
+    "id": "Q1375265",
+    "name": "조르주 볼린스키",
+    "description": "",
+    "description_en": "French cartoonist (1934-2015)",
+    "source_url": "https://www.wikidata.org/wiki/Q1375265"
+  },
+  {
+    "id": "Q298761",
+    "name": "클라이브 바커",
+    "description": "영국의 소설가, 각본가, 영화 감독 (1952-)",
+    "description_en": "English author, film director, and visual artist (born 1952) (74 years)",
+    "source_url": "https://www.wikidata.org/wiki/Q298761"
+  },
+  {
+    "id": "Q236619",
+    "name": "안드레이 보즈네센스키",
+    "description": "러시아의 시인 (1933–2010)",
+    "description_en": "Soviet poet (1933–2010)",
+    "source_url": "https://www.wikidata.org/wiki/Q236619"
+  },
+  {
+    "id": "Q310453",
+    "name": "순치제",
+    "description": "청나라의 제3대 황제",
+    "description_en": "Qing Dynasty emperor of China (1638–1661)",
+    "source_url": "https://www.wikidata.org/wiki/Q310453"
+  },
+  {
+    "id": "Q465041",
+    "name": "마마타 바네르지",
+    "description": "",
+    "description_en": "Former Chief Minister of West Bengal",
+    "source_url": "https://www.wikidata.org/wiki/Q465041"
+  },
+  {
+    "id": "Q334711",
+    "name": "잉카 가르실라소 데라베가",
+    "description": "스페인 연대기 작가",
+    "description_en": "Spanish chronicler (1539-1616)",
+    "source_url": "https://www.wikidata.org/wiki/Q334711"
+  },
+  {
+    "id": "Q311187",
+    "name": "프란체스코 레디",
+    "description": "레디가 자기소개하면? im ready",
+    "description_en": "Italian physician, naturalist, biologist, and poet (1626–1697)",
+    "source_url": "https://www.wikidata.org/wiki/Q311187"
+  },
+  {
+    "id": "Q312709",
+    "name": "고바야시 잇사",
+    "description": "에도 시대 일본의 시인 (1763~1828)",
+    "description_en": "Japanese writer (1763-1828)",
+    "source_url": "https://www.wikidata.org/wiki/Q312709"
+  },
+  {
+    "id": "Q314771",
+    "name": "모리스 센댁",
+    "description": "미국의 그림책 작가 (1928-2012)",
+    "description_en": "American illustrator and writer of children's books (1928-2012)",
+    "source_url": "https://www.wikidata.org/wiki/Q314771"
+  },
+  {
+    "id": "Q332041",
+    "name": "호세 클레멘테 오로스코",
+    "description": "",
+    "description_en": "Mexican artist (1883–1949)",
+    "source_url": "https://www.wikidata.org/wiki/Q332041"
+  },
+  {
+    "id": "Q156898",
+    "name": "알마 말러",
+    "description": "",
+    "description_en": "Austrian composer, art collector, author, editor, and socialite (1879-1964)",
+    "source_url": "https://www.wikidata.org/wiki/Q156898"
+  },
+  {
+    "id": "Q164117",
+    "name": "아르민 뮐러슈탈",
+    "description": "독일 배우",
+    "description_en": "German actor (born 1930)",
+    "source_url": "https://www.wikidata.org/wiki/Q164117"
+  },
+  {
+    "id": "Q217154",
+    "name": "미르호세인 무사비",
+    "description": "",
+    "description_en": "Iranian architect and politician",
+    "source_url": "https://www.wikidata.org/wiki/Q217154"
+  },
+  {
+    "id": "Q187324",
+    "name": "젤다 피츠제럴드",
+    "description": "",
+    "description_en": "American writer (1900–1948)",
+    "source_url": "https://www.wikidata.org/wiki/Q187324"
+  },
+  {
+    "id": "Q2957653",
+    "name": "샤르브",
+    "description": "",
+    "description_en": "French caricaturist and journalist (1967-2015)",
+    "source_url": "https://www.wikidata.org/wiki/Q2957653"
+  },
+  {
+    "id": "Q358158",
+    "name": "세바스티앙 살가두",
+    "description": "브라질 사진 작가",
+    "description_en": "Brazilian photographer (1944–2025)",
+    "source_url": "https://www.wikidata.org/wiki/Q358158"
+  },
+  {
+    "id": "Q11941",
+    "name": "칼 바크스",
+    "description": "미국 만화가",
+    "description_en": "American cartoonist (1901-2000)",
+    "source_url": "https://www.wikidata.org/wiki/Q11941"
+  },
+  {
+    "id": "Q118936",
+    "name": "라파엘 알베르티",
+    "description": "",
+    "description_en": "Spanish poet (1902–1999)",
+    "source_url": "https://www.wikidata.org/wiki/Q118936"
+  },
+  {
+    "id": "Q230499",
+    "name": "비올레타 파라",
+    "description": "",
+    "description_en": "Chilean musician and folklorist",
+    "source_url": "https://www.wikidata.org/wiki/Q230499"
+  },
+  {
+    "id": "Q57214",
+    "name": "트라우들 융에",
+    "description": "",
+    "description_en": "secretary to Adolf Hitler (1920-2002)",
+    "source_url": "https://www.wikidata.org/wiki/Q57214"
+  },
+  {
+    "id": "Q57312",
+    "name": "페터 바이스",
+    "description": "",
+    "description_en": "Swedish-German playwright and author (1916–1982)",
+    "source_url": "https://www.wikidata.org/wiki/Q57312"
+  },
+  {
+    "id": "Q155566",
+    "name": "영국 공주 앨리스",
+    "description": "",
+    "description_en": "Grand Duchess of Hesse and by Rhine from 1877 to 1878",
+    "source_url": "https://www.wikidata.org/wiki/Q155566"
+  },
+  {
+    "id": "Q160800",
+    "name": "안나 파블로브나 라시스키 황녀",
+    "description": "",
+    "description_en": "Queen consort of the Netherlands (1795-1865)",
+    "source_url": "https://www.wikidata.org/wiki/Q160800"
+  },
+  {
+    "id": "Q214666",
+    "name": "레온 박스트",
+    "description": "",
+    "description_en": "Russian artist (1866–1924)",
+    "source_url": "https://www.wikidata.org/wiki/Q214666"
+  },
+  {
+    "id": "Q312878",
+    "name": "존 캐러딘",
+    "description": "미국의 배우 (1906–1988)",
+    "description_en": "American actor (1906-1988)",
+    "source_url": "https://www.wikidata.org/wiki/Q312878"
+  },
+  {
+    "id": "Q333187",
+    "name": "카렐 고트",
+    "description": "체코의 가수 (1932-2019)",
+    "description_en": "Czech singer and actor (1939–2019)",
+    "source_url": "https://www.wikidata.org/wiki/Q333187"
+  },
+  {
+    "id": "Q55282",
+    "name": "피터 그리너웨이",
+    "description": "영국의 영화감독",
+    "description_en": "Welsh film director (born 1942)",
+    "source_url": "https://www.wikidata.org/wiki/Q55282"
+  },
+  {
+    "id": "Q117970",
+    "name": "그라임스 (음악가)",
+    "description": "캐나다 음악가",
+    "description_en": "Canadian musician, singer, record producer and music video director (born 1988)",
+    "source_url": "https://www.wikidata.org/wiki/Q117970"
+  },
+  {
+    "id": "Q319618",
+    "name": "왕안석",
+    "description": "송나라의 개혁 정치가",
+    "description_en": "Song Dynasty chancellor and poet (1021-1086)",
+    "source_url": "https://www.wikidata.org/wiki/Q319618"
+  },
+  {
+    "id": "Q8666",
+    "name": "원 혜종",
+    "description": "몽골 제국의 제 16대 카안",
+    "description_en": "Yuan and Northern Yuan emperor from 1333 to 1370",
+    "source_url": "https://www.wikidata.org/wiki/Q8666"
+  },
+  {
+    "id": "Q60721",
+    "name": "페르난두 2세",
+    "description": "",
+    "description_en": "King of Portugal (1816–1885)",
+    "source_url": "https://www.wikidata.org/wiki/Q60721"
+  },
+  {
+    "id": "Q210134",
+    "name": "루이스 칸",
+    "description": "",
+    "description_en": "Estonian-American architect (1901–1974)",
+    "source_url": "https://www.wikidata.org/wiki/Q210134"
+  },
+  {
+    "id": "Q298252",
+    "name": "존 웨인 게이시",
+    "description": "미국의 연쇄살인범 (1942–1994)",
+    "description_en": "American serial killer (1942–1994)",
+    "source_url": "https://www.wikidata.org/wiki/Q298252"
+  },
+  {
+    "id": "Q2932464",
+    "name": "카뷔",
+    "description": "",
+    "description_en": "French comic strip artist and caricaturist (1938-2015)",
+    "source_url": "https://www.wikidata.org/wiki/Q2932464"
+  },
+  {
+    "id": "Q211094",
+    "name": "로니 우드",
+    "description": "",
+    "description_en": "British rock guitarist, member of The Rolling Stones",
+    "source_url": "https://www.wikidata.org/wiki/Q211094"
+  },
+  {
+    "id": "Q3615516",
+    "name": "안드레아 베네티",
+    "description": "이탈리아 예술가",
+    "description_en": "Italian artist",
+    "source_url": "https://www.wikidata.org/wiki/Q3615516"
+  },
+  {
+    "id": "Q234530",
+    "name": "오르치 엠마",
+    "description": "헝가리 태생 영국 소설가",
+    "description_en": "Hungarian-born British novelist and playwright (1865-1947)",
+    "source_url": "https://www.wikidata.org/wiki/Q234530"
+  },
+  {
+    "id": "Q309240",
+    "name": "장 지로",
+    "description": "프랑스의 만화가 (1938-2012)",
+    "description_en": "French comics author (1938–2012)",
+    "source_url": "https://www.wikidata.org/wiki/Q309240"
+  },
+  {
+    "id": "Q313501",
+    "name": "매슈 그레이 구블러",
+    "description": "",
+    "description_en": "American actor, filmmaker and model (born 1980)",
+    "source_url": "https://www.wikidata.org/wiki/Q313501"
+  },
+  {
+    "id": "Q212070",
+    "name": "아드리안 스미스",
+    "description": "영국의 음악가, 아이언 메이든의 멤버",
+    "description_en": "English guitarist",
+    "source_url": "https://www.wikidata.org/wiki/Q212070"
+  },
+  {
+    "id": "Q212549",
+    "name": "샤를 트르네",
+    "description": "",
+    "description_en": "French singer-songwriter",
+    "source_url": "https://www.wikidata.org/wiki/Q212549"
+  },
+  {
+    "id": "Q319839",
+    "name": "블라디미르 소로킨",
+    "description": "",
+    "description_en": "Russian writer (born 1955)",
+    "source_url": "https://www.wikidata.org/wiki/Q319839"
+  },
+  {
+    "id": "Q19200",
+    "name": "조 한",
+    "description": "미국 음악가",
+    "description_en": "American musician",
+    "source_url": "https://www.wikidata.org/wiki/Q19200"
+  },
+  {
+    "id": "Q44600",
+    "name": "카스파르 하우저",
+    "description": "",
+    "description_en": "man with a mysterious history (1812–1833)",
+    "source_url": "https://www.wikidata.org/wiki/Q44600"
+  },
+  {
+    "id": "Q46636",
+    "name": "잭 케보키언",
+    "description": "",
+    "description_en": "American pathologist, euthanasia activist (1928-2011)",
+    "source_url": "https://www.wikidata.org/wiki/Q46636"
+  },
+  {
+    "id": "Q558522",
+    "name": "M. F. 후사인",
+    "description": "",
+    "description_en": "Indian artist (1915–2011)",
+    "source_url": "https://www.wikidata.org/wiki/Q558522"
+  },
+  {
+    "id": "Q157100",
+    "name": "마르가레테 폰 외스터라이히 여대공 (1480년)",
+    "description": "",
+    "description_en": "Austrian archduchess and regent of the Netherlands (1480-1530)",
+    "source_url": "https://www.wikidata.org/wiki/Q157100"
+  },
+  {
+    "id": "Q236135",
+    "name": "로미나 포베르",
+    "description": "미국의 배우, 가수",
+    "description_en": "American singer and actress (1951-)",
+    "source_url": "https://www.wikidata.org/wiki/Q236135"
+  },
+  {
+    "id": "Q319133",
+    "name": "하임 토폴",
+    "description": "",
+    "description_en": "Israeli actor (1935–2023)",
+    "source_url": "https://www.wikidata.org/wiki/Q319133"
+  },
+  {
+    "id": "Q57304",
+    "name": "네덜란드 여왕 부군 베른하르트",
+    "description": "",
+    "description_en": "husband of Queen Juliana of the Netherlands (1911-2004); prince consort of the Netherlands (1911-2004)",
+    "source_url": "https://www.wikidata.org/wiki/Q57304"
+  },
+  {
+    "id": "Q155596",
+    "name": "필리프 도를레앙 (1674년)",
+    "description": "",
+    "description_en": "member of the royal family of France, Regent of the Kingdom from 1715 to 1723 (1674–1723)",
+    "source_url": "https://www.wikidata.org/wiki/Q155596"
+  },
+  {
+    "id": "Q163176",
+    "name": "올가 알렉산드로브나 여대공",
+    "description": "",
+    "description_en": "Grand Duchess of Russia (1882–1960); youngest child of Alexander III and Maria Feodorovna (Dagmar of Denmark)",
+    "source_url": "https://www.wikidata.org/wiki/Q163176"
+  },
+  {
+    "id": "Q321358",
+    "name": "울리세 알드로반디",
+    "description": "",
+    "description_en": "Italian naturalist (1522-1605)",
+    "source_url": "https://www.wikidata.org/wiki/Q321358"
+  },
+  {
+    "id": "Q293985",
+    "name": "조르주 무스타키",
+    "description": "",
+    "description_en": "Greek-French singer (1934–2013)",
+    "source_url": "https://www.wikidata.org/wiki/Q293985"
+  },
+  {
+    "id": "Q309768",
+    "name": "페르난도 아라발",
+    "description": "",
+    "description_en": "Spanish writer and actor resident in France (born 1932)",
+    "source_url": "https://www.wikidata.org/wiki/Q309768"
+  },
+  {
+    "id": "Q312640",
+    "name": "H. R. 기거",
+    "description": "",
+    "description_en": "Swiss artist (1940–2014)",
+    "source_url": "https://www.wikidata.org/wiki/Q312640"
+  },
+  {
+    "id": "Q229972",
+    "name": "카탈리나 산디노 모레노",
+    "description": "",
+    "description_en": "Colombian actress",
+    "source_url": "https://www.wikidata.org/wiki/Q229972"
+  },
+  {
+    "id": "Q334989",
+    "name": "타하르 벤 젤룬",
+    "description": "",
+    "description_en": "Moroccan naturalized French writer",
+    "source_url": "https://www.wikidata.org/wiki/Q334989"
+  },
+  {
+    "id": "Q224650",
+    "name": "세라 매클라클런",
+    "description": "캐나다의 싱어송라이터",
+    "description_en": "Canadian musician, singer, and songwriter",
+    "source_url": "https://www.wikidata.org/wiki/Q224650"
+  },
+  {
+    "id": "Q329700",
+    "name": "버트 영",
+    "description": "미국의 배우 (1940–2023)",
+    "description_en": "American actor (1940–2023)",
+    "source_url": "https://www.wikidata.org/wiki/Q329700"
+  },
+  {
+    "id": "Q48514",
+    "name": "셋슈",
+    "description": "",
+    "description_en": "Japanese artist (1420-1506)",
+    "source_url": "https://www.wikidata.org/wiki/Q48514"
+  },
+  {
+    "id": "Q117783",
+    "name": "휘호 클라우스",
+    "description": "",
+    "description_en": "Belgian author (1929–2008)",
+    "source_url": "https://www.wikidata.org/wiki/Q117783"
+  },
+  {
+    "id": "Q362353",
+    "name": "빈센트 갤로",
+    "description": "",
+    "description_en": "American film director, writer, model, actor and musician",
+    "source_url": "https://www.wikidata.org/wiki/Q362353"
+  },
+  {
+    "id": "Q195768",
+    "name": "콘스턴스 마키비츠",
+    "description": "",
+    "description_en": "Irish politician, first woman elected to the Westminster House of Commons and the Dáil Éireann, and first female Cabinet member in Europe",
+    "source_url": "https://www.wikidata.org/wiki/Q195768"
+  },
+  {
+    "id": "Q241115",
+    "name": "앨케 조머",
+    "description": "",
+    "description_en": "German actress (born 1940)",
+    "source_url": "https://www.wikidata.org/wiki/Q241115"
+  },
+  {
+    "id": "Q229228",
+    "name": "릴리 소비에스키",
+    "description": "",
+    "description_en": "American actress and artist",
+    "source_url": "https://www.wikidata.org/wiki/Q229228"
+  },
+  {
+    "id": "Q61349",
+    "name": "발타자어 노이만",
+    "description": "",
+    "description_en": "German engineer and architect (1687–1753)",
+    "source_url": "https://www.wikidata.org/wiki/Q61349"
+  },
+  {
+    "id": "Q174256",
+    "name": "덴마크의 울리카 엘레오노라",
+    "description": "",
+    "description_en": "queen consort of Sweden (1656–1693)",
+    "source_url": "https://www.wikidata.org/wiki/Q174256"
+  },
+  {
+    "id": "Q111436",
+    "name": "엘머 번스틴",
+    "description": "미국 작곡가, 지휘자",
+    "description_en": "American composer and conductor (1922-2004)",
+    "source_url": "https://www.wikidata.org/wiki/Q111436"
+  },
+  {
+    "id": "Q25147",
+    "name": "프랑코 바티아토",
+    "description": "이탈리아의 싱어송라이터",
+    "description_en": "Italian singer-songwriter and musician (1945–2021)",
+    "source_url": "https://www.wikidata.org/wiki/Q25147"
+  },
+  {
+    "id": "Q44657",
+    "name": "유리 겔러",
+    "description": "",
+    "description_en": "Israeli illusionist",
+    "source_url": "https://www.wikidata.org/wiki/Q44657"
+  },
+  {
+    "id": "Q51530",
+    "name": "예지 스콜리모프스키",
+    "description": "폴란드 영화 감독, 배우",
+    "description_en": "Polish film director, screenwriter, dramatist and actor",
+    "source_url": "https://www.wikidata.org/wiki/Q51530"
+  },
+  {
+    "id": "Q358345",
+    "name": "빌리 디 윌리엄스",
+    "description": "미국의 배우 (1937-)",
+    "description_en": "American actor (born 1937)",
+    "source_url": "https://www.wikidata.org/wiki/Q358345"
+  },
+  {
+    "id": "Q158173",
+    "name": "코넛 공녀 마거릿",
+    "description": "영국의 왕녀 (1882–1920)",
+    "description_en": "British princess; Crown Princess of Sweden as the first wife of King Gustaf VI Adolf (1882-1920)",
+    "source_url": "https://www.wikidata.org/wiki/Q158173"
+  },
+  {
+    "id": "Q166028",
+    "name": "루이제 폰 헤센카셀",
+    "description": "",
+    "description_en": "queen consort of Denmark from 1863 to 1898",
+    "source_url": "https://www.wikidata.org/wiki/Q166028"
+  },
+  {
+    "id": "Q169246",
+    "name": "즈지스와프 벡신스키",
+    "description": "",
+    "description_en": "Polish artist (1929-2005)",
+    "source_url": "https://www.wikidata.org/wiki/Q169246"
+  },
+  {
+    "id": "Q266086",
+    "name": "게르다 베게너",
+    "description": "",
+    "description_en": "Danish artist (1885-1940)",
+    "source_url": "https://www.wikidata.org/wiki/Q266086"
+  },
+  {
+    "id": "Q312077",
+    "name": "랜스 헨릭슨",
+    "description": "미국의 배우",
+    "description_en": "American actor",
+    "source_url": "https://www.wikidata.org/wiki/Q312077"
+  },
+  {
+    "id": "Q313787",
+    "name": "존 굴드",
+    "description": "",
+    "description_en": "English ornithologist (1804–1881)",
+    "source_url": "https://www.wikidata.org/wiki/Q313787"
+  },
+  {
+    "id": "Q7486",
+    "name": "북송 휘종",
+    "description": "",
+    "description_en": "emperor of the Song Dynasty (1082-1135)",
+    "source_url": "https://www.wikidata.org/wiki/Q7486"
+  },
+  {
+    "id": "Q9977",
+    "name": "선덕제",
+    "description": "명나라의 5대 황제 (1399-1435)",
+    "description_en": "emperor of the Ming Dynasty (1399-1435)",
+    "source_url": "https://www.wikidata.org/wiki/Q9977"
+  },
+  {
+    "id": "Q52642",
+    "name": "앨 오터",
+    "description": "",
+    "description_en": "American athlete (1936-2007)",
+    "source_url": "https://www.wikidata.org/wiki/Q52642"
+  },
+  {
+    "id": "Q161167",
+    "name": "영국 공주 루이즈",
+    "description": "",
+    "description_en": "Viceregal consort of Canada (1848–1939)",
+    "source_url": "https://www.wikidata.org/wiki/Q161167"
+  },
+  {
+    "id": "Q316165",
+    "name": "얀 슈반크마예르",
+    "description": "체코인 애니메이션 작가, 사진가",
+    "description_en": "Czech director, animator and artist (born 1934)",
+    "source_url": "https://www.wikidata.org/wiki/Q316165"
+  },
+  {
+    "id": "Q313814",
+    "name": "돈 S. 데이비스",
+    "description": "미국의 배우 (1942–2008)",
+    "description_en": "American character actor (1942–2008)",
+    "source_url": "https://www.wikidata.org/wiki/Q313814"
+  },
+  {
+    "id": "Q346540",
+    "name": "미카엘 롱스달",
+    "description": "프랑스의 배우 (1931‐2020)",
+    "description_en": "French actor (1931–2020)",
+    "source_url": "https://www.wikidata.org/wiki/Q346540"
+  },
+  {
+    "id": "Q358497",
+    "name": "알렉세이 호먀코프",
+    "description": "",
+    "description_en": "Russian philosopher (1804-1860)",
+    "source_url": "https://www.wikidata.org/wiki/Q358497"
+  },
+  {
+    "id": "Q3528336",
+    "name": "티뉴스",
+    "description": "",
+    "description_en": "French cartoonist (1957-2015)",
+    "source_url": "https://www.wikidata.org/wiki/Q3528336"
+  },
+  {
+    "id": "Q378564",
+    "name": "왕희지",
+    "description": "",
+    "description_en": "Chinese calligrapher (c. 321 – c. 361)",
+    "source_url": "https://www.wikidata.org/wiki/Q378564"
+  },
+  {
+    "id": "Q309850",
+    "name": "윌 아이스너",
+    "description": "미국의 만화가",
+    "description_en": "American cartoonist, writer and entrepreneur (1917–2005)",
+    "source_url": "https://www.wikidata.org/wiki/Q309850"
+  },
+  {
+    "id": "Q57863",
+    "name": "세리크 아흐메토프",
+    "description": "",
+    "description_en": "politician, former Prime-Minister of Kazakhstan",
+    "source_url": "https://www.wikidata.org/wiki/Q57863"
+  },
+  {
+    "id": "Q314932",
+    "name": "조반니 피사노",
+    "description": "이탈리아의 조각가이자 건축가",
+    "description_en": "Italian sculptor and architect",
+    "source_url": "https://www.wikidata.org/wiki/Q314932"
+  },
+  {
+    "id": "Q464491",
+    "name": "사샤 피보바로바",
+    "description": "",
+    "description_en": "Russian model",
+    "source_url": "https://www.wikidata.org/wiki/Q464491"
+  },
+  {
+    "id": "Q336432",
+    "name": "거츤 보글럼",
+    "description": "",
+    "description_en": "American sculptor (1867–1941)",
+    "source_url": "https://www.wikidata.org/wiki/Q336432"
+  },
+  {
+    "id": "Q213573",
+    "name": "요크와 올버니 공작 프레더릭",
+    "description": "",
+    "description_en": "British prince (1763-1827)",
+    "source_url": "https://www.wikidata.org/wiki/Q213573"
+  },
+  {
+    "id": "Q454630",
+    "name": "블라디미르 보이노비치",
+    "description": "",
+    "description_en": "Soviet Russian writer and dissident (1932–2018)",
+    "source_url": "https://www.wikidata.org/wiki/Q454630"
+  },
+  {
+    "id": "Q328800",
+    "name": "게오르그 잠피르",
+    "description": "",
+    "description_en": "Romanian pan flute musician",
+    "source_url": "https://www.wikidata.org/wiki/Q328800"
+  },
+  {
+    "id": "Q237673",
+    "name": "구혜선",
+    "description": "대한민국의 배우",
+    "description_en": "South Korean actress, director and singer",
+    "source_url": "https://www.wikidata.org/wiki/Q237673"
+  },
+  {
+    "id": "Q204804",
+    "name": "베스 하트",
+    "description": "",
+    "description_en": "American blues rock musician",
+    "source_url": "https://www.wikidata.org/wiki/Q204804"
+  },
+  {
+    "id": "Q231082",
+    "name": "메리 블레어",
+    "description": "",
+    "description_en": "American artist (1911-1978)",
+    "source_url": "https://www.wikidata.org/wiki/Q231082"
+  },
+  {
+    "id": "Q62845",
+    "name": "예룬 크라베",
+    "description": "네덜란드 배우, 영화 감독",
+    "description_en": "Dutch actor, film director (born 1944)",
+    "source_url": "https://www.wikidata.org/wiki/Q62845"
+  },
+  {
+    "id": "Q366062",
+    "name": "톰 오브 핀란드",
+    "description": "",
+    "description_en": "Finnish artist (1920–1991)",
+    "source_url": "https://www.wikidata.org/wiki/Q366062"
+  },
+  {
+    "id": "Q238056",
+    "name": "할리나 코노파츠카",
+    "description": "폴란드 육상 선수",
+    "description_en": "Polish athlete (1900-1989)",
+    "source_url": "https://www.wikidata.org/wiki/Q238056"
+  },
+  {
+    "id": "Q286104",
+    "name": "진 네글레스코",
+    "description": "",
+    "description_en": "Romanian-American film director and screenwriter (1900-1993)",
+    "source_url": "https://www.wikidata.org/wiki/Q286104"
+  },
+  {
+    "id": "Q704378",
+    "name": "에마누엘 루베스키",
+    "description": "",
+    "description_en": "Mexican cinematographer",
+    "source_url": "https://www.wikidata.org/wiki/Q704378"
+  },
+  {
+    "id": "Q264730",
+    "name": "글로리아 밴더빌트",
+    "description": "미국의 예술가, 패션 디자이너 (1924–2019)",
+    "description_en": "American businesswoman, fashion designer, socialite and writer (1924-2019)",
+    "source_url": "https://www.wikidata.org/wiki/Q264730"
+  },
+  {
+    "id": "Q466051",
+    "name": "앨리아 쇼캇",
+    "description": "",
+    "description_en": "American actress",
+    "source_url": "https://www.wikidata.org/wiki/Q466051"
+  },
+  {
+    "id": "Q239487",
+    "name": "오라녀 공비 프린세스 로열 앤",
+    "description": "",
+    "description_en": "British princess (1709-1759); eldest daughter of George II (1709–1759)",
+    "source_url": "https://www.wikidata.org/wiki/Q239487"
+  },
+  {
+    "id": "Q460124",
+    "name": "자크 칼로",
+    "description": "",
+    "description_en": "Flemish-French engraver (c.1592–1635)",
+    "source_url": "https://www.wikidata.org/wiki/Q460124"
+  },
+  {
+    "id": "Q468252",
+    "name": "미카엘 앙케르",
+    "description": "",
+    "description_en": "Danish artist (1849-1927)",
+    "source_url": "https://www.wikidata.org/wiki/Q468252"
+  },
+  {
+    "id": "Q51094",
+    "name": "유리 솁추크",
+    "description": "",
+    "description_en": "Russian singer",
+    "source_url": "https://www.wikidata.org/wiki/Q51094"
+  },
+  {
+    "id": "Q581763",
+    "name": "그레이엄 서덜랜드",
+    "description": "",
+    "description_en": "English artist (1903–1980)",
+    "source_url": "https://www.wikidata.org/wiki/Q581763"
+  },
+  {
+    "id": "Q4502477",
+    "name": "레이 시혼",
+    "description": "미국 배우",
+    "description_en": "American actress (born 1972)",
+    "source_url": "https://www.wikidata.org/wiki/Q4502477"
+  },
+  {
+    "id": "Q88292",
+    "name": "세바스티안 비니에크",
+    "description": "",
+    "description_en": "German artist",
+    "source_url": "https://www.wikidata.org/wiki/Q88292"
+  },
+  {
+    "id": "Q147220",
+    "name": "원매 (청나라)",
+    "description": "중국 청나라의 문인, 시인 (1716-1797)",
+    "description_en": "poet, essayist, scholar of the Qing Dynasty (1716-1797)",
+    "source_url": "https://www.wikidata.org/wiki/Q147220"
+  },
+  {
+    "id": "Q381194",
+    "name": "아이칭",
+    "description": "",
+    "description_en": "Chinese poet (1910-1996)",
+    "source_url": "https://www.wikidata.org/wiki/Q381194"
+  },
+  {
+    "id": "Q268604",
+    "name": "리타 쿨리지",
+    "description": "",
+    "description_en": "American recording artist; singer",
+    "source_url": "https://www.wikidata.org/wiki/Q268604"
+  },
+  {
+    "id": "Q311875",
+    "name": "피트 도허티",
+    "description": "영국의 음악가",
+    "description_en": "English musician, actor and poet (born 1979)",
+    "source_url": "https://www.wikidata.org/wiki/Q311875"
+  },
+  {
+    "id": "Q468618",
+    "name": "도미니크 비방 드농",
+    "description": "프랑스의 예술가, 외교관, 고고학자",
+    "description_en": "French artist, writer, diplomat, author, and archaeologist (1747-1825)",
+    "source_url": "https://www.wikidata.org/wiki/Q468618"
+  },
+  {
+    "id": "Q25894869",
+    "name": "카렌 펜스",
+    "description": "",
+    "description_en": "Second Lady of the United States from 2017 to 2021",
+    "source_url": "https://www.wikidata.org/wiki/Q25894869"
+  },
+  {
+    "id": "Q14999",
+    "name": "가스통 에이스컨스",
+    "description": "",
+    "description_en": "Belgian prime minister (1905-1988)",
+    "source_url": "https://www.wikidata.org/wiki/Q14999"
+  },
+  {
+    "id": "Q456083",
+    "name": "존 로스 (탐험가)",
+    "description": "",
+    "description_en": "Scottish naval officer and polar explorer (1777–1856)",
+    "source_url": "https://www.wikidata.org/wiki/Q456083"
+  },
+  {
+    "id": "Q472623",
+    "name": "아리 벤",
+    "description": "",
+    "description_en": "Norwegian author (1972–2019)",
+    "source_url": "https://www.wikidata.org/wiki/Q472623"
+  },
+  {
+    "id": "Q9991",
+    "name": "성화제",
+    "description": "명나라의 8대 황제",
+    "description_en": "9th Emperor of the Ming dynasty (1447-1487)",
+    "source_url": "https://www.wikidata.org/wiki/Q9991"
+  },
+  {
+    "id": "Q9994",
+    "name": "홍치제",
+    "description": "명나라의 10대 황제",
+    "description_en": "10th emperor of the Ming Dynasty (1470–1505)",
+    "source_url": "https://www.wikidata.org/wiki/Q9994"
+  },
+  {
+    "id": "Q505285",
+    "name": "리치 헤이븐스",
+    "description": "",
+    "description_en": "American singer-songwriter and guitarist (1941–2013)",
+    "source_url": "https://www.wikidata.org/wiki/Q505285"
+  },
+  {
+    "id": "Q57524",
+    "name": "로후스 미슈",
+    "description": "독일의 군인 (1917–2013)",
+    "description_en": "German SS non-commissioned officer (1917–2013)",
+    "source_url": "https://www.wikidata.org/wiki/Q57524"
+  },
+  {
+    "id": "Q357498",
+    "name": "게리 리지웨이",
+    "description": "",
+    "description_en": "American serial killer",
+    "source_url": "https://www.wikidata.org/wiki/Q357498"
+  },
+  {
+    "id": "Q361106",
+    "name": "찰스 애덤스 (만화가)",
+    "description": "",
+    "description_en": "American cartoonist (1912–1988)",
+    "source_url": "https://www.wikidata.org/wiki/Q361106"
+  },
+  {
+    "id": "Q555298",
+    "name": "클라크 애슈턴 스미스",
+    "description": "미국 호러 소설가",
+    "description_en": "American author (1893-1961)",
+    "source_url": "https://www.wikidata.org/wiki/Q555298"
+  },
+  {
+    "id": "Q61649",
+    "name": "마리아 안토니아 폰 바이에른",
+    "description": "",
+    "description_en": "German composer, opera singer and librettist (1724-1780)",
+    "source_url": "https://www.wikidata.org/wiki/Q61649"
+  },
+  {
+    "id": "Q170160",
+    "name": "그리스와 덴마크의 왕자 니콜라오스 (1872년)",
+    "description": "",
+    "description_en": "Prince of Greece and Denmark (1872-1938)",
+    "source_url": "https://www.wikidata.org/wiki/Q170160"
+  },
+  {
+    "id": "Q213630",
+    "name": "에른스트 2세 폰 작센코부르크고타 공작",
+    "description": "",
+    "description_en": "German prince (1818–1893)",
+    "source_url": "https://www.wikidata.org/wiki/Q213630"
+  },
+  {
+    "id": "Q214957",
+    "name": "토머스 내스트",
+    "description": "",
+    "description_en": "American cartoonist (1840–1902)",
+    "source_url": "https://www.wikidata.org/wiki/Q214957"
+  },
+  {
+    "id": "Q343990",
+    "name": "파르마 공작 페르디난도 1세",
+    "description": "",
+    "description_en": "Duke of Parma (1751-1802)",
+    "source_url": "https://www.wikidata.org/wiki/Q343990"
+  },
+  {
+    "id": "Q526915",
+    "name": "스웨덴 공주 유셰니",
+    "description": "",
+    "description_en": "Swedish princess; daughter of Oscar I of Sweden and Josephine of Leuchtenberg (1830–1889)",
+    "source_url": "https://www.wikidata.org/wiki/Q526915"
+  },
+  {
+    "id": "Q353788",
+    "name": "버니 토핀",
+    "description": "영국의 작사가",
+    "description_en": "British songwriter (born 1950)",
+    "source_url": "https://www.wikidata.org/wiki/Q353788"
+  },
+  {
+    "id": "Q44911",
+    "name": "요제프 마리아 올브리히",
+    "description": "",
+    "description_en": "Austrian architect (1867–1908)",
+    "source_url": "https://www.wikidata.org/wiki/Q44911"
+  },
+  {
+    "id": "Q15970956",
+    "name": "필리프 오노레",
+    "description": "",
+    "description_en": "French cartoonist",
+    "source_url": "https://www.wikidata.org/wiki/Q15970956"
+  },
+  {
+    "id": "Q552255",
+    "name": "윌리엄 스타이그",
+    "description": "",
+    "description_en": "American cartoonist, children's illustrator and writer (1907–2003)",
+    "source_url": "https://www.wikidata.org/wiki/Q552255"
+  },
+  {
+    "id": "Q1190012",
+    "name": "오스만 함디 베이",
+    "description": "",
+    "description_en": "Ottoman statesman, academic and artist (1842-1910)",
+    "source_url": "https://www.wikidata.org/wiki/Q1190012"
+  },
+  {
+    "id": "Q5216224",
+    "name": "대니 대니얼스",
+    "description": "미국의 포르노 여배우 (1989-)",
+    "description_en": "American pornographic actress and director",
+    "source_url": "https://www.wikidata.org/wiki/Q5216224"
+  },
+  {
+    "id": "Q234482",
+    "name": "영국 공주 엘리자베스",
+    "description": "영국의 조지 3세의 3번째 딸 (1770–1840)",
+    "description_en": "Member of the British Royal Family (1770-1840)",
+    "source_url": "https://www.wikidata.org/wiki/Q234482"
+  },
+  {
+    "id": "Q734221",
+    "name": "배리 험프리스",
+    "description": "오스트레일리아의 희극배우 (1934–2023)",
+    "description_en": "Australian comedian and actor (1934–2023)",
+    "source_url": "https://www.wikidata.org/wiki/Q734221"
+  },
+  {
+    "id": "Q256951",
+    "name": "코넛 공녀 패트리샤",
+    "description": "",
+    "description_en": "British princess (1886-1974); younger daughter of Prince Arthur, Duke of Connaught, and Princess Louise Margaret of Prussia",
+    "source_url": "https://www.wikidata.org/wiki/Q256951"
+  },
+  {
+    "id": "Q380706",
+    "name": "빌헬름 하메르스회이",
+    "description": "",
+    "description_en": "Danish artist (1864–1916)",
+    "source_url": "https://www.wikidata.org/wiki/Q380706"
+  },
+  {
+    "id": "Q2227698",
+    "name": "안드레이 마카레비치",
+    "description": "",
+    "description_en": "Soviet and Russian rock musician",
+    "source_url": "https://www.wikidata.org/wiki/Q2227698"
+  },
+  {
+    "id": "Q461111",
+    "name": "세르주 레지아니",
+    "description": "",
+    "description_en": "French singer and actor (1922–2004)",
+    "source_url": "https://www.wikidata.org/wiki/Q461111"
+  },
+  {
+    "id": "Q464510",
+    "name": "황진이",
+    "description": "조선시대의 기생",
+    "description_en": "Korean gisaeng, poet, dancer and philosopher (1506-1544)",
+    "source_url": "https://www.wikidata.org/wiki/Q464510"
+  },
+  {
+    "id": "Q345231",
+    "name": "에빌 나이벨",
+    "description": "미국의 스턴트 배우 겸 예술가",
+    "description_en": "American stunt performer and artist (1938–2007)",
+    "source_url": "https://www.wikidata.org/wiki/Q345231"
+  },
+  {
+    "id": "Q89525",
+    "name": "파로브 스텔라",
+    "description": "오스트리아의 음악가, 프로듀서, DJ",
+    "description_en": "Austrian musician, producer and DJ",
+    "source_url": "https://www.wikidata.org/wiki/Q89525"
+  },
+  {
+    "id": "Q102108",
+    "name": "앨런 리",
+    "description": "",
+    "description_en": "illustrator and movie conceptual designer",
+    "source_url": "https://www.wikidata.org/wiki/Q102108"
+  },
+  {
+    "id": "Q270356",
+    "name": "팔로마 피카소",
+    "description": "",
+    "description_en": "French/Spanish fashion designer and businesswoman",
+    "source_url": "https://www.wikidata.org/wiki/Q270356"
+  },
+  {
+    "id": "Q1390504",
+    "name": "스티브 퍼셀",
+    "description": "미국 만화가, 애니메이터",
+    "description_en": "American cartoonist, animator, film director and game designer",
+    "source_url": "https://www.wikidata.org/wiki/Q1390504"
+  },
+  {
+    "id": "Q310975",
+    "name": "티코 토러스",
+    "description": "",
+    "description_en": "American drummer",
+    "source_url": "https://www.wikidata.org/wiki/Q310975"
+  },
+  {
+    "id": "Q507014",
+    "name": "폴 비릴리오",
+    "description": "프랑스의 철학자",
+    "description_en": "French philosopher (1932–2018)",
+    "source_url": "https://www.wikidata.org/wiki/Q507014"
+  },
+  {
+    "id": "Q230173",
+    "name": "캐리 바이런",
+    "description": "",
+    "description_en": "television host, artist, ''MythBusters'' build team member",
+    "source_url": "https://www.wikidata.org/wiki/Q230173"
+  },
+  {
+    "id": "Q541526",
+    "name": "로버트 윌슨 (연극 감독)",
+    "description": "미국의 연극 감독, 극작가 (1941–2025)",
+    "description_en": "American stage director and playwright (1941–2025)",
+    "source_url": "https://www.wikidata.org/wiki/Q541526"
+  },
+  {
+    "id": "Q352107",
+    "name": "로버트 토머스 바커",
+    "description": "",
+    "description_en": "American paleontologist",
+    "source_url": "https://www.wikidata.org/wiki/Q352107"
+  },
+  {
+    "id": "Q78643",
+    "name": "앙겔라 히틀러",
+    "description": "",
+    "description_en": "elder half-sister of Adolf Hitler (1883-1949)",
+    "source_url": "https://www.wikidata.org/wiki/Q78643"
+  },
+  {
+    "id": "Q433060",
+    "name": "다니엘 존스턴",
+    "description": "",
+    "description_en": "American musician (1961–2019)",
+    "source_url": "https://www.wikidata.org/wiki/Q433060"
+  },
+  {
+    "id": "Q268748",
+    "name": "아스트리드 커처",
+    "description": "독일의 사진가",
+    "description_en": "German photographer and artist (1938-2020)",
+    "source_url": "https://www.wikidata.org/wiki/Q268748"
+  },
+  {
+    "id": "Q318114",
+    "name": "니컬러스 힐리어드",
+    "description": "영국의 금세공인 (1547–1619)",
+    "description_en": "British artist (1547-1619)",
+    "source_url": "https://www.wikidata.org/wiki/Q318114"
+  },
+  {
+    "id": "Q1277029",
+    "name": "레드 스켈턴",
+    "description": "미국 코미디언",
+    "description_en": "American comedian (1913–1997)",
+    "source_url": "https://www.wikidata.org/wiki/Q1277029"
+  },
+  {
+    "id": "Q939395",
+    "name": "조르디 모야",
+    "description": "스페인 카탈루냐계 배우",
+    "description_en": "Spanish actor",
+    "source_url": "https://www.wikidata.org/wiki/Q939395"
+  },
+  {
+    "id": "Q3633203",
+    "name": "알리 자파르",
+    "description": "",
+    "description_en": "Pakistani singer and film actor",
+    "source_url": "https://www.wikidata.org/wiki/Q3633203"
+  },
+  {
+    "id": "Q447616",
+    "name": "함응이 황제",
+    "description": "",
+    "description_en": "Vietnamese emperor (1871-1944)",
+    "source_url": "https://www.wikidata.org/wiki/Q447616"
+  },
+  {
+    "id": "Q365129",
+    "name": "아서 단토",
+    "description": "",
+    "description_en": "American art critic and philosopher (1924–2013)",
+    "source_url": "https://www.wikidata.org/wiki/Q365129"
+  },
+  {
+    "id": "Q237700",
+    "name": "마틸드 보나파르트",
+    "description": "",
+    "description_en": "Princess of France (1820-1904)",
+    "source_url": "https://www.wikidata.org/wiki/Q237700"
+  },
+  {
+    "id": "Q261639",
+    "name": "로리 페티",
+    "description": "",
+    "description_en": "American actress",
+    "source_url": "https://www.wikidata.org/wiki/Q261639"
+  },
+  {
+    "id": "Q264559",
+    "name": "아리애나 리처즈",
+    "description": "",
+    "description_en": "American artist",
+    "source_url": "https://www.wikidata.org/wiki/Q264559"
+  },
+  {
+    "id": "Q449048",
+    "name": "데렌 브라운",
+    "description": "",
+    "description_en": "British illusionist and writer",
+    "source_url": "https://www.wikidata.org/wiki/Q449048"
+  },
+  {
+    "id": "Q451489",
+    "name": "앙투안루이 바리",
+    "description": "",
+    "description_en": "French sculptor (1795–1875)",
+    "source_url": "https://www.wikidata.org/wiki/Q451489"
+  },
+  {
+    "id": "Q354002",
+    "name": "이언 듀리",
+    "description": "",
+    "description_en": "British new wave singer (1942–2000)",
+    "source_url": "https://www.wikidata.org/wiki/Q354002"
+  },
+  {
+    "id": "Q704609",
+    "name": "펠릭스 칸델라",
+    "description": "",
+    "description_en": "Mexican architect (1910-1997)",
+    "source_url": "https://www.wikidata.org/wiki/Q704609"
+  },
+  {
+    "id": "Q374792",
+    "name": "알프 셰베리",
+    "description": "",
+    "description_en": "Swedish film director (1903-1980)",
+    "source_url": "https://www.wikidata.org/wiki/Q374792"
+  },
+  {
+    "id": "Q426999",
+    "name": "프랜시스 빈 코베인",
+    "description": "미국의 시각 예술가, 모델",
+    "description_en": "American artist and model",
+    "source_url": "https://www.wikidata.org/wiki/Q426999"
+  },
+  {
+    "id": "Q2277202",
+    "name": "오를레앙 공주 마리 (1865년)",
+    "description": "",
+    "description_en": "Franco-Orléans and Danish Royal (1865-1909)",
+    "source_url": "https://www.wikidata.org/wiki/Q2277202"
+  },
+  {
+    "id": "Q262510",
+    "name": "로런 파우스트",
+    "description": "",
+    "description_en": "American animator, writer, voice director, and storyboard artist",
+    "source_url": "https://www.wikidata.org/wiki/Q262510"
+  },
+  {
+    "id": "Q467940",
+    "name": "찰리 가르시아",
+    "description": "",
+    "description_en": "Argentine singer-songwriter and musician",
+    "source_url": "https://www.wikidata.org/wiki/Q467940"
+  },
+  {
+    "id": "Q449804",
+    "name": "폴 사이모넌",
+    "description": "영국의 음악가",
+    "description_en": "English musician (Bass guitarist, vocalist, songwriter) and visual artist",
+    "source_url": "https://www.wikidata.org/wiki/Q449804"
+  },
+  {
+    "id": "Q540764",
+    "name": "테오 얀센",
+    "description": "",
+    "description_en": "Dutch artist (born 1948)",
+    "source_url": "https://www.wikidata.org/wiki/Q540764"
+  },
+  {
+    "id": "Q335184",
+    "name": "그레이엄 콕슨",
+    "description": "",
+    "description_en": "English musician (born 1969)",
+    "source_url": "https://www.wikidata.org/wiki/Q335184"
+  },
+  {
+    "id": "Q510966",
+    "name": "칼리 체이킨",
+    "description": "",
+    "description_en": "American actress",
+    "source_url": "https://www.wikidata.org/wiki/Q510966"
+  },
+  {
+    "id": "Q58783",
+    "name": "하인츠 링에",
+    "description": "",
+    "description_en": "SS officer; valet for German dictator Adolf Hitler (1913–1980)",
+    "source_url": "https://www.wikidata.org/wiki/Q58783"
+  },
+  {
+    "id": "Q177059",
+    "name": "하쿠인 에카쿠",
+    "description": "",
+    "description_en": "Japanese Zen Buddhist master (1686-1769)",
+    "source_url": "https://www.wikidata.org/wiki/Q177059"
+  },
+  {
+    "id": "Q714709",
+    "name": "루이스 웨인",
+    "description": "잉글랜드의 예술가",
+    "description_en": "English artist (1860-1939)",
+    "source_url": "https://www.wikidata.org/wiki/Q714709"
+  },
+  {
+    "id": "Q382031",
+    "name": "E. H. 셰퍼드",
+    "description": "",
+    "description_en": "British artist (1879-1976)",
+    "source_url": "https://www.wikidata.org/wiki/Q382031"
+  },
+  {
+    "id": "Q1975172",
+    "name": "롤프 해리스",
+    "description": "오스트레일리아의 희극인, 범죄인 (1930–2023)",
+    "description_en": "Australian entertainer (1930–2023)",
+    "source_url": "https://www.wikidata.org/wiki/Q1975172"
+  },
+  {
+    "id": "Q1332885",
+    "name": "줄리안 벡",
+    "description": "",
+    "description_en": "American actor, director and writer (1925–1985)",
+    "source_url": "https://www.wikidata.org/wiki/Q1332885"
+  },
+  {
+    "id": "Q1349144",
+    "name": "로버트 W. 체임버스",
+    "description": "미국 소설가",
+    "description_en": "American artist, novelist, short story writer (1865–1933)",
+    "source_url": "https://www.wikidata.org/wiki/Q1349144"
+  },
+  {
+    "id": "Q8655",
+    "name": "원 문종",
+    "description": "몽골 제국의 제 12, 14대 카안",
+    "description_en": "Yuan dynasty emperor from 1328 to 1332",
+    "source_url": "https://www.wikidata.org/wiki/Q8655"
+  },
+  {
+    "id": "Q537266",
+    "name": "제임스 몽고메리 플래그",
+    "description": "예술가",
+    "description_en": "American artist (1877-1960)",
+    "source_url": "https://www.wikidata.org/wiki/Q537266"
+  },
+  {
+    "id": "Q561952",
+    "name": "한간 (화가)",
+    "description": "",
+    "description_en": "Chinese artist (706-783)",
+    "source_url": "https://www.wikidata.org/wiki/Q561952"
+  },
+  {
+    "id": "Q5250658",
+    "name": "디프티 나발",
+    "description": "",
+    "description_en": "Indian-born American actress",
+    "source_url": "https://www.wikidata.org/wiki/Q5250658"
+  },
+  {
+    "id": "Q626019",
+    "name": "아라니코",
+    "description": "",
+    "description_en": "Nepalese artist and architect (c. 1245 – c. 1306)",
+    "source_url": "https://www.wikidata.org/wiki/Q626019"
+  },
+  {
+    "id": "Q90250",
+    "name": "에바 슐로스",
+    "description": "오스트리아 홀로코스트 생존자",
+    "description_en": "Austrian‑British Holocaust survivor and memoirist (1929–2026)",
+    "source_url": "https://www.wikidata.org/wiki/Q90250"
+  },
+  {
+    "id": "Q66916",
+    "name": "마리안 베버",
+    "description": "",
+    "description_en": "German women's rights activist and legal historian (1870-1954)",
+    "source_url": "https://www.wikidata.org/wiki/Q66916"
+  },
+  {
+    "id": "Q287703",
+    "name": "얀 사우데크",
+    "description": "",
+    "description_en": "Czech photographer (born 1935)",
+    "source_url": "https://www.wikidata.org/wiki/Q287703"
+  },
+  {
+    "id": "Q293141",
+    "name": "매기 스티바터",
+    "description": "미국 소설가",
+    "description_en": "American novelist (born 1981)",
+    "source_url": "https://www.wikidata.org/wiki/Q293141"
+  },
+  {
+    "id": "Q7422343",
+    "name": "세라 굿리지",
+    "description": "",
+    "description_en": "American artist (1788–1853)",
+    "source_url": "https://www.wikidata.org/wiki/Q7422343"
+  },
+  {
+    "id": "Q459871",
+    "name": "퍼트리샤 모리슨",
+    "description": "미국 배우",
+    "description_en": "American stage and film actress (1915-2018)",
+    "source_url": "https://www.wikidata.org/wiki/Q459871"
+  },
+  {
+    "id": "Q3055709",
+    "name": "어우동",
+    "description": "",
+    "description_en": "Korean philosopher (1430-1480)",
+    "source_url": "https://www.wikidata.org/wiki/Q3055709"
+  },
+  {
+    "id": "Q1262889",
+    "name": "아노니",
+    "description": "",
+    "description_en": "British singer",
+    "source_url": "https://www.wikidata.org/wiki/Q1262889"
+  },
+  {
+    "id": "Q575795",
+    "name": "마틴 멀",
+    "description": "미국의 배우 (1943–2024)",
+    "description_en": "American actor (1943–2024)",
+    "source_url": "https://www.wikidata.org/wiki/Q575795"
+  },
+  {
+    "id": "Q975415",
+    "name": "알베르트 몰",
+    "description": "",
+    "description_en": "Dutch actor (1917-2004)",
+    "source_url": "https://www.wikidata.org/wiki/Q975415"
+  },
+  {
+    "id": "Q64539",
+    "name": "피터 린드버그",
+    "description": "독일의 패션 사진 작가 (1944~2019)",
+    "description_en": "German photographer and director (1944-2019)",
+    "source_url": "https://www.wikidata.org/wiki/Q64539"
+  },
+  {
+    "id": "Q1165217",
+    "name": "다니 라페리에르",
+    "description": "",
+    "description_en": "Haitian Canadian novelist, screenwriter and journalist (born 1953)",
+    "source_url": "https://www.wikidata.org/wiki/Q1165217"
+  },
+  {
+    "id": "Q1197667",
+    "name": "바첼 린지",
+    "description": "",
+    "description_en": "American poet (1879–1931)",
+    "source_url": "https://www.wikidata.org/wiki/Q1197667"
+  },
+  {
+    "id": "Q366700",
+    "name": "클라우스 부어만",
+    "description": "독일의 음악가, 음반 제작자",
+    "description_en": "German musician and artist",
+    "source_url": "https://www.wikidata.org/wiki/Q366700"
+  },
+  {
+    "id": "Q373784",
+    "name": "앙리 칼로",
+    "description": "",
+    "description_en": "French fencer (1875-1956)",
+    "source_url": "https://www.wikidata.org/wiki/Q373784"
+  },
+  {
+    "id": "Q454912",
+    "name": "프란시스코 데 에레라",
+    "description": "",
+    "description_en": "Spanish artist (1576-1656)",
+    "source_url": "https://www.wikidata.org/wiki/Q454912"
+  },
+  {
+    "id": "Q462173",
+    "name": "아누크 그랭베르",
+    "description": "프랑스의 여자 배우",
+    "description_en": "French actress",
+    "source_url": "https://www.wikidata.org/wiki/Q462173"
+  },
+  {
+    "id": "Q454833",
+    "name": "스콧 매클라우드",
+    "description": "",
+    "description_en": "American cartoonist and comics theorist (b. 1960)",
+    "source_url": "https://www.wikidata.org/wiki/Q454833"
+  },
+  {
+    "id": "Q505666",
+    "name": "밀로 마나라",
+    "description": "이탈리아의 만화가",
+    "description_en": "Italian comic creator (born 1945)",
+    "source_url": "https://www.wikidata.org/wiki/Q505666"
+  },
+  {
+    "id": "Q537322",
+    "name": "윌 샘슨",
+    "description": "",
+    "description_en": "Muscogee Creek actor from Oklahoma (1933–1987)",
+    "source_url": "https://www.wikidata.org/wiki/Q537322"
+  },
+  {
+    "id": "Q960391",
+    "name": "조 길건",
+    "description": "",
+    "description_en": "English actor",
+    "source_url": "https://www.wikidata.org/wiki/Q960391"
+  },
+  {
+    "id": "Q976826",
+    "name": "라우리츠 툭센",
+    "description": "",
+    "description_en": "Danish artist (1853-1927)",
+    "source_url": "https://www.wikidata.org/wiki/Q976826"
+  },
+  {
+    "id": "Q362271",
+    "name": "오노 사토시",
+    "description": "일본의 아이돌, 가수, 배우, 탤런트",
+    "description_en": "Japanese idol, singer, actor",
+    "source_url": "https://www.wikidata.org/wiki/Q362271"
+  },
+  {
+    "id": "Q2084523",
+    "name": "저마이마 커크",
+    "description": "",
+    "description_en": "British-American artist and actress",
+    "source_url": "https://www.wikidata.org/wiki/Q2084523"
+  },
+  {
+    "id": "Q198097",
+    "name": "팔대산인",
+    "description": "",
+    "description_en": "Chinese artist (1626-1705)",
+    "source_url": "https://www.wikidata.org/wiki/Q198097"
+  },
+  {
+    "id": "Q50091350",
+    "name": "아디나 핀틸리에",
+    "description": "",
+    "description_en": "Romanian film director",
+    "source_url": "https://www.wikidata.org/wiki/Q50091350"
+  },
+  {
+    "id": "Q2550990",
+    "name": "잰슨 패너티에어",
+    "description": "미국의 배우 (1994–2023)",
+    "description_en": "American actor (1994–2023)",
+    "source_url": "https://www.wikidata.org/wiki/Q2550990"
+  },
+  {
+    "id": "Q470436",
+    "name": "잔프랑코 페레",
+    "description": "이탈리아의 패션 디자이너 (1944-2007)",
+    "description_en": "Italian fashion designer (1944-2007)",
+    "source_url": "https://www.wikidata.org/wiki/Q470436"
+  },
+  {
+    "id": "Q510955",
+    "name": "베르너 팬톤",
+    "description": "",
+    "description_en": "Danish furniture designer (1926–1998)",
+    "source_url": "https://www.wikidata.org/wiki/Q510955"
+  },
+  {
+    "id": "Q571691",
+    "name": "아르눌프 외베를란",
+    "description": "노르웨이 작가",
+    "description_en": "Norwegian writer (1889–1968)",
+    "source_url": "https://www.wikidata.org/wiki/Q571691"
+  },
+  {
+    "id": "Q1040807",
+    "name": "레이디 사라 차토",
+    "description": "",
+    "description_en": "Member of the British royal family",
+    "source_url": "https://www.wikidata.org/wiki/Q1040807"
+  },
+  {
+    "id": "Q176032",
+    "name": "루돌프 카르구스",
+    "description": "",
+    "description_en": "German footballer",
+    "source_url": "https://www.wikidata.org/wiki/Q176032"
+  },
+  {
+    "id": "Q890613",
+    "name": "동원 (화가)",
+    "description": "",
+    "description_en": "10th-century Chinese artist",
+    "source_url": "https://www.wikidata.org/wiki/Q890613"
+  },
+  {
+    "id": "Q442192",
+    "name": "레베카 호른",
+    "description": "독일의 예술가 (1936–2024)",
+    "description_en": "German visual artist (1944–2024)",
+    "source_url": "https://www.wikidata.org/wiki/Q442192"
+  },
+  {
+    "id": "Q740332",
+    "name": "양해 (남송)",
+    "description": "",
+    "description_en": "Chinese artist",
+    "source_url": "https://www.wikidata.org/wiki/Q740332"
+  },
+  {
+    "id": "Q379649",
+    "name": "윤선도",
+    "description": "조선의 문신 (1587–1671)",
+    "description_en": "Korean poet (1587-1671)",
+    "source_url": "https://www.wikidata.org/wiki/Q379649"
+  },
+  {
+    "id": "Q380577",
+    "name": "윤휴",
+    "description": "조선의 문신 (1617–1680)",
+    "description_en": "Joseon scholar & civil servant (1617–1680)",
+    "source_url": "https://www.wikidata.org/wiki/Q380577"
+  },
+  {
+    "id": "Q1507231",
+    "name": "조지 도",
+    "description": "",
+    "description_en": "British artist (1781-1829)",
+    "source_url": "https://www.wikidata.org/wiki/Q1507231"
+  },
+  {
+    "id": "Q269677",
+    "name": "페이지 오하라",
+    "description": "",
+    "description_en": "American actress",
+    "source_url": "https://www.wikidata.org/wiki/Q269677"
+  },
+  {
+    "id": "Q2035136",
+    "name": "톰 톰슨",
+    "description": "",
+    "description_en": "Canadian artist (1877-1917)",
+    "source_url": "https://www.wikidata.org/wiki/Q2035136"
+  },
+  {
+    "id": "Q45132",
+    "name": "루디 영블러드",
+    "description": "",
+    "description_en": "Mexican-born Native American actor",
+    "source_url": "https://www.wikidata.org/wiki/Q45132"
+  },
+  {
+    "id": "Q979574",
+    "name": "필리포 발디누치",
+    "description": "이탈리아의 미술사학자 (1625~1697)",
+    "description_en": "Italian art historian (1625-1697)",
+    "source_url": "https://www.wikidata.org/wiki/Q979574"
+  },
+  {
+    "id": "Q60303",
+    "name": "로테 레만",
+    "description": "독일의 소프라노 가수 (1888-1976)",
+    "description_en": "German soprano (1888–1976)",
+    "source_url": "https://www.wikidata.org/wiki/Q60303"
+  },
+  {
+    "id": "Q113951",
+    "name": "퀸헬트-레딘",
+    "description": "",
+    "description_en": "Austrian noble and political theorist (1909-1999)",
+    "source_url": "https://www.wikidata.org/wiki/Q113951"
+  },
+  {
+    "id": "Q76714",
+    "name": "오토 빌헬름 토메",
+    "description": "",
+    "description_en": "German botanist and botanical artist (1840-1925)",
+    "source_url": "https://www.wikidata.org/wiki/Q76714"
+  },
+  {
+    "id": "Q163298",
+    "name": "장다첸",
+    "description": "",
+    "description_en": "Chinese artist (1899-1983)",
+    "source_url": "https://www.wikidata.org/wiki/Q163298"
+  },
+  {
+    "id": "Q215955",
+    "name": "오토 륄레",
+    "description": "",
+    "description_en": "German councilist activist (1874-1943)",
+    "source_url": "https://www.wikidata.org/wiki/Q215955"
+  },
+  {
+    "id": "Q764789",
+    "name": "그레고리 S. 폴",
+    "description": "미국의 과학자 겸 일러스트레이터",
+    "description_en": "U.S. researcher, author, paleontologist, and illustrator",
+    "source_url": "https://www.wikidata.org/wiki/Q764789"
+  },
+  {
+    "id": "Q3516498",
+    "name": "테일러 네그론",
+    "description": "",
+    "description_en": "American actor (1957–2015)",
+    "source_url": "https://www.wikidata.org/wiki/Q3516498"
+  },
+  {
+    "id": "Q699485",
+    "name": "유기 (명나라)",
+    "description": "",
+    "description_en": "Chinese philosopher and politician (1311–1375)",
+    "source_url": "https://www.wikidata.org/wiki/Q699485"
+  },
+  {
+    "id": "Q237973",
+    "name": "다리아 워보위",
+    "description": "",
+    "description_en": "Canadian model, artist, and photographer",
+    "source_url": "https://www.wikidata.org/wiki/Q237973"
+  },
+  {
+    "id": "Q271590",
+    "name": "아이오니 스카이",
+    "description": "",
+    "description_en": "British-born American actress",
+    "source_url": "https://www.wikidata.org/wiki/Q271590"
+  },
+  {
+    "id": "Q12220731",
+    "name": "스밀랸 라디치 클라크",
+    "description": "",
+    "description_en": "Chilean architect (born 1965)",
+    "source_url": "https://www.wikidata.org/wiki/Q12220731"
+  },
+  {
+    "id": "Q18201680",
+    "name": "미흐란 하코뱐",
+    "description": "",
+    "description_en": "Armenian sculptor",
+    "source_url": "https://www.wikidata.org/wiki/Q18201680"
+  },
+  {
+    "id": "Q1387048",
+    "name": "미카엘 뒤독 더빗",
+    "description": "네덜란드 출신 영국 애니메이터",
+    "description_en": "Dutch animator, director and illustrator",
+    "source_url": "https://www.wikidata.org/wiki/Q1387048"
+  },
+  {
+    "id": "Q518632",
+    "name": "카를루스 사우다냐",
+    "description": "브라질 애니메이터",
+    "description_en": "Brazilian animator",
+    "source_url": "https://www.wikidata.org/wiki/Q518632"
+  },
+  {
+    "id": "Q508184",
+    "name": "리베카 밀러",
+    "description": "",
+    "description_en": "American filmmaker and novelist (born 1962)",
+    "source_url": "https://www.wikidata.org/wiki/Q508184"
+  },
+  {
+    "id": "Q89520",
+    "name": "로자 마이레더",
+    "description": "",
+    "description_en": "Austrian artist and writer (1858-1938)",
+    "source_url": "https://www.wikidata.org/wiki/Q89520"
+  },
+  {
+    "id": "Q113733",
+    "name": "가브리엘라 폰 합스부르크로트링겐",
+    "description": "",
+    "description_en": "Austrian Imperial and Royal",
+    "source_url": "https://www.wikidata.org/wiki/Q113733"
+  },
+  {
+    "id": "Q2442116",
+    "name": "에티엔 카르자",
+    "description": "",
+    "description_en": "French artist (1828–1906)",
+    "source_url": "https://www.wikidata.org/wiki/Q2442116"
+  },
+  {
+    "id": "Q1204208",
+    "name": "이쾅",
+    "description": "",
+    "description_en": "Qing Dynasty noble and politician (1838-1917)",
+    "source_url": "https://www.wikidata.org/wiki/Q1204208"
+  },
+  {
+    "id": "Q719428",
+    "name": "윌리엄 마이클 로세티",
+    "description": "영국 작가",
+    "description_en": "Pre-Raphaelite writer and critic (1829-1919)",
+    "source_url": "https://www.wikidata.org/wiki/Q719428"
+  },
+  {
+    "id": "Q4990378",
+    "name": "헬레나 베스테르마르크",
+    "description": "",
+    "description_en": "Finnish artist, editor (1857-1938)",
+    "source_url": "https://www.wikidata.org/wiki/Q4990378"
+  },
+  {
+    "id": "Q372497",
+    "name": "베니 케이시",
+    "description": "미국의 육상선수, 배우 (1939–2017)",
+    "description_en": "American actor, artist, and professional football player (1939–2017)",
+    "source_url": "https://www.wikidata.org/wiki/Q372497"
+  },
+  {
+    "id": "Q725877",
+    "name": "찰스 로버트 나이트",
+    "description": "",
+    "description_en": "American artist (1874-1953)",
+    "source_url": "https://www.wikidata.org/wiki/Q725877"
+  },
+  {
+    "id": "Q452400",
+    "name": "메리 우로노브",
+    "description": "",
+    "description_en": "American actress and author",
+    "source_url": "https://www.wikidata.org/wiki/Q452400"
+  },
+  {
+    "id": "Q542812",
+    "name": "조지 터너 (예술가)",
+    "description": "",
+    "description_en": "British artist (1841-1910)",
+    "source_url": "https://www.wikidata.org/wiki/Q542812"
+  },
+  {
+    "id": "Q319350",
+    "name": "엔초 마리",
+    "description": "이탈리아의 산업디자이너 (1932–2020)",
+    "description_en": "Italian furniture designer (1932-2020)",
+    "source_url": "https://www.wikidata.org/wiki/Q319350"
+  },
+  {
+    "id": "Q534279",
+    "name": "오가타 겐잔",
+    "description": "",
+    "description_en": "Japanese artist (1663-1743)",
+    "source_url": "https://www.wikidata.org/wiki/Q534279"
+  },
+  {
+    "id": "Q677769",
+    "name": "질베르투 프레이리",
+    "description": "",
+    "description_en": "Brazilian politician and academic (1900–1987)",
+    "source_url": "https://www.wikidata.org/wiki/Q677769"
+  },
+  {
+    "id": "Q958483",
+    "name": "르네 랄루",
+    "description": "",
+    "description_en": "animator, film director, and screenwriter (1929–2004)",
+    "source_url": "https://www.wikidata.org/wiki/Q958483"
+  },
+  {
+    "id": "Q981857",
+    "name": "톰 무어 (애니메이터)",
+    "description": "아일랜드의 애니메이션 감독",
+    "description_en": "Irish film director",
+    "source_url": "https://www.wikidata.org/wiki/Q981857"
+  },
+  {
+    "id": "Q62952",
+    "name": "게오르크 에레트",
+    "description": "",
+    "description_en": "German scientist and illustrator (1708-1770)",
+    "source_url": "https://www.wikidata.org/wiki/Q62952"
+  },
+  {
+    "id": "Q76414",
+    "name": "루드비히 베멀먼즈",
+    "description": "",
+    "description_en": "author of Madeline books (1939-1999)",
+    "source_url": "https://www.wikidata.org/wiki/Q76414"
+  },
+  {
+    "id": "Q389454",
+    "name": "마젠",
+    "description": "영국 소설가",
+    "description_en": "Chinese-born British writer (1953-)",
+    "source_url": "https://www.wikidata.org/wiki/Q389454"
+  },
+  {
+    "id": "Q731559",
+    "name": "이나후네 케이지",
+    "description": "",
+    "description_en": "Japanese video game designer",
+    "source_url": "https://www.wikidata.org/wiki/Q731559"
+  },
+  {
+    "id": "Q1356502",
+    "name": "윌리엄 폭스 (정치인)",
+    "description": "",
+    "description_en": "Premier of New Zealand in the 19th century, company agent, explorer and artist (1812–1893)",
+    "source_url": "https://www.wikidata.org/wiki/Q1356502"
+  },
+  {
+    "id": "Q275779",
+    "name": "모나 프리먼",
+    "description": "",
+    "description_en": "American actress (1926-2014)",
+    "source_url": "https://www.wikidata.org/wiki/Q275779"
+  },
+  {
+    "id": "Q1649249",
+    "name": "쉴라 고우다",
+    "description": "인도 예술가",
+    "description_en": "Indian artist (born 1957)",
+    "source_url": "https://www.wikidata.org/wiki/Q1649249"
+  },
+  {
+    "id": "Q1559525",
+    "name": "조지 마하리스",
+    "description": "미국의 배우 (1928–2023)",
+    "description_en": "American actor (1928-2023)",
+    "source_url": "https://www.wikidata.org/wiki/Q1559525"
+  },
+  {
+    "id": "Q3087294",
+    "name": "요슈 치카노부",
+    "description": "",
+    "description_en": "Japanese artist (1838-1912)",
+    "source_url": "https://www.wikidata.org/wiki/Q3087294"
+  },
+  {
+    "id": "Q213821",
+    "name": "오이겐 쉬프탄",
+    "description": "독일의 촬영감독 (1893~1977)",
+    "description_en": "German cinematographer (1893-1977)",
+    "source_url": "https://www.wikidata.org/wiki/Q213821"
+  },
+  {
+    "id": "Q215791",
+    "name": "메클렌부르크슈베린 대공세자 프리드리히 프란츠",
+    "description": "",
+    "description_en": "SS officer (1910-2001)",
+    "source_url": "https://www.wikidata.org/wiki/Q215791"
+  },
+  {
+    "id": "Q689388",
+    "name": "프란츠 안톤 말베르츠",
+    "description": "",
+    "description_en": "Austrian artist (1724-1796)",
+    "source_url": "https://www.wikidata.org/wiki/Q689388"
+  },
+  {
+    "id": "Q1293032",
+    "name": "에드워드 미첼 배니스터",
+    "description": "",
+    "description_en": "Black Canadian-American visual artist (1828-1901)",
+    "source_url": "https://www.wikidata.org/wiki/Q1293032"
+  },
+  {
+    "id": "Q773543",
+    "name": "맬컴 매클레인",
+    "description": "",
+    "description_en": "American businessman (1913-2001)",
+    "source_url": "https://www.wikidata.org/wiki/Q773543"
+  },
+  {
+    "id": "Q451774",
+    "name": "헬레네 크뢸러 뮐러",
+    "description": "",
+    "description_en": "German art collector (1869-1939)",
+    "source_url": "https://www.wikidata.org/wiki/Q451774"
+  },
+  {
+    "id": "Q486558",
+    "name": "이산해",
+    "description": "조선의 문신, 시인 (1539–1609)",
+    "description_en": "Premier in the Joseon Dynasty (1539-1609)",
+    "source_url": "https://www.wikidata.org/wiki/Q486558"
+  },
+  {
+    "id": "Q3806713",
+    "name": "제임스 리버",
+    "description": "이탈리아 예술가, 디자이너 및 보석상",
+    "description_en": "Italian Jewellery and sculptor (born 1949)",
+    "source_url": "https://www.wikidata.org/wiki/Q3806713"
+  },
+  {
+    "id": "Q4080114",
+    "name": "알렉산드르 바시로프",
+    "description": "",
+    "description_en": "Soviet and Russian actor, director and screenwriter",
+    "source_url": "https://www.wikidata.org/wiki/Q4080114"
+  },
+  {
+    "id": "Q919806",
+    "name": "후안 산체스 코탄",
+    "description": "",
+    "description_en": "Spanish artist (1560-1627)",
+    "source_url": "https://www.wikidata.org/wiki/Q919806"
+  },
+  {
+    "id": "Q1113061",
+    "name": "마리아노 포르투니 (디자이너)",
+    "description": "",
+    "description_en": "Spanish artist, photographer and fashion designer (1871-1949)",
+    "source_url": "https://www.wikidata.org/wiki/Q1113061"
+  },
+  {
+    "id": "Q1005462",
+    "name": "진계유",
+    "description": "",
+    "description_en": "Chinese artist (1558-1639)",
+    "source_url": "https://www.wikidata.org/wiki/Q1005462"
+  },
+  {
+    "id": "Q976754",
+    "name": "던컨 레게르",
+    "description": "",
+    "description_en": "Canadian writer, artist and actor",
+    "source_url": "https://www.wikidata.org/wiki/Q976754"
+  },
+  {
+    "id": "Q787155",
+    "name": "미하일 마튜신",
+    "description": "",
+    "description_en": "Russian artist (1861-1934)",
+    "source_url": "https://www.wikidata.org/wiki/Q787155"
+  },
+  {
+    "id": "Q1185061",
+    "name": "니콜라이 아키모프",
+    "description": "",
+    "description_en": "Soviet theatre director and scenic designer (1901-1968)",
+    "source_url": "https://www.wikidata.org/wiki/Q1185061"
+  },
+  {
+    "id": "Q728201",
+    "name": "벤저민 크림",
+    "description": "",
+    "description_en": "British artist, author, esotericist (1922-2016)",
+    "source_url": "https://www.wikidata.org/wiki/Q728201"
+  },
+  {
+    "id": "Q1388393",
+    "name": "올리비에 메가통",
+    "description": "프랑스의 영화 감독",
+    "description_en": "French film director",
+    "source_url": "https://www.wikidata.org/wiki/Q1388393"
+  },
+  {
+    "id": "Q2038293",
+    "name": "아드리안 반덴버그",
+    "description": "네덜란드의 기타리스트",
+    "description_en": "Dutch guitarist",
+    "source_url": "https://www.wikidata.org/wiki/Q2038293"
+  },
+  {
+    "id": "Q1323770",
+    "name": "도쿠가와 나리아키",
+    "description": "",
+    "description_en": "Japanese daimyo (1800-1860)",
+    "source_url": "https://www.wikidata.org/wiki/Q1323770"
+  },
+  {
+    "id": "Q2124740",
+    "name": "루스 그레이엄",
+    "description": "",
+    "description_en": "American author (1920–2007)",
+    "source_url": "https://www.wikidata.org/wiki/Q2124740"
+  },
+  {
+    "id": "Q601065",
+    "name": "앙투안 드니 쇼데",
+    "description": "",
+    "description_en": "French sculptor (1763–1810)",
+    "source_url": "https://www.wikidata.org/wiki/Q601065"
+  },
+  {
+    "id": "Q1196022",
+    "name": "오도현 (화가)",
+    "description": "",
+    "description_en": "Chinese artist (c.689–c.759)",
+    "source_url": "https://www.wikidata.org/wiki/Q1196022"
+  },
+  {
+    "id": "Q64233",
+    "name": "안톤 코베르거",
+    "description": "독일의 인쇄업자",
+    "description_en": "German printer (c.1440-1513)",
+    "source_url": "https://www.wikidata.org/wiki/Q64233"
+  },
+  {
+    "id": "Q64791",
+    "name": "프리츠 폰 운루",
+    "description": "",
+    "description_en": "German writer (1885-1970)",
+    "source_url": "https://www.wikidata.org/wiki/Q64791"
+  },
+  {
+    "id": "Q1012900",
+    "name": "완다 가그",
+    "description": "",
+    "description_en": "American artist and children's writer (1893-1946)",
+    "source_url": "https://www.wikidata.org/wiki/Q1012900"
+  },
+  {
+    "id": "Q69218",
+    "name": "프레더릭 백",
+    "description": "",
+    "description_en": "Canadian animator (1924–2013)",
+    "source_url": "https://www.wikidata.org/wiki/Q69218"
+  },
+  {
+    "id": "Q115752",
+    "name": "한스 아스퍼",
+    "description": "",
+    "description_en": "Swiss artist (1499-1571)",
+    "source_url": "https://www.wikidata.org/wiki/Q115752"
+  },
+  {
+    "id": "Q77804",
+    "name": "캐시 크루즈",
+    "description": "",
+    "description_en": "Dollmaker (1883-1968)",
+    "source_url": "https://www.wikidata.org/wiki/Q77804"
+  },
+  {
+    "id": "Q702525",
+    "name": "황공망",
+    "description": "",
+    "description_en": "Chinese artist (1269-1354)",
+    "source_url": "https://www.wikidata.org/wiki/Q702525"
+  },
+  {
+    "id": "Q713013",
+    "name": "송렴",
+    "description": "",
+    "description_en": "literary and political adviser (1310-1381)",
+    "source_url": "https://www.wikidata.org/wiki/Q713013"
+  },
+  {
+    "id": "Q715627",
+    "name": "린수",
+    "description": "중국의 번역가, 작가 (1852~1924)",
+    "description_en": "Chinese writer (1852-1924)",
+    "source_url": "https://www.wikidata.org/wiki/Q715627"
+  },
+  {
+    "id": "Q422254",
+    "name": "아키아나 크라마리크",
+    "description": "",
+    "description_en": "American artist, humanitarian, poet, child prodigy and philanthropist",
+    "source_url": "https://www.wikidata.org/wiki/Q422254"
+  },
+  {
+    "id": "Q11621076",
+    "name": "가쓰시카 오이",
+    "description": "",
+    "description_en": "Japanese artist (c.1800-c.1866)",
+    "source_url": "https://www.wikidata.org/wiki/Q11621076"
+  },
+  {
+    "id": "Q1370392",
+    "name": "센가이 기본",
+    "description": "",
+    "description_en": "Japanese artist (1750-1837)",
+    "source_url": "https://www.wikidata.org/wiki/Q1370392"
+  },
+  {
+    "id": "Q443732",
+    "name": "한네 다보벤",
+    "description": "",
+    "description_en": "German artist (1941-2009)",
+    "source_url": "https://www.wikidata.org/wiki/Q443732"
+  },
+  {
+    "id": "Q453775",
+    "name": "페르낭드 올리비에",
+    "description": "",
+    "description_en": "French artist and model (1881-1966)",
+    "source_url": "https://www.wikidata.org/wiki/Q453775"
+  },
+  {
+    "id": "Q5074",
+    "name": "금 장종",
+    "description": "금나라의 제6대 황제 (1168–1208)",
+    "description_en": "Emperor of the Jin Dynasty (1168–1208)",
+    "source_url": "https://www.wikidata.org/wiki/Q5074"
+  },
+  {
+    "id": "Q486549",
+    "name": "이서우 (1633년)",
+    "description": "조선 후기의 문신",
+    "description_en": "Korean scholar (1633-1709)",
+    "source_url": "https://www.wikidata.org/wiki/Q486549"
+  },
+  {
+    "id": "Q632866",
+    "name": "다쿠안 소호",
+    "description": "일본의 에도 시대의 승려 (1573-1645)",
+    "description_en": "Japanese Buddhist priest",
+    "source_url": "https://www.wikidata.org/wiki/Q632866"
+  },
+  {
+    "id": "Q559425",
+    "name": "왕헌지",
+    "description": "",
+    "description_en": "Chinese calligrapher",
+    "source_url": "https://www.wikidata.org/wiki/Q559425"
+  },
+  {
+    "id": "Q964731",
+    "name": "레오 리오니",
+    "description": "네덜란드의 동화 작가",
+    "description_en": "Dutch-Italian artist and children's writer (1910-1999)",
+    "source_url": "https://www.wikidata.org/wiki/Q964731"
+  },
+  {
+    "id": "Q67344",
+    "name": "이르밍가르트 폰 바이에른 왕녀",
+    "description": "",
+    "description_en": "Bavarian Royal (1923-2010)",
+    "source_url": "https://www.wikidata.org/wiki/Q67344"
+  },
+  {
+    "id": "Q95444",
+    "name": "지크 아르노",
+    "description": "독일 배우",
+    "description_en": "German-born stage and film actor",
+    "source_url": "https://www.wikidata.org/wiki/Q95444"
+  },
+  {
+    "id": "Q2346122",
+    "name": "하시구치 고요",
+    "description": "",
+    "description_en": "Japanese artist (1880-1921)",
+    "source_url": "https://www.wikidata.org/wiki/Q2346122"
+  },
+  {
+    "id": "Q704607",
+    "name": "정샤오쉬",
+    "description": "중국의 정치인 (1860~1938)",
+    "description_en": "Chinese politician (1860-1938)",
+    "source_url": "https://www.wikidata.org/wiki/Q704607"
+  },
+  {
+    "id": "Q705266",
+    "name": "은원융기",
+    "description": "",
+    "description_en": "Buddhist monk (1592-1673)",
+    "source_url": "https://www.wikidata.org/wiki/Q705266"
+  },
+  {
+    "id": "Q2038439",
+    "name": "크리스티안 도트르몽",
+    "description": "",
+    "description_en": "artist (1922-1979)",
+    "source_url": "https://www.wikidata.org/wiki/Q2038439"
+  },
+  {
+    "id": "Q457483",
+    "name": "조애나 히퍼넌",
+    "description": "아일랜드인 모델",
+    "description_en": "Irish model",
+    "source_url": "https://www.wikidata.org/wiki/Q457483"
+  },
+  {
+    "id": "Q3040342",
+    "name": "호르헤 페루고리아",
+    "description": "",
+    "description_en": "Cuban actor",
+    "source_url": "https://www.wikidata.org/wiki/Q3040342"
+  },
+  {
+    "id": "Q508199",
+    "name": "리지 메르시에 데클루",
+    "description": "",
+    "description_en": "French singer (1956-2004)",
+    "source_url": "https://www.wikidata.org/wiki/Q508199"
+  },
+  {
+    "id": "Q530599",
+    "name": "미리암 칸",
+    "description": "",
+    "description_en": "Swiss contemporary artist (born 1949)",
+    "source_url": "https://www.wikidata.org/wiki/Q530599"
+  },
+  {
+    "id": "Q1808950",
+    "name": "슬리만 만수르",
+    "description": "팔레스타인의 예술가",
+    "description_en": "Palestinian artist (1947–2026)",
+    "source_url": "https://www.wikidata.org/wiki/Q1808950"
+  },
+  {
+    "id": "Q486251",
+    "name": "양녕대군",
+    "description": "조선 태종의 왕자 (1394–1462)",
+    "description_en": "Korean prince (1394-1462)",
+    "source_url": "https://www.wikidata.org/wiki/Q486251"
+  },
+  {
+    "id": "Q548407",
+    "name": "다니엘 호퍼",
+    "description": "",
+    "description_en": "Engraver from Germany (1470-1536)",
+    "source_url": "https://www.wikidata.org/wiki/Q548407"
+  },
+  {
+    "id": "Q683009",
+    "name": "알바 노토",
+    "description": "독일의 음악가",
+    "description_en": "German artist & musician (born 1965)",
+    "source_url": "https://www.wikidata.org/wiki/Q683009"
+  },
+  {
+    "id": "Q322965",
+    "name": "월터 러셀",
+    "description": "미국의 예술가 (1871-1963)",
+    "description_en": "American artist (1871-1963)",
+    "source_url": "https://www.wikidata.org/wiki/Q322965"
+  },
+  {
+    "id": "Q4025174",
+    "name": "앙헬 아티엔사",
+    "description": "",
+    "description_en": "Spanish footballer and artist (1931–2015)",
+    "source_url": "https://www.wikidata.org/wiki/Q4025174"
+  },
+  {
+    "id": "Q4243126",
+    "name": "콘스탄틴 크류코프",
+    "description": "러시아의 배우",
+    "description_en": "Russian actor",
+    "source_url": "https://www.wikidata.org/wiki/Q4243126"
+  },
+  {
+    "id": "Q940271",
+    "name": "딘 타불라리스",
+    "description": "미국의 영화 프로덕션 디자이너",
+    "description_en": "American production designer (1932–2026)",
+    "source_url": "https://www.wikidata.org/wiki/Q940271"
+  },
+  {
+    "id": "Q105664",
+    "name": "부르크하르트 드리스트",
+    "description": "독일의 배우, 영화감독, 각본가 (1939-2020)",
+    "description_en": "German actor (1939-2020)",
+    "source_url": "https://www.wikidata.org/wiki/Q105664"
+  },
+  {
+    "id": "Q1074727",
+    "name": "전류 (오대)",
+    "description": "",
+    "description_en": "King of Wuyue (852-932)",
+    "source_url": "https://www.wikidata.org/wiki/Q1074727"
+  },
+  {
+    "id": "Q3573298",
+    "name": "간노 유고",
+    "description": "일본 작곡가",
+    "description_en": "Japanese composer and musician (born 1977)",
+    "source_url": "https://www.wikidata.org/wiki/Q3573298"
+  },
+  {
+    "id": "Q709867",
+    "name": "이가염",
+    "description": "",
+    "description_en": "Chinese artist (1907-1989)",
+    "source_url": "https://www.wikidata.org/wiki/Q709867"
+  },
+  {
+    "id": "Q713000",
+    "name": "이임보",
+    "description": "",
+    "description_en": "Chinese statesman during the Tang dynasty (683-753)",
+    "source_url": "https://www.wikidata.org/wiki/Q713000"
+  },
+  {
+    "id": "Q7154764",
+    "name": "폴라 셰어",
+    "description": "",
+    "description_en": "American graphic designer (born 1948)",
+    "source_url": "https://www.wikidata.org/wiki/Q7154764"
+  },
+  {
+    "id": "Q1507300",
+    "name": "앨릭스 로스",
+    "description": "미국의 일러스트레이터",
+    "description_en": "American comic book artist",
+    "source_url": "https://www.wikidata.org/wiki/Q1507300"
+  },
+  {
+    "id": "Q456257",
+    "name": "디나 코르준",
+    "description": "",
+    "description_en": "Russian actress",
+    "source_url": "https://www.wikidata.org/wiki/Q456257"
+  },
+  {
+    "id": "Q2623984",
+    "name": "마리나 카렐라",
+    "description": "",
+    "description_en": "Greek visual artist (born 1940)",
+    "source_url": "https://www.wikidata.org/wiki/Q2623984"
+  },
+  {
+    "id": "Q98382515",
+    "name": "엘라 엠호프",
+    "description": "",
+    "description_en": "American fashion designer and model (born 1999)",
+    "source_url": "https://www.wikidata.org/wiki/Q98382515"
+  },
+  {
+    "id": "Q111995489",
+    "name": "엔리케 카브레라",
+    "description": "멕시코의 예술가",
+    "description_en": "Mexican artist",
+    "source_url": "https://www.wikidata.org/wiki/Q111995489"
+  },
+  {
+    "id": "Q456757",
+    "name": "제인 윈턴",
+    "description": "미국 배우",
+    "description_en": "American actress (1905–1959)",
+    "source_url": "https://www.wikidata.org/wiki/Q456757"
+  },
+  {
+    "id": "Q216004",
+    "name": "토마스 테오도르 하이네",
+    "description": "",
+    "description_en": "German artist (1867–1948)",
+    "source_url": "https://www.wikidata.org/wiki/Q216004"
+  },
+  {
+    "id": "Q544404",
+    "name": "와다 산조",
+    "description": "",
+    "description_en": "costume designer (1883-1967)",
+    "source_url": "https://www.wikidata.org/wiki/Q544404"
+  },
+  {
+    "id": "Q1093382",
+    "name": "에우세비오 폰셀라",
+    "description": "스페인 배우 (1945–2025)",
+    "description_en": "Spanish actor",
+    "source_url": "https://www.wikidata.org/wiki/Q1093382"
+  },
+  {
+    "id": "Q4502770",
+    "name": "로이스 해밀턴",
+    "description": "",
+    "description_en": "American model, actress, artist, author, and aviator (1952–1999)",
+    "source_url": "https://www.wikidata.org/wiki/Q4502770"
+  },
+  {
+    "id": "Q4772822",
+    "name": "앤서니 제임스 (1942년)",
+    "description": "미국의 배우 (1942–2020)",
+    "description_en": "American actor (1942–2020)",
+    "source_url": "https://www.wikidata.org/wiki/Q4772822"
+  },
+  {
+    "id": "Q985448",
+    "name": "주권 (영헌왕)",
+    "description": "명나라 왕자 (1378-1448)",
+    "description_en": "Ming dynasty prince (1378-1448)",
+    "source_url": "https://www.wikidata.org/wiki/Q985448"
+  },
+  {
+    "id": "Q1240575",
+    "name": "이토 자쿠추",
+    "description": "",
+    "description_en": "Japanese artist (1716-1800)",
+    "source_url": "https://www.wikidata.org/wiki/Q1240575"
+  },
+  {
+    "id": "Q382165",
+    "name": "아페웨르크 테클레",
+    "description": "",
+    "description_en": "Ethiopian artist (1932-2012)",
+    "source_url": "https://www.wikidata.org/wiki/Q382165"
+  },
+  {
+    "id": "Q743723",
+    "name": "리 맥클로스키",
+    "description": "",
+    "description_en": "American actor, artist and writer",
+    "source_url": "https://www.wikidata.org/wiki/Q743723"
+  },
+  {
+    "id": "Q862461",
+    "name": "빌 신케비치",
+    "description": "미국의 만화가",
+    "description_en": "American artist",
+    "source_url": "https://www.wikidata.org/wiki/Q862461"
+  },
+  {
+    "id": "Q373508",
+    "name": "C. D. 하우",
+    "description": "캐나다 정치인",
+    "description_en": "Canadian politician (1886–1960)",
+    "source_url": "https://www.wikidata.org/wiki/Q373508"
+  },
+  {
+    "id": "Q2272014",
+    "name": "다니엘 헨들러",
+    "description": "",
+    "description_en": "Uruguayan actor and director",
+    "source_url": "https://www.wikidata.org/wiki/Q2272014"
+  },
+  {
+    "id": "Q2038322",
+    "name": "온치 고시로",
+    "description": "",
+    "description_en": "Japanese artist (1891-1955)",
+    "source_url": "https://www.wikidata.org/wiki/Q2038322"
+  },
+  {
+    "id": "Q3113502",
+    "name": "카야마 유조",
+    "description": "",
+    "description_en": "Japanese pop singer, songwriter, actor",
+    "source_url": "https://www.wikidata.org/wiki/Q3113502"
+  },
+  {
+    "id": "Q1501372",
+    "name": "겐뒨 최펠",
+    "description": "",
+    "description_en": "Intellectual, artist, writer and scholar (1903-1951)",
+    "source_url": "https://www.wikidata.org/wiki/Q1501372"
+  },
+  {
+    "id": "Q532283",
+    "name": "벨린다 몽고메리",
+    "description": "",
+    "description_en": "Canadian-American actress",
+    "source_url": "https://www.wikidata.org/wiki/Q532283"
+  },
+  {
+    "id": "Q601198",
+    "name": "안토니오 캔타포라",
+    "description": "이탈리아의 배우 (1944–2024)",
+    "description_en": "Italian actor (1944–2024)",
+    "source_url": "https://www.wikidata.org/wiki/Q601198"
+  },
+  {
+    "id": "Q51029",
+    "name": "이방자",
+    "description": "의민태자의 부인",
+    "description_en": "Japanese-Korean princess",
+    "source_url": "https://www.wikidata.org/wiki/Q51029"
+  },
+  {
+    "id": "Q611335",
+    "name": "반 낫",
+    "description": "",
+    "description_en": "Cambodian writer and sculptor (1946-2011)",
+    "source_url": "https://www.wikidata.org/wiki/Q611335"
+  },
+  {
+    "id": "Q87941",
+    "name": "카를 뫼너",
+    "description": "오스트리아 배우",
+    "description_en": "Austrian actor (1921-2005)",
+    "source_url": "https://www.wikidata.org/wiki/Q87941"
+  },
+  {
+    "id": "Q888932",
+    "name": "알렉산데르 바르마",
+    "description": "에스토니아의 정치인 (1890–1970)",
+    "description_en": "Estonian politician (1890-1970)",
+    "source_url": "https://www.wikidata.org/wiki/Q888932"
+  },
+  {
+    "id": "Q707268",
+    "name": "개빈 프라이데이",
+    "description": "",
+    "description_en": "Irish singer",
+    "source_url": "https://www.wikidata.org/wiki/Q707268"
+  },
+  {
+    "id": "Q368605",
+    "name": "고노에 노부타다",
+    "description": "",
+    "description_en": "Japanese calligrapher (1565-1614)",
+    "source_url": "https://www.wikidata.org/wiki/Q368605"
+  },
+  {
+    "id": "Q697571",
+    "name": "오위업",
+    "description": "",
+    "description_en": "Chinese writer (1609-1671)",
+    "source_url": "https://www.wikidata.org/wiki/Q697571"
+  },
+  {
+    "id": "Q698537",
+    "name": "조셉 쿠",
+    "description": "",
+    "description_en": "Hong Kong composer (1931–2023)",
+    "source_url": "https://www.wikidata.org/wiki/Q698537"
+  },
+  {
+    "id": "Q711778",
+    "name": "나은 (당)",
+    "description": "",
+    "description_en": "Chinese writer and statesman (833-909)",
+    "source_url": "https://www.wikidata.org/wiki/Q711778"
+  },
+  {
+    "id": "Q384597",
+    "name": "안토닌 피베브르",
+    "description": "",
+    "description_en": "Czech footballer (1888–1973)",
+    "source_url": "https://www.wikidata.org/wiki/Q384597"
+  },
+  {
+    "id": "Q1762914",
+    "name": "산티아고 아미고레나",
+    "description": "",
+    "description_en": "Argentine-French screenwriter, film producer, film director and actor",
+    "source_url": "https://www.wikidata.org/wiki/Q1762914"
+  },
+  {
+    "id": "Q2264505",
+    "name": "필립 그뤽",
+    "description": "",
+    "description_en": "Belgian cartoonist and humorist",
+    "source_url": "https://www.wikidata.org/wiki/Q2264505"
+  },
+  {
+    "id": "Q446519",
+    "name": "호르스트 안테스",
+    "description": "",
+    "description_en": "German artist (born 1936)",
+    "source_url": "https://www.wikidata.org/wiki/Q446519"
+  },
+  {
+    "id": "Q2864466",
+    "name": "아르센 하이츠",
+    "description": "",
+    "description_en": "author of the Flag of Europe (1908-1989)",
+    "source_url": "https://www.wikidata.org/wiki/Q2864466"
+  },
+  {
+    "id": "Q484526",
+    "name": "김다울",
+    "description": "",
+    "description_en": "South Korean model (1989-2009)",
+    "source_url": "https://www.wikidata.org/wiki/Q484526"
+  },
+  {
+    "id": "Q1282784",
+    "name": "사혁",
+    "description": "",
+    "description_en": "Chinese art historian",
+    "source_url": "https://www.wikidata.org/wiki/Q1282784"
+  },
+  {
+    "id": "Q1285773",
+    "name": "안지추",
+    "description": "",
+    "description_en": "Chinese artist-scholar (531–591)",
+    "source_url": "https://www.wikidata.org/wiki/Q1285773"
+  },
+  {
+    "id": "Q4207332",
+    "name": "라리사 카도치니코바",
+    "description": "",
+    "description_en": "Ukrainian actress",
+    "source_url": "https://www.wikidata.org/wiki/Q4207332"
+  },
+  {
+    "id": "Q3806459",
+    "name": "제임스 B. 롱에이커",
+    "description": "",
+    "description_en": "American engraver (1794-1869)",
+    "source_url": "https://www.wikidata.org/wiki/Q3806459"
+  },
+  {
+    "id": "Q931169",
+    "name": "수보드 굽타",
+    "description": "",
+    "description_en": "Indian artist (born 1964)",
+    "source_url": "https://www.wikidata.org/wiki/Q931169"
+  },
+  {
+    "id": "Q1036784",
+    "name": "야율배",
+    "description": "",
+    "description_en": "King of Dongdan from 926 to 937; CBDB ID = 29262",
+    "source_url": "https://www.wikidata.org/wiki/Q1036784"
+  },
+  {
+    "id": "Q382945",
+    "name": "아폰소 베아토",
+    "description": "",
+    "description_en": "Brazilian cinematographer",
+    "source_url": "https://www.wikidata.org/wiki/Q382945"
+  },
+  {
+    "id": "Q4411191",
+    "name": "시그리드 샤우만",
+    "description": "",
+    "description_en": "Finnish artist and art critic (1877-1979)",
+    "source_url": "https://www.wikidata.org/wiki/Q4411191"
+  },
+  {
+    "id": "Q3566067",
+    "name": "왕광이",
+    "description": "",
+    "description_en": "Chinese artist (born 1957)",
+    "source_url": "https://www.wikidata.org/wiki/Q3566067"
+  },
+  {
+    "id": "Q3481752",
+    "name": "셰일라 힉스",
+    "description": "",
+    "description_en": "American artist (born 1934)",
+    "source_url": "https://www.wikidata.org/wiki/Q3481752"
+  },
+  {
+    "id": "Q707533",
+    "name": "구메 구니타케",
+    "description": "",
+    "description_en": "Japanese historian (1839-1931)",
+    "source_url": "https://www.wikidata.org/wiki/Q707533"
+  },
+  {
+    "id": "Q708659",
+    "name": "조지겸 (청나라)",
+    "description": "",
+    "description_en": "Chinese calligrapher (1829-1884)",
+    "source_url": "https://www.wikidata.org/wiki/Q708659"
+  },
+  {
+    "id": "Q1318360",
+    "name": "장미셸 폴롱",
+    "description": "",
+    "description_en": "Belgian artist (1934–2005)",
+    "source_url": "https://www.wikidata.org/wiki/Q1318360"
+  },
+  {
+    "id": "Q11531839",
+    "name": "마쓰우라 다케시로",
+    "description": "일본의 탐험가 (1818~1888)",
+    "description_en": "geographer and explorer (1818-1888)",
+    "source_url": "https://www.wikidata.org/wiki/Q11531839"
+  },
+  {
+    "id": "Q3141534",
+    "name": "하워드 챈들러 크리스티",
+    "description": "",
+    "description_en": "American artist (1873–1952)",
+    "source_url": "https://www.wikidata.org/wiki/Q3141534"
+  },
+  {
+    "id": "Q445593",
+    "name": "플로렌틴 로스트 판 토닝언",
+    "description": "",
+    "description_en": "Dutch Nazi collaborator (1914-2007)",
+    "source_url": "https://www.wikidata.org/wiki/Q445593"
+  },
+  {
+    "id": "Q471243",
+    "name": "신키치 타지리",
+    "description": "미국의 조각가",
+    "description_en": "American-Dutch visual artist (1923-2009)",
+    "source_url": "https://www.wikidata.org/wiki/Q471243"
+  },
+  {
+    "id": "Q630165",
+    "name": "마소 피니게라",
+    "description": "",
+    "description_en": "Italian goldsmith, draftsman and engraver (1426–1464)",
+    "source_url": "https://www.wikidata.org/wiki/Q630165"
+  },
+  {
+    "id": "Q558288",
+    "name": "프란시스 알리스",
+    "description": "",
+    "description_en": "belgian artist (born 1959)",
+    "source_url": "https://www.wikidata.org/wiki/Q558288"
+  },
+  {
+    "id": "Q626991",
+    "name": "이재진 (1979년)",
+    "description": "대한민국의 남자 가수, 래퍼",
+    "description_en": "South Korean singer (1979-)",
+    "source_url": "https://www.wikidata.org/wiki/Q626991"
+  },
+  {
+    "id": "Q920086",
+    "name": "콘스탄틴 바실례프",
+    "description": "",
+    "description_en": "Soviet artist (1942-1976)",
+    "source_url": "https://www.wikidata.org/wiki/Q920086"
+  },
+  {
+    "id": "Q1065775",
+    "name": "샤를 필리퐁",
+    "description": "",
+    "description_en": "French journalist and artist (1806-1862)",
+    "source_url": "https://www.wikidata.org/wiki/Q1065775"
+  },
+  {
+    "id": "Q5605888",
+    "name": "그렉 로렌",
+    "description": "",
+    "description_en": "American actor",
+    "source_url": "https://www.wikidata.org/wiki/Q5605888"
+  },
+  {
+    "id": "Q77889",
+    "name": "올가 코스타",
+    "description": "",
+    "description_en": "Mexican artist (1913-1993)",
+    "source_url": "https://www.wikidata.org/wiki/Q77889"
+  },
+  {
+    "id": "Q3506296",
+    "name": "스베틀라나 바스코바",
+    "description": "러시아 영화 감독, 각본가",
+    "description_en": "Russian screenwriter, film producer and film director",
+    "source_url": "https://www.wikidata.org/wiki/Q3506296"
+  },
+  {
+    "id": "Q176409",
+    "name": "브렛 화이틀리",
+    "description": "",
+    "description_en": "Australian artist (1939-1992)",
+    "source_url": "https://www.wikidata.org/wiki/Q176409"
+  },
+  {
+    "id": "Q714270",
+    "name": "장언원",
+    "description": "",
+    "description_en": "Cinese historian (c.815-c.877)",
+    "source_url": "https://www.wikidata.org/wiki/Q714270"
+  },
+  {
+    "id": "Q388589",
+    "name": "움베르토 라모스",
+    "description": "",
+    "description_en": "comics artist",
+    "source_url": "https://www.wikidata.org/wiki/Q388589"
+  },
+  {
+    "id": "Q1914367",
+    "name": "메이 윈",
+    "description": "",
+    "description_en": "American dancer, animator, cartoonist, singer and actress (1930–2021)",
+    "source_url": "https://www.wikidata.org/wiki/Q1914367"
+  },
+  {
+    "id": "Q2849884",
+    "name": "안 두옹",
+    "description": "",
+    "description_en": "French actress and model (born 1960)",
+    "source_url": "https://www.wikidata.org/wiki/Q2849884"
+  },
+  {
+    "id": "Q2666181",
+    "name": "기예르모 바르가스",
+    "description": "연구원",
+    "description_en": "Visual Artist",
+    "source_url": "https://www.wikidata.org/wiki/Q2666181"
+  },
+  {
+    "id": "Q3361222",
+    "name": "마킨티 나파낭카",
+    "description": "",
+    "description_en": "Indigenous Australian artist (c.1930-2011)",
+    "source_url": "https://www.wikidata.org/wiki/Q3361222"
+  },
+  {
+    "id": "Q353573",
+    "name": "마이크 데오다투",
+    "description": "",
+    "description_en": "Brazilian comic book artist",
+    "source_url": "https://www.wikidata.org/wiki/Q353573"
+  },
+  {
+    "id": "Q324068",
+    "name": "마레크 바슈트",
+    "description": "",
+    "description_en": "Czech actor, photographer, artist, and television presenter",
+    "source_url": "https://www.wikidata.org/wiki/Q324068"
+  },
+  {
+    "id": "Q557096",
+    "name": "엔커 엘리 피터슨",
+    "description": "",
+    "description_en": "Faroese writer and artist",
+    "source_url": "https://www.wikidata.org/wiki/Q557096"
+  },
+  {
+    "id": "Q569354",
+    "name": "고틀리프 시크",
+    "description": "",
+    "description_en": "German artist (1776-1812)",
+    "source_url": "https://www.wikidata.org/wiki/Q569354"
+  },
+  {
+    "id": "Q675547",
+    "name": "장충런",
+    "description": "중국 예술가",
+    "description_en": "Chinese artist (1907-1998)",
+    "source_url": "https://www.wikidata.org/wiki/Q675547"
+  },
+  {
+    "id": "Q621627",
+    "name": "알렉사 미드",
+    "description": "미국의 예술가",
+    "description_en": "American artist",
+    "source_url": "https://www.wikidata.org/wiki/Q621627"
+  },
+  {
+    "id": "Q1185708",
+    "name": "라팔 올빈스키",
+    "description": "",
+    "description_en": "Polish artist",
+    "source_url": "https://www.wikidata.org/wiki/Q1185708"
+  },
+  {
+    "id": "Q4757751",
+    "name": "앤드류 레비타스",
+    "description": "",
+    "description_en": "American actor",
+    "source_url": "https://www.wikidata.org/wiki/Q4757751"
+  },
+  {
+    "id": "Q989861",
+    "name": "리크리트 티라바니자",
+    "description": "",
+    "description_en": "contemporary artist (born 1961)",
+    "source_url": "https://www.wikidata.org/wiki/Q989861"
+  },
+  {
+    "id": "Q1042125",
+    "name": "화암",
+    "description": "",
+    "description_en": "Chinese artist (1682-1756); CBDB ID = 74523",
+    "source_url": "https://www.wikidata.org/wiki/Q1042125"
+  },
+  {
+    "id": "Q1114127",
+    "name": "미나미 (배우)",
+    "description": "",
+    "description_en": "Japanese actress (1986-)",
+    "source_url": "https://www.wikidata.org/wiki/Q1114127"
+  },
+  {
+    "id": "Q1132877",
+    "name": "웨민쥔",
+    "description": "",
+    "description_en": "Chinese artist (born 1962)",
+    "source_url": "https://www.wikidata.org/wiki/Q1132877"
+  },
+  {
+    "id": "Q77886",
+    "name": "라인하르트 괴링",
+    "description": "",
+    "description_en": "German playwright (1887–1936)",
+    "source_url": "https://www.wikidata.org/wiki/Q77886"
+  },
+  {
+    "id": "Q6216686",
+    "name": "요하네스 게르츠",
+    "description": "19세기 독일 일러스트레이터(1855-1921)",
+    "description_en": "German illustrator (1855-1921)",
+    "source_url": "https://www.wikidata.org/wiki/Q6216686"
+  },
+  {
+    "id": "Q6252800",
+    "name": "존 필립",
+    "description": "",
+    "description_en": "British artist (1817-1867)",
+    "source_url": "https://www.wikidata.org/wiki/Q6252800"
+  },
+  {
+    "id": "Q16696068",
+    "name": "안나 자야치키우스카",
+    "description": "",
+    "description_en": "Ukrainian singer",
+    "source_url": "https://www.wikidata.org/wiki/Q16696068"
+  },
+  {
+    "id": "Q241927",
+    "name": "타키스 (조각가)",
+    "description": "",
+    "description_en": "Greek sculptor (1925-2019)",
+    "source_url": "https://www.wikidata.org/wiki/Q241927"
+  },
+  {
+    "id": "Q6828210",
+    "name": "마이클 앤드류 로",
+    "description": "",
+    "description_en": "Hong Kong filmmaker and artist",
+    "source_url": "https://www.wikidata.org/wiki/Q6828210"
+  },
+  {
+    "id": "Q10943311",
+    "name": "요광효",
+    "description": "",
+    "description_en": "Ming dynasty person CBDB = 35140 (1335–1418)",
+    "source_url": "https://www.wikidata.org/wiki/Q10943311"
+  },
+  {
+    "id": "Q456626",
+    "name": "앨리슨 래퍼",
+    "description": "",
+    "description_en": "English artist",
+    "source_url": "https://www.wikidata.org/wiki/Q456626"
+  },
+  {
+    "id": "Q2881899",
+    "name": "줄리아 솔로모노프",
+    "description": "",
+    "description_en": "Argentine actor and film director (born 1968)",
+    "source_url": "https://www.wikidata.org/wiki/Q2881899"
+  },
+  {
+    "id": "Q3034215",
+    "name": "W. G. 콜링우드",
+    "description": "",
+    "description_en": "English author, artist, antiquary and professor of Fine Arts (1854–1932)",
+    "source_url": "https://www.wikidata.org/wiki/Q3034215"
+  },
+  {
+    "id": "Q26857910",
+    "name": "그레타 짐머 프리드먼",
+    "description": "",
+    "description_en": "Austrian-born American woman in iconic photo (1924-2016)",
+    "source_url": "https://www.wikidata.org/wiki/Q26857910"
+  },
+  {
+    "id": "Q496216",
+    "name": "이구지",
+    "description": "",
+    "description_en": "Royalty, writer, dancer and poet",
+    "source_url": "https://www.wikidata.org/wiki/Q496216"
+  },
+  {
+    "id": "Q15724671",
+    "name": "P. K. 마하난디아",
+    "description": "",
+    "description_en": "Swedish artist",
+    "source_url": "https://www.wikidata.org/wiki/Q15724671"
+  },
+  {
+    "id": "Q851708",
+    "name": "대니얼 윌슨 (학자)",
+    "description": "영국 출신, 캐나다의 고고학자, 민족학자, 저술가 (1816–1892)",
+    "description_en": "President of the University of Toronto (1816-1892)",
+    "source_url": "https://www.wikidata.org/wiki/Q851708"
+  },
+  {
+    "id": "Q3808923",
+    "name": "인회황후",
+    "description": "",
+    "description_en": "Song Dynasty emperess (1102-1127). Chinese woman poet in Song Dynasty. CBDB ID=0004219",
+    "source_url": "https://www.wikidata.org/wiki/Q3808923"
+  },
+  {
+    "id": "Q1017028",
+    "name": "주량공",
+    "description": "",
+    "description_en": "Chinese poet (1612-1672)",
+    "source_url": "https://www.wikidata.org/wiki/Q1017028"
+  },
+  {
+    "id": "Q287222",
+    "name": "유감동",
+    "description": "",
+    "description_en": "Korean kisaeng (fl. 15th century)",
+    "source_url": "https://www.wikidata.org/wiki/Q287222"
+  },
+  {
+    "id": "Q698543",
+    "name": "진헌장",
+    "description": "",
+    "description_en": "Chinese Confucianist scholar (1428-1500)",
+    "source_url": "https://www.wikidata.org/wiki/Q698543"
+  },
+  {
+    "id": "Q7938803",
+    "name": "블라디미르 야보르스키",
+    "description": "체코의 배우",
+    "description_en": "Czech actor",
+    "source_url": "https://www.wikidata.org/wiki/Q7938803"
+  },
+  {
+    "id": "Q20676079",
+    "name": "브래드 카터",
+    "description": "",
+    "description_en": "American actor, musician, photographer and artist",
+    "source_url": "https://www.wikidata.org/wiki/Q20676079"
+  },
+  {
+    "id": "Q27619253",
+    "name": "주디 싱어",
+    "description": "호주의 심리학자 및 사회학자",
+    "description_en": "Australian psychologist and sociologist",
+    "source_url": "https://www.wikidata.org/wiki/Q27619253"
+  },
+  {
+    "id": "Q3161186",
+    "name": "제임스 진",
+    "description": "",
+    "description_en": "artist",
+    "source_url": "https://www.wikidata.org/wiki/Q3161186"
+  },
+  {
+    "id": "Q497120",
+    "name": "이제현",
+    "description": "고려의 문신 (1287–1367)",
+    "description_en": "Korea Goryeo scholar (1287-1367)",
+    "source_url": "https://www.wikidata.org/wiki/Q497120"
+  },
+  {
+    "id": "Q15941205",
+    "name": "알렉세이 간",
+    "description": "러시아의 디자이너, 예술가",
+    "description_en": "Russian designer and artist",
+    "source_url": "https://www.wikidata.org/wiki/Q15941205"
+  },
+  {
+    "id": "Q628282",
+    "name": "존 페크너",
+    "description": "",
+    "description_en": "American artist (born 1950)",
+    "source_url": "https://www.wikidata.org/wiki/Q628282"
+  },
+  {
+    "id": "Q3804759",
+    "name": "이방 헤이스",
+    "description": "",
+    "description_en": "comic artist",
+    "source_url": "https://www.wikidata.org/wiki/Q3804759"
+  },
+  {
+    "id": "Q3807739",
+    "name": "잔 모딜리아니",
+    "description": "",
+    "description_en": "Italian essayist (1918–1984)",
+    "source_url": "https://www.wikidata.org/wiki/Q3807739"
+  },
+  {
+    "id": "Q4885823",
+    "name": "벤 하이네",
+    "description": "",
+    "description_en": "Belgian artist",
+    "source_url": "https://www.wikidata.org/wiki/Q4885823"
+  },
+  {
+    "id": "Q4357169",
+    "name": "사가 소라야",
+    "description": "",
+    "description_en": "Japanese illustrator",
+    "source_url": "https://www.wikidata.org/wiki/Q4357169"
+  },
+  {
+    "id": "Q985522",
+    "name": "옹동화",
+    "description": "청나라의 정치인, 서예가 (1830-1904)",
+    "description_en": "Chinese Confucian scholar and imperial tutor during the Qing dynasty (1830-1904)",
+    "source_url": "https://www.wikidata.org/wiki/Q985522"
+  },
+  {
+    "id": "Q702588",
+    "name": "장녹수",
+    "description": "조선 연산군의 후궁",
+    "description_en": "Consort of Yeonsangun of Joseon",
+    "source_url": "https://www.wikidata.org/wiki/Q702588"
+  },
+  {
+    "id": "Q4149738",
+    "name": "매기 그리펜베리",
+    "description": "",
+    "description_en": "Finnish ballet dancer (1881-1976)",
+    "source_url": "https://www.wikidata.org/wiki/Q4149738"
+  },
+  {
+    "id": "Q7422172",
+    "name": "사라 세실리아 해리슨",
+    "description": "",
+    "description_en": "Irish artist (1863-1941)",
+    "source_url": "https://www.wikidata.org/wiki/Q7422172"
+  },
+  {
+    "id": "Q7513302",
+    "name": "시구르드 베텐호비아스파",
+    "description": "",
+    "description_en": "Finnish artist (1870-1946)",
+    "source_url": "https://www.wikidata.org/wiki/Q7513302"
+  },
+  {
+    "id": "Q1703986",
+    "name": "요린데 포크트",
+    "description": "독일 예술가",
+    "description_en": "German artist (born 1977)",
+    "source_url": "https://www.wikidata.org/wiki/Q1703986"
+  },
+  {
+    "id": "Q16734137",
+    "name": "제프리 빈센트 파리세",
+    "description": "",
+    "description_en": "American actor and artist",
+    "source_url": "https://www.wikidata.org/wiki/Q16734137"
+  },
+  {
+    "id": "Q7070166",
+    "name": "누르나닝시",
+    "description": "인도네시아 배우",
+    "description_en": "Indonesian actress",
+    "source_url": "https://www.wikidata.org/wiki/Q7070166"
+  },
+  {
+    "id": "Q8060028",
+    "name": "위안커딩",
+    "description": "중국의 학자",
+    "description_en": "Chinese scholar",
+    "source_url": "https://www.wikidata.org/wiki/Q8060028"
+  },
+  {
+    "id": "Q2112649",
+    "name": "사마승정",
+    "description": "",
+    "description_en": "Taoist under Tang Dynasty (647-735)",
+    "source_url": "https://www.wikidata.org/wiki/Q2112649"
+  },
+  {
+    "id": "Q2756616",
+    "name": "마르코 주르제비치",
+    "description": "독일의 일러스트레이터",
+    "description_en": "illustrator",
+    "source_url": "https://www.wikidata.org/wiki/Q2756616"
+  },
+  {
+    "id": "Q12596260",
+    "name": "민원식",
+    "description": "일제강점기의 정치인",
+    "description_en": "Korean writer and politician (1886-1921)",
+    "source_url": "https://www.wikidata.org/wiki/Q12596260"
+  },
+  {
+    "id": "Q3322872",
+    "name": "티퍼니 앤더슨",
+    "description": "미국의 가수로, 걸 그룹 걸리셔스의 멤버였다",
+    "description_en": "American singer and dancer",
+    "source_url": "https://www.wikidata.org/wiki/Q3322872"
+  },
+  {
+    "id": "Q133688659",
+    "name": "마이클 스무스",
+    "description": "",
+    "description_en": "Israeli Holocaust survivor and artist",
+    "source_url": "https://www.wikidata.org/wiki/Q133688659"
+  },
+  {
+    "id": "Q1279374",
+    "name": "오카다 겐조",
+    "description": "",
+    "description_en": "Japanese-American artist (1902-1982)",
+    "source_url": "https://www.wikidata.org/wiki/Q1279374"
+  },
+  {
+    "id": "Q4377426",
+    "name": "버넌 프레슬리",
+    "description": "",
+    "description_en": "father of Elvis Presley (1916-1979)",
+    "source_url": "https://www.wikidata.org/wiki/Q4377426"
+  },
+  {
+    "id": "Q5335818",
+    "name": "에디 애플게이트",
+    "description": "",
+    "description_en": "American artist (1935-2016)",
+    "source_url": "https://www.wikidata.org/wiki/Q5335818"
+  },
+  {
+    "id": "Q1135007",
+    "name": "츠츠이 하지메",
+    "description": "",
+    "description_en": "Japanese artist",
+    "source_url": "https://www.wikidata.org/wiki/Q1135007"
+  },
+  {
+    "id": "Q3574245",
+    "name": "양용량",
+    "description": "중국의 현대 예술가",
+    "description_en": "Chinese artist (born 1980)",
+    "source_url": "https://www.wikidata.org/wiki/Q3574245"
+  },
+  {
+    "id": "Q18211768",
+    "name": "아멜리아 왓슨",
+    "description": "",
+    "description_en": "American watercolorist",
+    "source_url": "https://www.wikidata.org/wiki/Q18211768"
+  },
+  {
+    "id": "Q11671469",
+    "name": "타카하시 마코토",
+    "description": "",
+    "description_en": "Japanese artist (1934–2024)",
+    "source_url": "https://www.wikidata.org/wiki/Q11671469"
+  },
+  {
+    "id": "Q2833412",
+    "name": "알렉산드레 아레체아",
+    "description": "쿠바의 현대 미술가",
+    "description_en": "Cuban artist (born 1970)",
+    "source_url": "https://www.wikidata.org/wiki/Q2833412"
+  },
+  {
+    "id": "Q493135",
+    "name": "조영남",
+    "description": "대한민국의 가수",
+    "description_en": "South Korean singer",
+    "source_url": "https://www.wikidata.org/wiki/Q493135"
+  },
+  {
+    "id": "Q624152",
+    "name": "정칠성",
+    "description": "",
+    "description_en": "Korean dancer and independence activist, feminist, philosopher (1897-1958)",
+    "source_url": "https://www.wikidata.org/wiki/Q624152"
+  },
+  {
+    "id": "Q4685512",
+    "name": "아드리아나 멜루",
+    "description": "브라질의 만화가",
+    "description_en": "Brazilian comic artist",
+    "source_url": "https://www.wikidata.org/wiki/Q4685512"
+  },
+  {
+    "id": "Q12622520",
+    "name": "하일지",
+    "description": "",
+    "description_en": "South Korean writer",
+    "source_url": "https://www.wikidata.org/wiki/Q12622520"
+  },
+  {
+    "id": "Q6224236",
+    "name": "존 번 (각본가)",
+    "description": "",
+    "description_en": "Scottish playwright and artist (1940-2023)",
+    "source_url": "https://www.wikidata.org/wiki/Q6224236"
+  },
+  {
+    "id": "Q5353675",
+    "name": "완완",
+    "description": "",
+    "description_en": "Taiwanese blogger and comics artist",
+    "source_url": "https://www.wikidata.org/wiki/Q5353675"
+  },
+  {
+    "id": "Q6147970",
+    "name": "설직",
+    "description": "",
+    "description_en": "Chinese chancellor (649-713)",
+    "source_url": "https://www.wikidata.org/wiki/Q6147970"
+  },
+  {
+    "id": "Q947892",
+    "name": "팡리쥔",
+    "description": "",
+    "description_en": "Chinese artist (born 1963)",
+    "source_url": "https://www.wikidata.org/wiki/Q947892"
+  },
+  {
+    "id": "Q869917",
+    "name": "프아 하리피탁",
+    "description": "",
+    "description_en": "Thai artist (1910-1993)",
+    "source_url": "https://www.wikidata.org/wiki/Q869917"
+  },
+  {
+    "id": "Q873648",
+    "name": "와산 시티켓",
+    "description": "",
+    "description_en": "Thai artist-writer",
+    "source_url": "https://www.wikidata.org/wiki/Q873648"
+  },
+  {
+    "id": "Q3498600",
+    "name": "스티븐 랙",
+    "description": "",
+    "description_en": "Canadian artist and actor (born 1946)",
+    "source_url": "https://www.wikidata.org/wiki/Q3498600"
+  },
+  {
+    "id": "Q21598100",
+    "name": "정쯔차이",
+    "description": "",
+    "description_en": "Taiwanese political activist",
+    "source_url": "https://www.wikidata.org/wiki/Q21598100"
+  },
+  {
+    "id": "Q1540165",
+    "name": "실비아 크반트",
+    "description": "",
+    "description_en": "German artist (born 1939)",
+    "source_url": "https://www.wikidata.org/wiki/Q1540165"
+  },
+  {
+    "id": "Q2085622",
+    "name": "마르테 뢸링",
+    "description": "",
+    "description_en": "Dutch graphic designer (born 1939)",
+    "source_url": "https://www.wikidata.org/wiki/Q2085622"
+  },
+  {
+    "id": "Q7821688",
+    "name": "영용",
+    "description": "",
+    "description_en": "Chinese calligrapher; sixth son of the Qianlong Emperor (1744-1790)",
+    "source_url": "https://www.wikidata.org/wiki/Q7821688"
+  },
+  {
+    "id": "Q12306100",
+    "name": "크리스티안 무리에르페테르센",
+    "description": "",
+    "description_en": "peintre (1858-1945)",
+    "source_url": "https://www.wikidata.org/wiki/Q12306100"
+  },
+  {
+    "id": "Q2833574",
+    "name": "알렉상드르 당",
+    "description": "프랑스 아티스트",
+    "description_en": "French artist (born 1973)",
+    "source_url": "https://www.wikidata.org/wiki/Q2833574"
+  },
+  {
+    "id": "Q25712566",
+    "name": "채함",
+    "description": "",
+    "description_en": "Chinese artist (1647–1686)",
+    "source_url": "https://www.wikidata.org/wiki/Q25712566"
+  },
+  {
+    "id": "Q2512372",
+    "name": "카타오카 츠루타로",
+    "description": "",
+    "description_en": "Japanese actor",
+    "source_url": "https://www.wikidata.org/wiki/Q2512372"
+  },
+  {
+    "id": "Q624197",
+    "name": "안평대군",
+    "description": "",
+    "description_en": "Korean prince (1418-1453)",
+    "source_url": "https://www.wikidata.org/wiki/Q624197"
+  },
+  {
+    "id": "Q5336631",
+    "name": "에디 배로스",
+    "description": "브라질의 만화가",
+    "description_en": "Brazilian comic book artist",
+    "source_url": "https://www.wikidata.org/wiki/Q5336631"
+  },
+  {
+    "id": "Q1113788",
+    "name": "아리엘 올리베티",
+    "description": "아르헨티나의 만화가",
+    "description_en": "Argentine comic book illustrator (born 1967)",
+    "source_url": "https://www.wikidata.org/wiki/Q1113788"
+  },
+  {
+    "id": "Q5108433",
+    "name": "크리스 왓슨 (음악가)",
+    "description": "",
+    "description_en": "English musician and wildlife sound recordist",
+    "source_url": "https://www.wikidata.org/wiki/Q5108433"
+  },
+  {
+    "id": "Q1065772",
+    "name": "샤를 드 티에리",
+    "description": "1830년대 뉴질랜드의 영유권을 주장했던 프랑스계 네덜란드인",
+    "description_en": "Dutch adventurer (1793-1864)",
+    "source_url": "https://www.wikidata.org/wiki/Q1065772"
+  },
+  {
+    "id": "Q4261918",
+    "name": "한휴",
+    "description": "",
+    "description_en": "Chinese chancellor (672-739)",
+    "source_url": "https://www.wikidata.org/wiki/Q4261918"
+  },
+  {
+    "id": "Q5369182",
+    "name": "오대징",
+    "description": "",
+    "description_en": "Qing dynasty person CBDB = 61653 (1835–1902)",
+    "source_url": "https://www.wikidata.org/wiki/Q5369182"
+  },
+  {
+    "id": "Q6199963",
+    "name": "지미 데 사나",
+    "description": "",
+    "description_en": "American photographer, 1950-1990",
+    "source_url": "https://www.wikidata.org/wiki/Q6199963"
+  },
+  {
+    "id": "Q913087",
+    "name": "브라이언 스텔프리즈",
+    "description": "미국의 만화가",
+    "description_en": "American comics artist",
+    "source_url": "https://www.wikidata.org/wiki/Q913087"
+  },
+  {
+    "id": "Q500591",
+    "name": "담징",
+    "description": "고구려의 승려 (579–631)",
+    "description_en": "Korean Buddhist priest (579 - 631)",
+    "source_url": "https://www.wikidata.org/wiki/Q500591"
+  },
+  {
+    "id": "Q6205028",
+    "name": "조앤 어들리",
+    "description": "",
+    "description_en": "Scottish artist (1921-1963)",
+    "source_url": "https://www.wikidata.org/wiki/Q6205028"
+  },
+  {
+    "id": "Q11290920",
+    "name": "엘리자베스 키스",
+    "description": "영국의 여성 판화작가 (1887–1956)",
+    "description_en": "Scottish artist (1887-1956)",
+    "source_url": "https://www.wikidata.org/wiki/Q11290920"
+  },
+  {
+    "id": "Q16238822",
+    "name": "노먼 영",
+    "description": "",
+    "description_en": "Canadian actor",
+    "source_url": "https://www.wikidata.org/wiki/Q16238822"
+  },
+  {
+    "id": "Q17523823",
+    "name": "엠마 퍼레어",
+    "description": "",
+    "description_en": "fashion model",
+    "source_url": "https://www.wikidata.org/wiki/Q17523823"
+  },
+  {
+    "id": "Q20127303",
+    "name": "윌리엄 로즈",
+    "description": "",
+    "description_en": "American film poster artist (1909–1972)",
+    "source_url": "https://www.wikidata.org/wiki/Q20127303"
+  },
+  {
+    "id": "Q11365511",
+    "name": "나카무라 히로시 (화가)",
+    "description": "",
+    "description_en": "Japanese artist",
+    "source_url": "https://www.wikidata.org/wiki/Q11365511"
+  },
+  {
+    "id": "Q11413624",
+    "name": "요시다 하쓰사부로",
+    "description": "",
+    "description_en": "Japanese illustrator (1884–1955)",
+    "source_url": "https://www.wikidata.org/wiki/Q11413624"
+  },
+  {
+    "id": "Q3228934",
+    "name": "이소영 (만화가)",
+    "description": "대한민국의 만화가",
+    "description_en": "South Korean manhwa artist",
+    "source_url": "https://www.wikidata.org/wiki/Q3228934"
+  },
+  {
+    "id": "Q2821787",
+    "name": "Above",
+    "description": "그리피티 작가",
+    "description_en": "American abstract artist",
+    "source_url": "https://www.wikidata.org/wiki/Q2821787"
+  },
+  {
+    "id": "Q14119009",
+    "name": "호세 루이스 산스",
+    "description": "",
+    "description_en": "Spanish politician",
+    "source_url": "https://www.wikidata.org/wiki/Q14119009"
+  },
+  {
+    "id": "Q12613136",
+    "name": "이현상 (1770년)",
+    "description": "조선 후기의 문신, 시인, 외교관, 역사가",
+    "description_en": "Korean writer, bureaucrat, poet and diplomat of Joseon dynasty",
+    "source_url": "https://www.wikidata.org/wiki/Q12613136"
+  },
+  {
+    "id": "Q4384839",
+    "name": "비탈리 푸시니츠키",
+    "description": "",
+    "description_en": "Russian artist",
+    "source_url": "https://www.wikidata.org/wiki/Q4384839"
+  },
+  {
+    "id": "Q6354146",
+    "name": "이응노",
+    "description": "한국 예술가(1904-1989)",
+    "description_en": "Korean Frech artist (1904-1989)",
+    "source_url": "https://www.wikidata.org/wiki/Q6354146"
+  },
+  {
+    "id": "Q1220846",
+    "name": "네메트 팔",
+    "description": "",
+    "description_en": "Hungarian athlete, specialized in hammer throwing (1937-2009)",
+    "source_url": "https://www.wikidata.org/wiki/Q1220846"
+  },
+  {
+    "id": "Q4134242",
+    "name": "VOFAN",
+    "description": "",
+    "description_en": "Taiwanese illustrator",
+    "source_url": "https://www.wikidata.org/wiki/Q4134242"
+  },
+  {
+    "id": "Q3901579",
+    "name": "피비 르게르",
+    "description": "",
+    "description_en": "American actor, writer and musician",
+    "source_url": "https://www.wikidata.org/wiki/Q3901579"
+  },
+  {
+    "id": "Q5130204",
+    "name": "클레이턴 크레인",
+    "description": "미국의 만화가",
+    "description_en": "artist",
+    "source_url": "https://www.wikidata.org/wiki/Q5130204"
+  },
+  {
+    "id": "Q5202343",
+    "name": "칸디도 비도",
+    "description": "",
+    "description_en": "Dominican Republic artist (1936-2011)",
+    "source_url": "https://www.wikidata.org/wiki/Q5202343"
+  },
+  {
+    "id": "Q8016915",
+    "name": "아좌태자",
+    "description": "",
+    "description_en": "",
+    "source_url": "https://www.wikidata.org/wiki/Q8016915"
+  },
+  {
+    "id": "Q19325460",
+    "name": "새뮤얼 데이비스 (외교관)",
+    "description": "",
+    "description_en": "British East India Company servant, artist, and orientalist",
+    "source_url": "https://www.wikidata.org/wiki/Q19325460"
+  },
+  {
+    "id": "Q16924402",
+    "name": "사패림",
+    "description": "",
+    "description_en": "Chinese artist",
+    "source_url": "https://www.wikidata.org/wiki/Q16924402"
+  },
+  {
+    "id": "Q18052759",
+    "name": "윤석남",
+    "description": "",
+    "description_en": "South Korean artist (born 1939)",
+    "source_url": "https://www.wikidata.org/wiki/Q18052759"
+  },
+  {
+    "id": "Q23652262",
+    "name": "이성근 (공예가)",
+    "description": "",
+    "description_en": "South Korean artist",
+    "source_url": "https://www.wikidata.org/wiki/Q23652262"
+  },
+  {
+    "id": "Q11095415",
+    "name": "이원도 (1821년)",
+    "description": "청나라 상군의 지휘관, 학자",
+    "description_en": "Qing dynasty person CBDB = 65617",
+    "source_url": "https://www.wikidata.org/wiki/Q11095415"
+  },
+  {
+    "id": "Q11172703",
+    "name": "선우추",
+    "description": "",
+    "description_en": "Yuan dynasty politician",
+    "source_url": "https://www.wikidata.org/wiki/Q11172703"
+  },
+  {
+    "id": "Q6981319",
+    "name": "노린 자임",
+    "description": "",
+    "description_en": "actress, model, artist, boxer",
+    "source_url": "https://www.wikidata.org/wiki/Q6981319"
+  },
+  {
+    "id": "Q7969753",
+    "name": "워너 샐먼",
+    "description": "",
+    "description_en": "American artist (1892-1968)",
+    "source_url": "https://www.wikidata.org/wiki/Q7969753"
+  },
+  {
+    "id": "Q1741576",
+    "name": "김성근 (1948년)",
+    "description": "",
+    "description_en": "artist",
+    "source_url": "https://www.wikidata.org/wiki/Q1741576"
+  },
+  {
+    "id": "Q81226414",
+    "name": "강서경 (미술가)",
+    "description": "",
+    "description_en": "South Korean artist",
+    "source_url": "https://www.wikidata.org/wiki/Q81226414"
+  },
+  {
+    "id": "Q97190987",
+    "name": "최욱경",
+    "description": "",
+    "description_en": "South Korean artist (1940–1985)",
+    "source_url": "https://www.wikidata.org/wiki/Q97190987"
+  },
+  {
+    "id": "Q11429195",
+    "name": "마시야마 마사카타",
+    "description": "",
+    "description_en": "Japanese artist and daimyō (1754-1819)",
+    "source_url": "https://www.wikidata.org/wiki/Q11429195"
+  },
+  {
+    "id": "Q3196806",
+    "name": "김성환 (만화가)",
+    "description": "대한민국의 시사 만화가 (1932-2019)",
+    "description_en": "South Korean cartoonist (1932-2019)",
+    "source_url": "https://www.wikidata.org/wiki/Q3196806"
+  },
+  {
+    "id": "Q626310",
+    "name": "김조순",
+    "description": "조선 후기의 문신, 정치가 (1765–1732)",
+    "description_en": "Joseon political figure (1765–1832); father of Queen Sunwon of Joseon",
+    "source_url": "https://www.wikidata.org/wiki/Q626310"
+  },
+  {
+    "id": "Q12625472",
+    "name": "홍익한",
+    "description": "",
+    "description_en": "Joseon civil servant (1586 - 1637)",
+    "source_url": "https://www.wikidata.org/wiki/Q12625472"
+  },
+  {
+    "id": "Q5238032",
+    "name": "데이비드 힉스",
+    "description": "",
+    "description_en": "English interior decorator and designer (1929-1998)",
+    "source_url": "https://www.wikidata.org/wiki/Q5238032"
+  },
+  {
+    "id": "Q6204427",
+    "name": "조태억",
+    "description": "조선의 문신",
+    "description_en": "Korean diplomat",
+    "source_url": "https://www.wikidata.org/wiki/Q6204427"
+  },
+  {
+    "id": "Q4792796",
+    "name": "아르만도 모랄레스",
+    "description": "",
+    "description_en": "Nicaraguan artist (1927-2011)",
+    "source_url": "https://www.wikidata.org/wiki/Q4792796"
+  },
+  {
+    "id": "Q2363792",
+    "name": "서용선",
+    "description": "",
+    "description_en": "South Korean artist",
+    "source_url": "https://www.wikidata.org/wiki/Q2363792"
+  },
+  {
+    "id": "Q22984024",
+    "name": "파울 엥달",
+    "description": "",
+    "description_en": "",
+    "source_url": "https://www.wikidata.org/wiki/Q22984024"
+  },
+  {
+    "id": "Q23655563",
+    "name": "쟝 스쿠데리",
+    "description": "",
+    "description_en": "French visual artist (born 1976)",
+    "source_url": "https://www.wikidata.org/wiki/Q23655563"
+  },
+  {
+    "id": "Q6943264",
+    "name": "무스타파 훌루시",
+    "description": "",
+    "description_en": "British artist (born 1971)",
+    "source_url": "https://www.wikidata.org/wiki/Q6943264"
+  },
+  {
+    "id": "Q16172802",
+    "name": "윤집",
+    "description": "조선 후기 문신 (1606~1637)",
+    "description_en": "Joseon civil servant (1606 - 1637)",
+    "source_url": "https://www.wikidata.org/wiki/Q16172802"
+  },
+  {
+    "id": "Q16181273",
+    "name": "오달제",
+    "description": "",
+    "description_en": "Joseon civil servant (1609 - 1637)",
+    "source_url": "https://www.wikidata.org/wiki/Q16181273"
+  },
+  {
+    "id": "Q16186706",
+    "name": "홍성담",
+    "description": "",
+    "description_en": "South Korean artist",
+    "source_url": "https://www.wikidata.org/wiki/Q16186706"
+  },
+  {
+    "id": "Q20010749",
+    "name": "문경원",
+    "description": "",
+    "description_en": "seoul-based artist",
+    "source_url": "https://www.wikidata.org/wiki/Q20010749"
+  },
+  {
+    "id": "Q21710522",
+    "name": "조용익 (1934년)",
+    "description": "대한민국의 미술가 (1934–2023)",
+    "description_en": "South Korean artist",
+    "source_url": "https://www.wikidata.org/wiki/Q21710522"
+  },
+  {
+    "id": "Q17385844",
+    "name": "알렉스 도지",
+    "description": "",
+    "description_en": "Brooklyn/New York artist/working in many different media:drawing/painting/sculpture/ (born 1977)",
+    "source_url": "https://www.wikidata.org/wiki/Q17385844"
+  },
+  {
+    "id": "Q9184079",
+    "name": "마위안",
+    "description": "",
+    "description_en": "Chinese writer (1953-)",
+    "source_url": "https://www.wikidata.org/wiki/Q9184079"
+  },
+  {
+    "id": "Q11416756",
+    "name": "구레 겐",
+    "description": "일본의 의학자 (1883~1940)",
+    "description_en": "Japanese physician (1883-1940)",
+    "source_url": "https://www.wikidata.org/wiki/Q11416756"
+  },
+  {
+    "id": "Q11627243",
+    "name": "사이코 만키치",
+    "description": "일본의 부라쿠 해방 사회운동가, 정치운동가, 작가 (1895-1970)",
+    "description_en": "politician (1895-1970)",
+    "source_url": "https://www.wikidata.org/wiki/Q11627243"
+  },
+  {
+    "id": "Q10975505",
+    "name": "이원영 (당)",
+    "description": "",
+    "description_en": "son of emperor Gaozu",
+    "source_url": "https://www.wikidata.org/wiki/Q10975505"
+  },
+  {
+    "id": "Q11113724",
+    "name": "양동서",
+    "description": "",
+    "description_en": "Chinese calligrapher, one of the 'Four Great Calligraphers in Qianjia's time', good at regular script and running hand (1723–1815)",
+    "source_url": "https://www.wikidata.org/wiki/Q11113724"
+  },
+  {
+    "id": "Q11176572",
+    "name": "황진 (원나라)",
+    "description": "",
+    "description_en": "Chinese politician",
+    "source_url": "https://www.wikidata.org/wiki/Q11176572"
+  },
+  {
+    "id": "Q2597972",
+    "name": "요시코 세퍼",
+    "description": "",
+    "description_en": "French saxophonist",
+    "source_url": "https://www.wikidata.org/wiki/Q2597972"
+  },
+  {
+    "id": "Q43134989",
+    "name": "앤 패커드",
+    "description": "",
+    "description_en": "American artist",
+    "source_url": "https://www.wikidata.org/wiki/Q43134989"
+  },
+  {
+    "id": "Q495722",
+    "name": "신지상",
+    "description": "",
+    "description_en": "South Korean comic artist",
+    "source_url": "https://www.wikidata.org/wiki/Q495722"
+  },
+  {
+    "id": "Q12614973",
+    "name": "전광영",
+    "description": "대한민국의 미술가",
+    "description_en": "South Korean contemporary artist",
+    "source_url": "https://www.wikidata.org/wiki/Q12614973"
+  },
+  {
+    "id": "Q5230509",
+    "name": "데이비드 페퍼 (정치인)",
+    "description": "미국 정치인",
+    "description_en": "American politician",
+    "source_url": "https://www.wikidata.org/wiki/Q5230509"
+  },
+  {
+    "id": "Q10892839",
+    "name": "공손대낭",
+    "description": "",
+    "description_en": "",
+    "source_url": "https://www.wikidata.org/wiki/Q10892839"
+  },
+  {
+    "id": "Q98505561",
+    "name": "안영일 (예술가)",
+    "description": "",
+    "description_en": "Korean American artist",
+    "source_url": "https://www.wikidata.org/wiki/Q98505561"
+  },
+  {
+    "id": "Q131547961",
+    "name": "양순열",
+    "description": "대한민국의 미술가, 멀티미디어 아티스트",
+    "description_en": "South Korean artist (born 1959)",
+    "source_url": "https://www.wikidata.org/wiki/Q131547961"
+  },
+  {
+    "id": "Q16181911",
+    "name": "조석진",
+    "description": "",
+    "description_en": "Korean artist (1853–1920)",
+    "source_url": "https://www.wikidata.org/wiki/Q16181911"
+  },
+  {
+    "id": "Q16219801",
+    "name": "김유근",
+    "description": "조선 후기의 문신",
+    "description_en": "Joseon politician (1785-1840)",
+    "source_url": "https://www.wikidata.org/wiki/Q16219801"
+  },
+  {
+    "id": "Q11259495",
+    "name": "에스파 이토",
+    "description": "",
+    "description_en": "Japanese comedian (1960–2024)",
+    "source_url": "https://www.wikidata.org/wiki/Q11259495"
+  },
+  {
+    "id": "Q10514231",
+    "name": "소과 (문학가)",
+    "description": "",
+    "description_en": "Song dynasty person (CBDB = 19168)",
+    "source_url": "https://www.wikidata.org/wiki/Q10514231"
+  },
+  {
+    "id": "Q61944469",
+    "name": "브워지미에시 부체크",
+    "description": "",
+    "description_en": "",
+    "source_url": "https://www.wikidata.org/wiki/Q61944469"
+  },
+  {
+    "id": "Q45361363",
+    "name": "서긍",
+    "description": "",
+    "description_en": "Song dynasty person CBDB = 3378 (1091–1153)",
+    "source_url": "https://www.wikidata.org/wiki/Q45361363"
+  },
+  {
+    "id": "Q52586779",
+    "name": "김순덕 (1921년)",
+    "description": "한국인 위안부 피해자",
+    "description_en": "Korean comfort woman",
+    "source_url": "https://www.wikidata.org/wiki/Q52586779"
+  },
+  {
+    "id": "Q106364751",
+    "name": "권정호 (화가)",
+    "description": "",
+    "description_en": "South Korean artist (born 1944)",
+    "source_url": "https://www.wikidata.org/wiki/Q106364751"
+  },
+  {
+    "id": "Q6681013",
+    "name": "김굉필",
+    "description": "조선의 문신 (1454–1504)",
+    "description_en": "Joseon civil servant (1454 - 1504)",
+    "source_url": "https://www.wikidata.org/wiki/Q6681013"
+  },
+  {
+    "id": "Q118902924",
+    "name": "정강자",
+    "description": "",
+    "description_en": "South Korean visual artist",
+    "source_url": "https://www.wikidata.org/wiki/Q118902924"
+  },
+  {
+    "id": "Q12597708",
+    "name": "백가 (화가)",
+    "description": "",
+    "description_en": "",
+    "source_url": "https://www.wikidata.org/wiki/Q12597708"
+  },
+  {
+    "id": "Q12612450",
+    "name": "이재 (1680년)",
+    "description": "조선의 학자 (1680–1746)",
+    "description_en": "",
+    "source_url": "https://www.wikidata.org/wiki/Q12612450"
+  },
+  {
+    "id": "Q15919923",
+    "name": "샤오윈",
+    "description": "",
+    "description_en": "Chinese Buddhist nun, artist & educator (1912-2004)",
+    "source_url": "https://www.wikidata.org/wiki/Q15919923"
+  },
+  {
+    "id": "Q5534115",
+    "name": "저프 디어고 리덜랜드",
+    "description": "",
+    "description_en": "British artist",
+    "source_url": "https://www.wikidata.org/wiki/Q5534115"
+  },
+  {
+    "id": "Q22247120",
+    "name": "강익중",
+    "description": "",
+    "description_en": "Korean artist (born 1960)",
+    "source_url": "https://www.wikidata.org/wiki/Q22247120"
+  },
+  {
+    "id": "Q16173951",
+    "name": "어몽룡",
+    "description": "",
+    "description_en": "",
+    "source_url": "https://www.wikidata.org/wiki/Q16173951"
+  },
+  {
+    "id": "Q16174964",
+    "name": "이경윤",
+    "description": "",
+    "description_en": "",
+    "source_url": "https://www.wikidata.org/wiki/Q16174964"
+  },
+  {
+    "id": "Q16176075",
+    "name": "허련",
+    "description": "",
+    "description_en": "",
+    "source_url": "https://www.wikidata.org/wiki/Q16176075"
+  },
+  {
+    "id": "Q17278312",
+    "name": "이현로 (인물)",
+    "description": "",
+    "description_en": "",
+    "source_url": "https://www.wikidata.org/wiki/Q17278312"
+  },
+  {
+    "id": "Q17304801",
+    "name": "김병철 (교육인)",
+    "description": "",
+    "description_en": "South Korean academic",
+    "source_url": "https://www.wikidata.org/wiki/Q17304801"
+  },
+  {
+    "id": "Q24858114",
+    "name": "마성린",
+    "description": "조선의 서예가",
+    "description_en": "Joseon calligrapher (1717 - 1798)",
+    "source_url": "https://www.wikidata.org/wiki/Q24858114"
+  },
+  {
+    "id": "Q65240781",
+    "name": "눈치오 솔렌도",
+    "description": "",
+    "description_en": "Italian artist",
+    "source_url": "https://www.wikidata.org/wiki/Q65240781"
+  },
+  {
+    "id": "Q27952279",
+    "name": "해원군",
+    "description": "",
+    "description_en": "Joseon royal (1614 - 1662)",
+    "source_url": "https://www.wikidata.org/wiki/Q27952279"
+  },
+  {
+    "id": "Q49249882",
+    "name": "신말주",
+    "description": "",
+    "description_en": "Joseon civil servant, writer & artist (1429 – 1503)",
+    "source_url": "https://www.wikidata.org/wiki/Q49249882"
+  },
+  {
+    "id": "Q81226696",
+    "name": "윤정립",
+    "description": "",
+    "description_en": "",
+    "source_url": "https://www.wikidata.org/wiki/Q81226696"
+  },
+  {
+    "id": "Q81226725",
+    "name": "조세걸",
+    "description": "",
+    "description_en": "",
+    "source_url": "https://www.wikidata.org/wiki/Q81226725"
+  },
+  {
+    "id": "Q100786541",
+    "name": "후랭키배",
+    "description": "",
+    "description_en": "Korean artist",
+    "source_url": "https://www.wikidata.org/wiki/Q100786541"
+  },
+  {
+    "id": "Q12587302",
+    "name": "김륵",
+    "description": "조선 선조·광해군 때의 문신·학자",
+    "description_en": "Joseon civil servant (1540 - 1616)",
+    "source_url": "https://www.wikidata.org/wiki/Q12587302"
+  },
+  {
+    "id": "Q118796224",
+    "name": "최옥자",
+    "description": "대한민국의 교육자(1919~2019)",
+    "description_en": "South Korean physician and educator",
+    "source_url": "https://www.wikidata.org/wiki/Q118796224"
+  },
+  {
+    "id": "Q122945788",
+    "name": "김영식 (1952년)",
+    "description": "",
+    "description_en": "Minhwa artist",
+    "source_url": "https://www.wikidata.org/wiki/Q122945788"
+  },
+  {
+    "id": "Q139504092",
+    "name": "서직수",
+    "description": "조선 후기의 문신이다",
+    "description_en": "",
+    "source_url": "https://www.wikidata.org/wiki/Q139504092"
+  },
+  {
+    "id": "Q140289747",
+    "name": "권하나",
+    "description": "",
+    "description_en": "Korean visual artist",
+    "source_url": "https://www.wikidata.org/wiki/Q140289747"
+  },
+  {
+    "id": "Q12596344",
+    "name": "민형식 (조선자작)",
+    "description": "",
+    "description_en": "civil servant (1875-1947)",
+    "source_url": "https://www.wikidata.org/wiki/Q12596344"
+  },
+  {
+    "id": "Q12606440",
+    "name": "양팽손",
+    "description": "",
+    "description_en": "Joseon civil servant (1488 - 1545)",
+    "source_url": "https://www.wikidata.org/wiki/Q12606440"
+  },
+  {
+    "id": "Q12610025",
+    "name": "류진동",
+    "description": "",
+    "description_en": "Joseon civil servant (1497 - 1561)",
+    "source_url": "https://www.wikidata.org/wiki/Q12610025"
+  },
+  {
+    "id": "Q12610210",
+    "name": "윤덕희",
+    "description": "",
+    "description_en": "",
+    "source_url": "https://www.wikidata.org/wiki/Q12610210"
+  },
+  {
+    "id": "Q12610877",
+    "name": "이건필",
+    "description": "",
+    "description_en": "Korean calligrapher (1830 - ?)",
+    "source_url": "https://www.wikidata.org/wiki/Q12610877"
+  },
+  {
+    "id": "Q12610933",
+    "name": "이계우",
+    "description": "",
+    "description_en": "",
+    "source_url": "https://www.wikidata.org/wiki/Q12610933"
+  },
+  {
+    "id": "Q12612293",
+    "name": "이유원 (1763년)",
+    "description": "",
+    "description_en": "Joseon scholar (1763 - 1835)",
+    "source_url": "https://www.wikidata.org/wiki/Q12612293"
+  },
+  {
+    "id": "Q12612318",
+    "name": "이윤영 (1714년)",
+    "description": "",
+    "description_en": "",
+    "source_url": "https://www.wikidata.org/wiki/Q12612318"
+  },
+  {
+    "id": "Q12615839",
+    "name": "정영렬",
+    "description": "",
+    "description_en": "South Korean artist (1934-1988)",
+    "source_url": "https://www.wikidata.org/wiki/Q12615839"
+  },
+  {
+    "id": "Q12625418",
+    "name": "홍수주 (화가)",
+    "description": "",
+    "description_en": "",
+    "source_url": "https://www.wikidata.org/wiki/Q12625418"
+  },
+  {
+    "id": "Q12588204",
+    "name": "김용원 (사진사)",
+    "description": "",
+    "description_en": "",
+    "source_url": "https://www.wikidata.org/wiki/Q12588204"
+  },
+  {
+    "id": "Q12604711",
+    "name": "신한평",
+    "description": "",
+    "description_en": "",
+    "source_url": "https://www.wikidata.org/wiki/Q12604711"
+  },
+  {
+    "id": "Q12610993",
+    "name": "이교익",
+    "description": "",
+    "description_en": "",
+    "source_url": "https://www.wikidata.org/wiki/Q12610993"
+  },
+  {
+    "id": "Q12625920",
+    "name": "황집중",
+    "description": "",
+    "description_en": "",
+    "source_url": "https://www.wikidata.org/wiki/Q12625920"
+  },
+  {
+    "id": "Q16181567",
+    "name": "변박",
+    "description": "",
+    "description_en": "",
+    "source_url": "https://www.wikidata.org/wiki/Q16181567"
+  },
+  {
+    "id": "Q16183741",
+    "name": "이징 (화가)",
+    "description": "",
+    "description_en": "",
+    "source_url": "https://www.wikidata.org/wiki/Q16183741"
+  },
+  {
+    "id": "Q16183875",
+    "name": "조정규",
+    "description": "",
+    "description_en": "",
+    "source_url": "https://www.wikidata.org/wiki/Q16183875"
+  },
+  {
+    "id": "Q16190368",
+    "name": "진재해",
+    "description": "",
+    "description_en": "",
+    "source_url": "https://www.wikidata.org/wiki/Q16190368"
+  },
+  {
+    "id": "Q55733674",
+    "name": "임세병",
+    "description": "",
+    "description_en": "",
+    "source_url": "https://www.wikidata.org/wiki/Q55733674"
+  },
+  {
+    "id": "Q81226719",
+    "name": "이불해",
+    "description": "",
+    "description_en": "",
+    "source_url": "https://www.wikidata.org/wiki/Q81226719"
+  },
+  {
+    "id": "Q100271077",
+    "name": "후랭키",
+    "description": "",
+    "description_en": "",
+    "source_url": "https://www.wikidata.org/wiki/Q100271077"
+  }
+]
