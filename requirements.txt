@@ -62,7 +62,8 @@ mdurl==0.1.2
 mmh3==5.3.1
 multidict==7.1.0
 narwhals==2.27.1
-numpy==2.5.4
+numpy==2.5.4; python_version >= "3.12"   # numpy 2.5 supports Python 3.12+ only
+numpy==2.4.6; python_version < "3.12"    # used on Python 3.11
 oauthlib==4.0.0
 onnxruntime==1.31.0
 openai==2.54.0

@@ -31,7 +31,7 @@
 
 ### 1) 준비
 
-- Python **3.10 이상** (개발 환경: 3.12)
+- Python **3.11 이상** (개발 환경: 3.12, 3.11.9에서도 설치·실행 확인. numpy 2.4가 3.10을 지원하지 않아 3.10은 불가)
 - SSAFY GMS API 키 (임베딩 `text-embedding-3-small`, 대화 `gpt-4o-mini` · `gpt-4.1-mini` 사용)
 
 ```bash
