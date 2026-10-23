@@ -53,7 +53,7 @@ if not (config.OPENAI_API_KEY and config.OPENAI_BASE_URL):
     st.stop()
 
 # API 키가 확인된 뒤에 불러온다 (불러오는 순간 임베딩 객체를 만들기 때문)
-from data_prep.images import painter_images, thumb, work_caption  # noqa: E402
+from data_prep.images import external_links, museum_works, painter_images, thumb, work_caption  # noqa: E402
 from data_prep.painters import build_index_text, load_painters  # noqa: E402
 from rag.graph import build_graph, retrieve  # noqa: E402
 from rag.search_compare import diversity  # noqa: E402
@@ -188,12 +188,24 @@ def card_image_html(painter_id: str) -> str:
     )
 
 
+def show_more_links(painter: dict) -> None:
+    """작품 더 보기: 국립현대미술관 작품 페이지 + 외부 검색 (이미지를 가져오지 않고 원본 페이지로 연결)"""
+    museum = museum_works(painter["id"])
+    if museum:
+        st.markdown(f"**🏛️ 국립현대미술관에서 작품 보기 · {len(museum)}점**  \n"
+                    + " · ".join(f"[{w['title']}]({w['url']})" for w in museum))
+    st.markdown("**작품 더 보기** (원본 페이지로 연결돼요)  \n"
+                + " · ".join(f"[{l['label']} ↗]({l['url']})" for l in external_links(painter)))
+
+
 def show_gallery(painter: dict, expanded: bool) -> None:
-    """화가의 작품 갤러리: [작품] 탭(위키데이터, 제목·연도·소장처) / [관련 이미지] 탭(위키백과 문서 속 이미지)"""
+    """화가의 작품 갤러리: [작품] 탭(위키데이터, 제목·연도·소장처) / [관련 이미지] 탭(위키백과 문서 속 이미지) + 작품 더 보기"""
     imgs = painter_images(painter["id"])
     works, extra = imgs["works"], imgs["article_images"]
-    if not works and not extra:
-        st.caption("🖼️ 이 화가의 작품 이미지를 찾지 못했어요.")
+    if not works and not extra:  # 이미지가 하나도 없으면 링크로 대신 (현대 화가 등 저작권 보호 작품)
+        with st.expander(f"🎨 {painter['name']}의 작품 — 공개 이미지 없음", expanded=expanded):
+            st.caption("최근 화가는 저작권 때문에 자유롭게 쓸 수 있는 작품 이미지가 거의 없어요. 아래 링크에서 작품을 볼 수 있어요.")
+            show_more_links(painter)
         return
     with st.expander(f"🎨 {painter['name']}의 작품 {len(works)}점 · 관련 이미지 {len(extra)}장", expanded=expanded):
         tab_works, tab_extra = st.tabs([f"작품 {len(works)}", f"관련 이미지 {len(extra)}"])
@@ -201,7 +213,7 @@ def show_gallery(painter: dict, expanded: bool) -> None:
             if works:
                 image_grid(works, work_caption)
             else:
-                st.caption("위키데이터에 등록된 작품 이미지가 없어요. '관련 이미지' 탭을 확인해 보세요.")
+                st.caption("공개된 작품 이미지가 없어요. '관련 이미지' 탭이나 아래 '작품 더 보기'를 확인해 보세요.")
         with tab_extra:
             if extra:
                 st.caption("※ 위키백과 문서에 실린 이미지라 작품 말고도 화가 사진·건물 사진 등이 섞여 있을 수 있어요.")
@@ -209,6 +221,7 @@ def show_gallery(painter: dict, expanded: bool) -> None:
             else:
                 st.caption("위키백과 문서에 실린 이미지가 없어요.")
         st.caption("이미지를 누르면 원본 페이지(고해상도·출처)가 열려요 · 출처: Wikidata, Wikimedia Commons, 위키백과")
+        show_more_links(painter)
 
 
 def show_citations(message: dict) -> None:
@@ -311,7 +324,7 @@ def render_explore() -> None:
     with st.form("explore_form"):
         condition = st.text_input(
             "찾고 싶은 화가 조건",
-            placeholder="예: 19세기 프랑스 인상주의 풍경화가 / 조선 시대 화가 / 빛을 잘 표현한 네덜란드 화가",
+            placeholder="예: 19세기 프랑스 인상주의 풍경화가 / 조선 시대 화가 / 모네 (화가 이름도 돼요)",
         )
         submitted = st.form_submit_button("화가 찾기", type="primary")
 
@@ -330,12 +343,16 @@ def render_explore() -> None:
     if not out:
         return
 
-    st.markdown(f"**조건:** {out['query']}")
-    st.markdown(
-        f"① 해석 → {describe_condition(out['condition'])}  \n"
-        f"② 조건 필터 통과 **{out['filtered']}명** → 후보 **{out['candidates']}명**을 LLM이 하나씩 검증  \n"
-        f"③ 조건에 맞는 화가 **{len(out['results'])}명** (유명한 순)"
-    )
+    if out.get("mode") == "name":  # 화가 이름으로 찾은 경우 (조건 해석·LLM 검증 없이 바로)
+        more = f" · 그중 유명한 순 {len(out['results'])}명 표시" if out["filtered"] > len(out["results"]) else ""
+        st.markdown(f"**이름 검색:** '{out['query']}'이(가) 이름에 들어간 화가 **{out['filtered']}명**{more} (유명한 순)")
+    else:
+        st.markdown(f"**조건:** {out['query']}")
+        st.markdown(
+            f"① 해석 → {describe_condition(out['condition'])}  \n"
+            f"② 조건 필터 통과 **{out['filtered']}명** → 후보 **{out['candidates']}명**을 LLM이 하나씩 검증  \n"
+            f"③ 조건에 맞는 화가 **{len(out['results'])}명** (유명한 순)"
+        )
 
     if not out["results"]:
         st.warning("조건에 맞는 화가를 찾지 못했어요.")

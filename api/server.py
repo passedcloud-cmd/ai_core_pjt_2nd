@@ -28,10 +28,10 @@ from fastapi.staticfiles import StaticFiles
 
 import config
 from api.schemas import (
-    AskEvent, AskRequest, CompareRequest, CompareResponse, ComparePainter, Evidence, Fact, ImageItem,
+    AskEvent, AskRequest, CompareRequest, CompareResponse, ComparePainter, Evidence, Fact, ImageItem, Link,
     PainterDetail, PainterSummary, SearchRequest, SearchResponse, SearchResult, Status,
 )
-from data_prep.images import painter_images, thumb, work_caption
+from data_prep.images import external_links, museum_works, painter_images, thumb, work_caption
 from data_prep.painters import active_period, load_painters, lifespan
 
 logger = logging.getLogger("painter_rag.api")
@@ -159,6 +159,8 @@ def painter_detail(painter_id: str) -> PainterDetail:
     return PainterDetail(
         **summary(p).model_dump(), description=p.get("description") or "", facts=facts, wiki_url=p.get("wiki_url") or "",
         portrait=portrait, hero=hero or portrait, works=works, related=related,
+        museum_works=[Link(label=w["title"], url=w["url"]) for w in museum_works(painter_id)],
+        links=[Link(**l) for l in external_links(p)],
     )
 
 
@@ -209,12 +211,14 @@ def search(req: SearchRequest) -> SearchResponse:
         parsed.append(Fact(label="시대", value=f"{lo}세기" if lo == hi else f"{lo}~{hi}세기"))
     if cond.get("keywords"):
         parsed.append(Fact(label="기타", value=cond["keywords"]))
+    if out["mode"] == "name":
+        parsed = [Fact(label="이름", value=req.condition.strip())]
 
     results = []
     for p, reason in out["results"]:
         img = first_image(p["id"])
         results.append(SearchResult(painter=summary(p), reason=reason, image=to_image(img, "work") if img else None))
-    return SearchResponse(condition=req.condition, parsed=parsed, filtered=out["filtered"], candidates=out["candidates"],
+    return SearchResponse(mode=out["mode"], condition=req.condition, parsed=parsed, filtered=out["filtered"], candidates=out["candidates"],
                           results=results, empty_reasons=out["empty_reasons"])
 
 

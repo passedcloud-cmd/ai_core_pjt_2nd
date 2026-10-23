@@ -25,6 +25,13 @@ class ImageItem(BaseModel):
     kind: Literal["work", "related", "portrait"] = Field(description="작품(위키데이터) / 관련 이미지(위키백과 문서) / 초상")
 
 
+class Link(BaseModel):
+    """외부 페이지 연결 (작품 이미지를 가져오지 않고 원본 페이지로 보냄)"""
+    label: str
+    url: str
+    note: str = ""
+
+
 class PainterSummary(BaseModel):
     """화가 목록·카드에 쓰는 요약 정보"""
     id: str = Field(description="위키데이터 ID (예: Q296)")
@@ -49,6 +56,8 @@ class PainterDetail(PainterSummary):
     hero: ImageItem | None = Field(None, description="첫 화면에 크게 깔 대표작")
     works: list[ImageItem] = Field(default_factory=list)
     related: list[ImageItem] = Field(default_factory=list)
+    museum_works: list[Link] = Field(default_factory=list, description="국립현대미술관 작품 상세 페이지 (저작권 보호 작품도 미술관 페이지에서 볼 수 있음)")
+    links: list[Link] = Field(default_factory=list, description="작품 더 보기: e뮤지엄(한국 화가) · Google Arts & Culture · 이미지 검색")
 
 
 class Evidence(BaseModel):
@@ -116,6 +125,7 @@ class SearchResult(BaseModel):
 
 
 class SearchResponse(BaseModel):
+    mode: Literal["name", "condition"] = Field("condition", description="name = 화가 이름으로 찾음(LLM 없이), condition = 조건 탐색")
     condition: str
     parsed: list[Fact] = Field(description="해석된 조건 (국적·사조·장르·시대·기타)")
     filtered: int = Field(description="조건 필터 통과 수")

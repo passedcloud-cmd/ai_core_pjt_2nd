@@ -98,11 +98,13 @@ def main(reset: bool) -> None:
         works.setdefault(w["work_id"], w)
     works = list(works.values())
 
-    config.MMCA_DOCS_PATH.write_text(json.dumps(works, ensure_ascii=False, indent=1), encoding="utf-8")
     print(f"📥 국립현대미술관 소장작품 {len(raw)}건 수집 → 중복 등록 {len(raw) - len(works)}건 제외 → {len(works)}건 ({config.MMCA_DOCS_PATH.name})")
 
-    # ② 화가 연결
+    # ② 화가 연결 — 연결된 화가 ID도 작품마다 저장해 둔다 (화면의 '미술관에서 작품 보기' 링크에 사용)
     matched = match_painters(works, painters)
+    for w in works:
+        w["painter_id"] = matched[w["artist"]]["id"] if w["artist"] in matched else None
+    config.MMCA_DOCS_PATH.write_text(json.dumps(works, ensure_ascii=False, indent=1), encoding="utf-8")
     mine = [(w, matched[w["artist"]]) for w in works if w["artist"] in matched and w["description"]]
     artists = Counter(w["artist"] for w in works)
     print(f"🔗 작가 {len(artists)}명 중 우리 화가와 연결 {len(matched)}명 → 작품 {len(mine)}건")

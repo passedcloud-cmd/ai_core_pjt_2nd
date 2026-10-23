@@ -142,9 +142,10 @@ function renderGallery() {
   const tabs = [["works", `작품 ${d.works.length}`], ["related", `관련 이미지 ${d.related.length}`]];
   $("gallery-tabs").innerHTML = tabs.map(([k, t]) => `<button type="button" class="label ${state.galleryTab === k ? "on" : ""}" data-tab="${k}">${t}</button>`).join("");
   const list = d[state.galleryTab];
+  renderMoreLinks();
   if (!list.length) {
     $("gallery").innerHTML = `<div class="empty" style="grid-column:1/-1">${state.galleryTab === "works"
-      ? "위키데이터에 등록된 작품 이미지가 없어요.<br>최근 화가는 저작권 때문에 공개된 이미지가 거의 없어요. '관련 이미지' 탭도 확인해 보세요."
+      ? "공개된 작품 이미지가 없어요. 최근 화가는 저작권 때문에 자유롭게 쓸 수 있는 이미지가 거의 없어요.<br>아래 <b>작품 더 보기</b>에서 미술관·검색 페이지로 작품을 볼 수 있어요."
       : "위키백과 문서에 실린 이미지가 없어요."}</div>`;
     $("gallery-more").hidden = true;
     return;
@@ -153,6 +154,17 @@ function renderGallery() {
   $("gallery").innerHTML = shown.map((img, i) => figure(img, i === 0 ? "tall" : "")).join("");
   $("gallery-more").hidden = list.length <= 5;
   $("gallery-more").textContent = state.galleryOpen ? "접기 ↑" : `${list.length}장 모두 보기 ↓`;
+}
+// 작품 더 보기: 국립현대미술관 작품 페이지 + 외부 검색 (이미지를 가져오지 않고 원본 페이지로 연결)
+function renderMoreLinks() {
+  const d = state.detail;
+  const museum = d.museum_works.length ? `<div class="museum">${d.museum_works.map((w) =>
+    `<a href="${esc(w.url)}" target="_blank" rel="noopener">${esc(w.label)} ↗</a>`).join("")}</div>` : "";
+  $("more-links").innerHTML = `
+    ${museum ? `<span class="label">🏛️ 국립현대미술관에서 작품 보기 · ${d.museum_works.length}점</span>${museum}` : ""}
+    <span class="label">작품 더 보기 · 원본 페이지로 연결돼요</span>
+    <div class="ext">${d.links.map((l) =>
+      `<a href="${esc(l.url)}" target="_blank" rel="noopener"><b>${esc(l.label)} ↗</b><small>${esc(l.note)}</small></a>`).join("")}</div>`;
 }
 $("gallery-tabs").addEventListener("click", (e) => {
   const b = e.target.closest("button[data-tab]");
@@ -249,8 +261,10 @@ $("search-form").addEventListener("submit", async (e) => {
     const out = await (await api("/api/search", { condition })).json();
     $("parsed").hidden = false;
     $("parsed").innerHTML = `
-      <div class="conds"><span class="label muted">해석된 조건</span>${out.parsed.map((f) => `<span class="cond"><i>${esc(f.label)}</i>${esc(f.value)}</span>`).join("") || '<span class="cond">필터 조건 없음 · 의미 검색만</span>'}</div>
-      <div class="steps"><span><b>${out.filtered}</b>명 조건 필터 통과</span><span>→</span><span><b>${out.candidates}</b>명 LLM 검증</span><span>→</span><span class="last"><b>${out.results.length}</b>명 일치</span></div>`;
+      <div class="conds"><span class="label muted">${out.mode === "name" ? "검색 방식" : "해석된 조건"}</span>${out.parsed.map((f) => `<span class="cond"><i>${esc(f.label)}</i>${esc(f.value)}</span>`).join("") || '<span class="cond">필터 조건 없음 · 의미 검색만</span>'}</div>
+      ${out.mode === "name"
+        ? `<div class="steps"><span>이름 검색</span><span>→</span><span class="last"><b>${out.filtered}</b>명${out.filtered > out.results.length ? ` (유명한 순 ${out.results.length}명 표시)` : ""}</span></div>`
+        : `<div class="steps"><span><b>${out.filtered}</b>명 조건 필터 통과</span><span>→</span><span><b>${out.candidates}</b>명 LLM 검증</span><span>→</span><span class="last"><b>${out.results.length}</b>명 일치</span></div>`}`;
     if (!out.results.length) {
       $("results").innerHTML = `<div class="empty">조건에 맞는 화가를 찾지 못했어요.${out.empty_reasons.map((r) => `<br>ℹ️ ${esc(r)}`).join("")}<br>조건을 조금 넓혀서 다시 찾아보세요.</div>`;
       return;

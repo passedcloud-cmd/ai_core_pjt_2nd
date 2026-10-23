@@ -241,9 +241,30 @@ def verify(condition: str, candidates: list[dict], llm, need_quote: bool = False
 # ---------------------------------------------------------------------------
 # 전체 흐름
 # ---------------------------------------------------------------------------
+def _norm(text: str) -> str:
+    """이름 비교용: 괄호 설명·띄어쓰기·가운뎃점을 빼고 소문자로. '정선 (화가)' → '정선', 'Claude Monet' → 'claudemonet'"""
+    return re.sub(r"[\s·.\-]", "", re.sub(r"\s*\(.*?\)", "", text or "")).lower()
+
+
+def search_by_name(query: str, painters: list[dict]) -> list[dict]:
+    """
+    입력이 화가 이름(의 일부)이면 그 화가들을 유명한 순으로 돌려준다. 이름이 아니면 빈 목록.
+    예) '모네' → 클로드 모네 … / '레오나르도다빈치' → 레오나르도 다 빈치 / 'monet' → 클로드 모네
+    조건 탐색보다 먼저 확인한다. ('레오나르도 다 빈치'를 조건으로 해석하면 '기타: 레오나르도 다 빈치'가 되어
+    화가 정보로 확인할 수 없는 조건이라 0명이 나오던 문제가 있었음)
+    """
+    q = _norm(query)
+    if len(q) < 2:  # 한 글자('김')는 너무 많이 걸려서 이름 검색으로 보지 않음
+        return []
+    hits = [p for p in painters if q in _norm(p["name"]) or q in _norm(p.get("name_en") or "")]
+    return sorted(hits, key=lambda p: p.get("rank", 10**9))
+
+
 def search_painters(condition: str) -> dict:
     """
+    입력이 화가 이름이면 이름 검색(LLM 없이 바로), 아니면 조건 탐색.
     결과: {
+      "mode": "name"(이름 검색) 또는 "condition"(조건 탐색),
       "condition": 해석된 조건,
       "filtered": 필터 통과 화가 수,
       "candidates": LLM 검증에 넘긴 후보 수,
@@ -251,14 +272,23 @@ def search_painters(condition: str) -> dict:
       "empty_reasons": 필터 통과가 0명일 때 그 이유 안내
     }
     """
-    llm = get_llm(config.EXPLORE_MODEL, timeout=config.LLM_FAST_TIMEOUT)  # 짧은 출력이라 10초 넘으면 다시 보냄
     painters = load_painters(config.PAINTERS_PATH)
 
+    by_name = search_by_name(condition, painters)
+    if by_name:
+        empty = {k: [] for k in FIELDS} | {"century_from": None, "century_to": None, "keywords": ""}
+        results = [(p, " · ".join(x for x in [p.get("description") or "", f"이름에 '{condition.strip()}' 포함"] if x))
+                   for p in by_name[: config.EXPLORE_CANDIDATES]]
+        return {"mode": "name", "condition": empty, "filtered": len(by_name), "candidates": len(results),
+                "results": results, "empty_reasons": []}
+
+    llm = get_llm(config.EXPLORE_MODEL, timeout=config.LLM_FAST_TIMEOUT)  # 짧은 출력이라 10초 넘으면 다시 보냄
     cond = parse_condition(condition, llm)
     candidates, filtered = find_candidates(condition, cond, painters)
     results = verify(condition, candidates, llm, need_quote=bool(cond["keywords"]))
     results.sort(key=lambda r: r[0].get("rank", 10**9))
     return {
+        "mode": "condition",
         "condition": cond,
         "filtered": filtered,
         "candidates": len(candidates),
