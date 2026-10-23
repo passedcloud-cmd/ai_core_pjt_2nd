@@ -25,9 +25,44 @@ def load_all_images() -> dict:
     return json.loads(config.IMAGES_PATH.read_text(encoding="utf-8")).get("painters", {})
 
 
+# 위키백과 문서에는 본문 그림 말고도 '틀'이 붙이는 장식 그림이 섞여 있다.
+#   예) 토막글 안내 틀(틀:토막글/그림/화가)의 아이콘 = 고흐 자화상 → 김흥수 등 176명 문서에 똑같이 들어감
+#       르네상스·인상주의·우키요에 같은 안내 상자의 대표 그림도 그 사조 화가 문서마다 반복됨
+# 그래서 여러 화가(SHARED_IMAGE_LIMIT명 이상)의 문서에 똑같이 나오는 그림은 장식으로 보고 뺀다.
+# 단, 파일 이름에 그 화가의 영어 이름이 들어 있으면(고흐 문서의 고흐 자화상) 본인 그림이라 남긴다.
+SHARED_IMAGE_LIMIT = 4
+
+
+@lru_cache
+def _shared_files() -> set[str]:
+    count: dict[str, int] = {}
+    for item in load_all_images().values():
+        for name in {img["file"] for img in item.get("article_images", [])}:
+            count[name] = count.get(name, 0) + 1
+    return {name for name, n in count.items() if n >= SHARED_IMAGE_LIMIT}
+
+
+@lru_cache
+def _english_names() -> dict[str, list[str]]:
+    """{화가ID: 영어 이름에서 4글자 이상인 단어들} — 파일 이름에 본인 이름이 있는지 볼 때 씀"""
+    if not config.PAINTERS_PATH.exists():
+        return {}
+    painters = json.loads(config.PAINTERS_PATH.read_text(encoding="utf-8"))
+    return {p["id"]: [w.lower() for w in (p.get("name_en") or "").split() if len(w) >= 4] for p in painters}
+
+
+def _is_own_or_unique(painter_id: str, image: dict) -> bool:
+    if image["file"] not in _shared_files():
+        return True
+    return any(word in image["file"].lower() for word in _english_names().get(painter_id, []))
+
+
 def painter_images(painter_id: str) -> dict:
-    """화가 1명의 이미지 묶음. 없으면 빈 묶음."""
-    return load_all_images().get(painter_id) or {"portrait": None, "works": [], "article_images": []}
+    """화가 1명의 이미지 묶음 (틀 장식 그림은 뺌). 없으면 빈 묶음."""
+    item = load_all_images().get(painter_id)
+    if not item:
+        return {"portrait": None, "works": [], "article_images": []}
+    return {**item, "article_images": [img for img in item["article_images"] if _is_own_or_unique(painter_id, img)]}
 
 
 def thumb(image: dict | None, width: int) -> str | None:

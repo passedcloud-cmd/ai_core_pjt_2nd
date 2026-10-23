@@ -27,7 +27,8 @@ from functools import lru_cache
 
 import config
 from collector.query_extractor import extract_json_array, get_llm
-from data_prep.painters import build_index_text, load_painters, to_century
+from data_prep.name_search import exact_matches, similar_matches
+from data_prep.painters import build_index_text, load_painters, picker_order, to_century
 from rag.prompts import CONDITION_PARSE_PROMPT, CONDITION_VERIFY_PROMPT
 from vectorstore import store as vs
 
@@ -241,11 +242,6 @@ def verify(condition: str, candidates: list[dict], llm, need_quote: bool = False
 # ---------------------------------------------------------------------------
 # 전체 흐름
 # ---------------------------------------------------------------------------
-def _norm(text: str) -> str:
-    """이름 비교용: 괄호 설명·띄어쓰기·가운뎃점을 빼고 소문자로. '정선 (화가)' → '정선', 'Claude Monet' → 'claudemonet'"""
-    return re.sub(r"[\s·.\-]", "", re.sub(r"\s*\(.*?\)", "", text or "")).lower()
-
-
 def search_by_name(query: str, painters: list[dict]) -> list[dict]:
     """
     입력이 화가 이름(의 일부)이면 그 화가들을 유명한 순으로 돌려준다. 이름이 아니면 빈 목록.
@@ -253,11 +249,7 @@ def search_by_name(query: str, painters: list[dict]) -> list[dict]:
     조건 탐색보다 먼저 확인한다. ('레오나르도 다 빈치'를 조건으로 해석하면 '기타: 레오나르도 다 빈치'가 되어
     화가 정보로 확인할 수 없는 조건이라 0명이 나오던 문제가 있었음)
     """
-    q = _norm(query)
-    if len(q) < 2:  # 한 글자('김')는 너무 많이 걸려서 이름 검색으로 보지 않음
-        return []
-    hits = [p for p in painters if q in _norm(p["name"]) or q in _norm(p.get("name_en") or "")]
-    return sorted(hits, key=lambda p: p.get("rank", 10**9))
+    return sorted(exact_matches(query, painters), key=lambda p: p.get("rank", 10**9))
 
 
 def search_painters(condition: str) -> dict:
@@ -287,6 +279,17 @@ def search_painters(condition: str) -> dict:
     candidates, filtered = find_candidates(condition, cond, painters)
     results = verify(condition, candidates, llm, need_quote=bool(cond["keywords"]))
     results.sort(key=lambda r: r[0].get("rank", 10**9))
+
+    # 조건으로도 0명이면, 화가 이름을 잘못 쓴 것일 수 있다 → 비슷한 이름을 찾아 준다 ('다반치' → 레오나르도 다 빈치)
+    # (조건 탐색보다 먼저 하지 않는 이유: '프랑스'·'초상화' 같은 조건 단어도 '프랑수아 부셰'·'정상화'와 비슷하다고 잡힘)
+    if not results:
+        similar = similar_matches(condition, picker_order(painters), limit=config.EXPLORE_SIMILAR_NAMES)
+        if similar:
+            return {"mode": "similar", "condition": cond, "filtered": len(similar), "candidates": len(similar),
+                    "results": [(p, " · ".join(x for x in [p.get("description") or "", f"'{condition.strip()}'와(과) 비슷한 이름"] if x))
+                                for p in similar],
+                    "empty_reasons": []}
+
     return {
         "mode": "condition",
         "condition": cond,

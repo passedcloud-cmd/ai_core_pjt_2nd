@@ -13,6 +13,7 @@ data_prep/painters.py  (요구사항 F2001)
 """
 
 import json
+import re
 from pathlib import Path
 
 PAINTERS_PATH = Path("data/painters.json")
@@ -42,7 +43,52 @@ def find_painter(painters: list[dict], name: str) -> dict:
     partial = [p for p in painters if key in p["name"].lower() or key in (p.get("name_en") or "").lower()]
     if partial:
         return min(partial, key=lambda p: p.get("rank", 10**9))
-    raise ValueError(f"'{name}' 화가를 찾지 못했어요. 이름을 다시 확인해 주세요.")
+    from data_prep.name_search import similar_matches  # 오타일 수 있으니 비슷한 이름을 알려준다
+    hint = [p["name"] for p in similar_matches(name, picker_order(painters), limit=3)]
+    raise ValueError(f"'{name}' 화가를 찾지 못했어요. " + (f"혹시 {', '.join(hint)}?" if hint else "이름을 다시 확인해 주세요."))
+
+
+# ---------------------------------------------------------------------------
+# 1-1) 본업이 화가인지 가리기 (화가 선택 목록의 순서용)
+# ---------------------------------------------------------------------------
+# 수집 필터는 '화가이기도 한 사람'까지 넣는다 (괴테·헤세·로댕·태국 국왕 등).
+# 그래서 소개 문구에서 맨 처음 나오는 직업을 보고, 그게 화가 쪽이면 '본업 화가'로 본다.
+#   예) "Swedish writer and painter" → writer가 먼저 → 본업 아님
+#       "Swiss sculptor and painter" → sculptor가 먼저 → 본업 아님
+# 영어 소개가 더 자세해서 먼저 보고, 직업 단어가 없으면 한국어 소개, 둘 다 없으면 화가로 둔다.
+EN_ART_JOBS = (r"\b(?:painter|artist|illustrator|printmaker|engraver|calligrapher|muralist|watercolou?rist"
+               r"|draughtsman|draftsman|surrealist|impressionist|expressionist)")
+EN_OTHER_JOBS = (r"\b(?:writer|poet|novelist|author|composer|musician|pianist|architect|sculptor|politician|king|queen"
+                 r"|emperor|filmmaker|director|actor|actress|photographer|philosopher|occultist|designer|scientist"
+                 r"|statesman|jurist|nationalist|critic|playwright|dramatist|singer|inventor|monk|priest|diplomat"
+                 r"|journalist|naturalist|botanist|explorer|comedian|reformer|esotericist|economist|lawyer|physician|engineer)")
+KO_ART_JOBS = r"(?<!만)화가|미술가|예술가|화백"
+KO_OTHER_JOBS = (r"작가|시인|소설가|정치인|건축가|음악가|작곡가|국왕|왕|영화감독|영화 감독|조각가|극작가|연출가|과학자"
+                 r"|운동가|개그맨|배우|철학자|디자이너|오컬티스트|가수|승려|외교관|언론인")
+
+
+def _first_job_is_art(text: str, art: str, other: str) -> bool | None:
+    """소개 문구에서 먼저 나온 직업이 화가 쪽이면 True, 다른 직업이면 False, 직업 단어가 없으면 None."""
+    a = re.search(art, text or "", re.IGNORECASE)
+    o = re.search(other, text or "", re.IGNORECASE)
+    if not a and not o:
+        return None
+    return bool(a) and (not o or a.start() <= o.start())
+
+
+def is_main_painter(painter: dict) -> bool:
+    """본업이 화가인가? (영어 소개 → 한국어 소개 순서로 판단)"""
+    for text, art, other in ((painter.get("description_en", ""), EN_ART_JOBS, EN_OTHER_JOBS),
+                             (painter.get("description", ""), KO_ART_JOBS, KO_OTHER_JOBS)):
+        judged = _first_job_is_art(text, art, other)
+        if judged is not None:
+            return judged
+    return True
+
+
+def picker_order(painters: list[dict]) -> list[dict]:
+    """화가 선택 목록 순서: 본업 화가를 유명한 순으로 먼저, 그다음 '화가이기도 한 사람'을 유명한 순으로."""
+    return sorted(painters, key=lambda p: (not is_main_painter(p), p.get("rank", 10**9)))
 
 
 # ---------------------------------------------------------------------------

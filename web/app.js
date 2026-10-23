@@ -49,6 +49,9 @@ function loadHistories() { try { return JSON.parse(sessionStorage.getItem("histo
 function saveHistories() { try { sessionStorage.setItem("histories", JSON.stringify(state.histories)); } catch {} }
 function showNotice(msg) { $("notice").textContent = msg; $("notice").hidden = !msg; }
 
+// 튜토리얼(tour.js)에 "지금 이런 일이 일어났어요"라고 알리는 신호. 튜토리얼이 꺼져 있으면 아무도 안 들음
+function signal(name, detail) { document.dispatchEvent(new CustomEvent(name, { detail })); }
+
 /* ------------------------------ 화면 전환 ------------------------------ */
 function route() {
   const view = (location.hash || "#chat").slice(1).split("-")[0];
@@ -69,15 +72,28 @@ document.querySelectorAll('input[name="mode"]').forEach((r) => r.addEventListene
 
 /* ------------------------------ 화가 선택 창 ------------------------------ */
 function openPicker() { $("picker").hidden = false; $("picker-input").value = ""; renderPicker(""); $("picker-input").focus(); }
-function renderPicker(q) {
-  const key = q.trim().toLowerCase();
-  const found = state.painters.filter((p) => !key || p.name.toLowerCase().includes(key) || p.name_en.toLowerCase().includes(key));
-  $("picker-list").innerHTML = found.slice(0, 60).map((p) => `
+const pickerRow = (p) => `
     <button type="button" data-id="${esc(p.id)}">
       ${p.thumb ? `<img src="${esc(p.thumb)}" alt="" loading="lazy">` : `<span class="ph"></span>`}
       <span><b>${esc(p.name)}</b><small>${esc(p.label)}${p.name_en ? " · " + esc(p.name_en) : ""}</small></span>
-    </button>`).join("") + (found.length > 60 ? `<div class="more">${found.length}명 중 60명만 보여요. 이름을 더 입력해 보세요.</div>` : "")
-    + (found.length === 0 ? `<div class="more">찾는 화가가 없어요.</div>` : "");
+    </button>`;
+let pickerQuery = "";   // 가장 마지막에 입력한 검색어 (늦게 도착한 옛 검색 결과로 덮어쓰지 않게)
+async function renderPicker(q) {
+  const key = q.trim().toLowerCase();
+  pickerQuery = key;
+  const found = state.painters.filter((p) => !key || p.name.toLowerCase().includes(key) || p.name_en.toLowerCase().includes(key));
+  $("picker-list").innerHTML = found.slice(0, 60).map(pickerRow).join("") + (found.length > 60 ? `<div class="more">${found.length}명 중 60명만 보여요. 이름을 더 입력해 보세요.</div>` : "")
+    + (found.length === 0 ? `<div class="more">찾는 화가가 없어요.${key.replace(/\s/g, "").length >= 2 ? " 비슷한 이름을 찾는 중…" : ""}</div>` : "");
+  if (found.length || key.replace(/\s/g, "").length < 2) return;
+  // 이름에 그대로 들어 있는 화가가 없으면 오타일 수 있다 → 서버에 비슷한 이름을 물어본다 ('다반치' → 레오나르도 다 빈치)
+  const similar = await similarPainters(key);
+  if (pickerQuery !== key) return;
+  $("picker-list").innerHTML = similar.length
+    ? `<div class="more">'${esc(q.trim())}'와(과) 정확히 맞는 이름이 없어서, 비슷한 이름을 보여드려요.</div>` + similar.map(pickerRow).join("")
+    : `<div class="more">찾는 화가가 없어요. 비슷한 이름도 없어요.</div>`;
+}
+async function similarPainters(q, limit = 10) {
+  try { return await (await api(`/api/painters/similar?q=${encodeURIComponent(q)}&limit=${limit}`)).json(); } catch { return []; }
 }
 $("open-picker").addEventListener("click", openPicker);
 $("picker-input").addEventListener("input", (e) => renderPicker(e.target.value));
@@ -113,6 +129,7 @@ async function selectPainter(id) {
   state.detail = d;
   renderPainter();
   renderMessages();
+  signal("tour:painter-selected", { id });
 }
 
 function renderPainter() {
@@ -216,6 +233,7 @@ $("ask-form").addEventListener("submit", async (e) => {
   $("ask-input").value = ""; $("ask-input").disabled = true; e.submitter && (e.submitter.disabled = true);
   renderMessages();
   $("messages").lastElementChild?.scrollIntoView({ behavior: "smooth", block: "center" });
+  signal("tour:asked");
 
   try {
     const res = await api("/api/ask", { painter_id: pid, question: q, search_type: state.mode });
@@ -247,6 +265,7 @@ $("ask-form").addEventListener("submit", async (e) => {
   saveHistories();
   $("ask-input").disabled = false; e.submitter && (e.submitter.disabled = false);
   if (state.current === pid) { renderMessages(); $("ask-input").focus(); }
+  signal("tour:answered", { status: turn.status });
   refreshStatus();
 });
 
@@ -261,9 +280,11 @@ $("search-form").addEventListener("submit", async (e) => {
     const out = await (await api("/api/search", { condition })).json();
     $("parsed").hidden = false;
     $("parsed").innerHTML = `
-      <div class="conds"><span class="label muted">${out.mode === "name" ? "검색 방식" : "해석된 조건"}</span>${out.parsed.map((f) => `<span class="cond"><i>${esc(f.label)}</i>${esc(f.value)}</span>`).join("") || '<span class="cond">필터 조건 없음 · 의미 검색만</span>'}</div>
+      <div class="conds"><span class="label muted">${out.mode === "condition" ? "해석된 조건" : "검색 방식"}</span>${out.parsed.map((f) => `<span class="cond"><i>${esc(f.label)}</i>${esc(f.value)}</span>`).join("") || '<span class="cond">필터 조건 없음 · 의미 검색만</span>'}</div>
       ${out.mode === "name"
         ? `<div class="steps"><span>이름 검색</span><span>→</span><span class="last"><b>${out.filtered}</b>명${out.filtered > out.results.length ? ` (유명한 순 ${out.results.length}명 표시)` : ""}</span></div>`
+        : out.mode === "similar"
+        ? `<div class="steps"><span>조건·이름 모두 0명</span><span>→</span><span class="last">비슷한 이름 <b>${out.results.length}</b>명</span></div>`
         : `<div class="steps"><span><b>${out.filtered}</b>명 조건 필터 통과</span><span>→</span><span><b>${out.candidates}</b>명 LLM 검증</span><span>→</span><span class="last"><b>${out.results.length}</b>명 일치</span></div>`}`;
     if (!out.results.length) {
       $("results").innerHTML = `<div class="empty">조건에 맞는 화가를 찾지 못했어요.${out.empty_reasons.map((r) => `<br>ℹ️ ${esc(r)}`).join("")}<br>조건을 조금 넓혀서 다시 찾아보세요.</div>`;
@@ -288,19 +309,37 @@ $("results").addEventListener("click", (e) => {
 });
 
 /* ------------------------------ ③ 화가 비교 (F2010) ------------------------------ */
-const nameToId = {};
+const nameToId = {}, idToName = {};
 function fillPainterNames() {
   $("painter-names").innerHTML = state.painters.map((p) => {
     const key = nameToId[p.name] ? `${p.name} (${p.label})` : p.name;   // 동명이인은 설명을 붙여 구분
     nameToId[key] = p.id;
+    idToName[p.id] = key;
     return `<option value="${esc(key)}">${esc(p.label)}</option>`;
   }).join("");
 }
+// 비교 입력칸 아래 '혹시 이 화가인가요?' 버튼을 누르면 그 이름으로 칸을 채운다
+$("compare-out").addEventListener("click", (e) => {
+  const b = e.target.closest("button[data-fill]");
+  if (b) { $(b.dataset.fill).value = b.dataset.name; $("compare-out").innerHTML = ""; }
+});
 $("compare-form").addEventListener("submit", async (e) => {
   e.preventDefault();
   const a = nameToId[$("cmp-a").value.trim()], b = nameToId[$("cmp-b").value.trim()];
   const out = $("compare-out");
-  if (!a || !b) { out.innerHTML = `<div class="cmp-body"><div class="empty">목록에 있는 화가 이름을 골라 주세요.</div></div>`; return; }
+  if (!a || !b) {
+    // 목록에 없는 이름이면 오타일 수 있다 → 비슷한 이름을 눌러서 고를 수 있게 보여준다
+    const tips = [];
+    for (const [field, id] of [["cmp-a", a], ["cmp-b", b]]) {
+      const typed = $(field).value.trim();
+      if (id || !typed) continue;
+      const similar = await similarPainters(typed, 5);
+      tips.push(`<p>'${esc(typed)}'는(은) 목록에 없어요.${similar.length ? " 혹시 이 화가인가요? " + similar.map((p) =>
+        `<button type="button" class="cond" data-fill="${field}" data-name="${esc(idToName[p.id] || p.name)}">${esc(p.name)}</button>`).join(" ") : ""}</p>`);
+    }
+    out.innerHTML = `<div class="cmp-body"><div class="empty">${tips.join("") || "목록에 있는 화가 이름을 골라 주세요."}</div></div>`;
+    return;
+  }
   if (a === b) { out.innerHTML = `<div class="cmp-body"><div class="empty">서로 다른 두 화가를 골라 주세요.</div></div>`; return; }
   out.innerHTML = `<div class="cmp-body"><div class="status"><span class="spin"></span>두 화가의 근거 문서를 모으고 비교표를 만드는 중이에요… (처음이면 20~30초)</div></div>`;
   try {
@@ -338,6 +377,7 @@ async function refreshStatus() {
     if (!state.byId[first]) first = state.byId.Q296 ? "Q296" : state.painters[0]?.id;   // 처음엔 모네
     await selectPainter(first);
     $("cmp-a").value = state.byId[first]?.name || "";
+    signal("app:ready");
   } catch (err) {
     showNotice(err.message);
   }

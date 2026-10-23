@@ -125,7 +125,8 @@ class SearchResult(BaseModel):
 
 
 class SearchResponse(BaseModel):
-    mode: Literal["name", "condition"] = Field("condition", description="name = 화가 이름으로 찾음(LLM 없이), condition = 조건 탐색")
+    mode: Literal["name", "condition", "similar"] = Field(
+        "condition", description="name = 화가 이름으로 찾음(LLM 없이), condition = 조건 탐색, similar = 조건으로 0명이라 비슷한 이름(오타)으로 찾음")
     condition: str
     parsed: list[Fact] = Field(description="해석된 조건 (국적·사조·장르·시대·기타)")
     filtered: int = Field(description="조건 필터 통과 수")

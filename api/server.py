@@ -32,7 +32,8 @@ from api.schemas import (
     PainterDetail, PainterSummary, SearchRequest, SearchResponse, SearchResult, Status,
 )
 from data_prep.images import external_links, museum_works, painter_images, thumb, work_caption
-from data_prep.painters import active_period, load_painters, lifespan
+from data_prep.name_search import similar_matches
+from data_prep.painters import active_period, load_painters, lifespan, picker_order
 
 logger = logging.getLogger("painter_rag.api")
 WEB_DIR = Path(__file__).resolve().parent.parent / "web"
@@ -135,7 +136,16 @@ def status() -> Status:
 
 @app.get("/api/painters", response_model=list[PainterSummary], summary="화가 목록 (유명한 순)")
 def list_painters() -> list[PainterSummary]:
-    return [summary(p) for p in painters_by_id().values()]
+    # 본업 화가가 위에 오도록 (괴테·헤세처럼 화가이기도 한 사람은 아래로, 검색하면 찾을 수 있음)
+    return [summary(p) for p in picker_order(list(painters_by_id().values()))]
+
+
+# /api/painters/{painter_id} 보다 먼저 둬야 'similar'를 화가 ID로 착각하지 않는다
+@app.get("/api/painters/similar", response_model=list[PainterSummary], summary="이름이 비슷한 화가 (오타 검색)")
+def similar_painters(q: str, limit: int = 10) -> list[PainterSummary]:
+    """'다반치' → 레오나르도 다 빈치처럼, 이름을 조금 틀리게 입력했을 때 비슷한 이름의 화가 (정확히 맞는 화가는 제외)"""
+    ordered = picker_order(list(painters_by_id().values()))
+    return [summary(p) for p in similar_matches(q, ordered, limit=min(limit, 20))]
 
 
 @app.get("/api/painters/{painter_id}", response_model=PainterDetail, summary="화가 상세 + 작품 이미지")
@@ -213,6 +223,8 @@ def search(req: SearchRequest) -> SearchResponse:
         parsed.append(Fact(label="기타", value=cond["keywords"]))
     if out["mode"] == "name":
         parsed = [Fact(label="이름", value=req.condition.strip())]
+    elif out["mode"] == "similar":
+        parsed = [Fact(label="비슷한 이름", value=req.condition.strip())]
 
     results = []
     for p, reason in out["results"]:
@@ -238,6 +250,16 @@ def compare(req: CompareRequest) -> CompareResponse:
         painters.append(ComparePainter(painter=summary(p), images=shown[:3]))
     return CompareResponse(focus=out["focus"], answer=out["answer"], cited=to_evidence(out["cited"]),
                            evidence=to_evidence(out["evidence"]), painters=painters)
+
+
+# 화면 파일은 브라우저가 매번 "바뀐 게 있나?" 서버에 확인하게 한다
+# (이 표시가 없으면 브라우저가 옛 CSS·JS를 그대로 써서, 고친 화면이 새로고침해도 안 보였음)
+@app.middleware("http")
+async def no_stale_web_files(request: Request, call_next):
+    response = await call_next(request)
+    if not request.url.path.startswith("/api"):
+        response.headers["Cache-Control"] = "no-cache"
+    return response
 
 
 # 화면 파일(HTML·CSS·JS)은 맨 마지막에 연결한다 (위의 /api 주소보다 우선하지 않도록)

@@ -279,6 +279,7 @@ def build_record(rank: int, painter: dict, detail: dict[str, list[str]]) -> dict
         "name": title,                             # 한국어 이름 (= 한국어 위키 문서 제목)
         "name_en": painter["name_en"],
         "description": painter["description"],     # 한 줄 소개
+        "description_en": painter["description_en"],   # 영어 소개 (본업이 화가인지 가릴 때 씀)
         "continents": painter["continents"],       # 예: ["유럽"]
         "nationality": detail.get("nationality", [])[:MAX_LIST_ITEMS],
         "birth_year": to_year(detail.get("birth", [])),

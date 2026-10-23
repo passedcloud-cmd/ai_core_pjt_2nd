@@ -54,7 +54,8 @@ if not (config.OPENAI_API_KEY and config.OPENAI_BASE_URL):
 
 # API 키가 확인된 뒤에 불러온다 (불러오는 순간 임베딩 객체를 만들기 때문)
 from data_prep.images import external_links, museum_works, painter_images, thumb, work_caption  # noqa: E402
-from data_prep.painters import build_index_text, load_painters  # noqa: E402
+from data_prep.name_search import exact_matches, similar_matches  # noqa: E402
+from data_prep.painters import build_index_text, load_painters, picker_order  # noqa: E402
 from rag.graph import build_graph, retrieve  # noqa: E402
 from rag.search_compare import diversity  # noqa: E402
 from vectorstore import store as vs  # noqa: E402
@@ -114,16 +115,29 @@ with st.sidebar:
 
     st.divider()
     st.subheader("🎨 화가 선택")
-    # 유명한 순(rank)으로 정렬된 목록. 칸에 이름을 입력하면 검색된다.
+    # 본업 화가를 유명한 순으로 먼저, 화가이기도 한 사람(괴테·헤세 등)은 뒤로. 칸에 이름을 입력하면 검색된다.
     # key를 두면 다른 기능(F2011 조건 탐색)에서 이 값을 바꿔 화가를 고를 수 있다.
     painter_id = st.selectbox(
         "질문할 화가",
-        options=[p["id"] for p in painters],
+        options=[p["id"] for p in picker_order(painters)],
         format_func=painter_label,
         key="painter_id",
         help="이름을 입력하면 목록에서 찾을 수 있어요.",
     )
     painter = painter_by_id[painter_id]
+
+    # 위 목록 검색은 이름에 그대로 들어 있어야 찾는다 → 오타가 나도 찾을 수 있는 칸을 따로 둔다
+    with st.expander("🔎 이름이 정확히 기억나지 않으면 (오타 검색)"):
+        typed = st.text_input("화가 이름", placeholder="예: 다반치, 김흥도, 르느와르", key="typo_query")
+        if typed.strip():
+            ordered = picker_order(painters)
+            hits = exact_matches(typed, ordered)[:5] or similar_matches(typed, ordered, limit=5)
+            if not hits:
+                st.caption("비슷한 이름의 화가가 없어요.")
+            for p in hits:
+                # 위젯 값(painter_id)은 버튼 콜백에서 바꿔야 오류가 나지 않는다
+                st.button(painter_label(p["id"]), key=f"typo_{p['id']}", width="stretch",
+                          on_click=lambda pid=p["id"]: st.session_state.update(painter_id=pid))
 
     portrait = painter_images(painter_id)["portrait"]
     if portrait:  # 화가 초상 (클릭하면 원본 페이지)
@@ -346,6 +360,8 @@ def render_explore() -> None:
     if out.get("mode") == "name":  # 화가 이름으로 찾은 경우 (조건 해석·LLM 검증 없이 바로)
         more = f" · 그중 유명한 순 {len(out['results'])}명 표시" if out["filtered"] > len(out["results"]) else ""
         st.markdown(f"**이름 검색:** '{out['query']}'이(가) 이름에 들어간 화가 **{out['filtered']}명**{more} (유명한 순)")
+    elif out.get("mode") == "similar":  # 조건으로도 이름으로도 0명 → 이름 오타로 보고 비슷한 이름을 찾은 경우
+        st.markdown(f"**비슷한 이름:** '{out['query']}'와(과) 맞는 조건·이름이 없어서, 이름이 비슷한 화가 **{len(out['results'])}명**을 보여드려요.")
     else:
         st.markdown(f"**조건:** {out['query']}")
         st.markdown(
