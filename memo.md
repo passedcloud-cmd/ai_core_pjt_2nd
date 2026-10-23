@@ -1,3 +1,6 @@
+## 제출
+https://drive.google.com/drive/folders/1hf_V_9ZQ0hNrx_kUVYjNU4gAhZZv_DhU
+
 uvicorn api.server:app --port 8600
 치면 실행
 
