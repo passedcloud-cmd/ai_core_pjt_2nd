@@ -25,6 +25,27 @@ PAINTERS_PATH = DATA_DIR / "painters.json"
 CHROMA_DIR = Path(os.getenv("CHROMA_DIR") or BASE_DIR / "chroma_db")
 
 
+def _ascii_chroma_path(path: Path) -> Path:
+    """
+    ChromaDB는 폴더 경로에 한글이 있으면(예: 바탕화면\\AI_코어프로젝트2_화가검색봇\\chroma_db)
+    검색 색인 파일을 열지 못한다 ("Error loading hnsw index"). 내부 C++ 코드가 한글 경로를 못 읽기 때문.
+    → 지금 실행 위치 기준의 '상대 경로'(예: chroma_db)로 바꿔 넘기면 한글이 빠져서 정상 동작한다.
+    """
+    if str(path).isascii():
+        return path
+    try:
+        relative = Path(os.path.relpath(path))
+    except ValueError:  # 드라이브가 달라 상대 경로를 만들 수 없음
+        relative = path
+    if not str(relative).isascii():
+        print(f"⚠️ 색인 폴더 경로에 한글이 있어 검색이 실패할 수 있어요: {path}\n"
+              f"   프로젝트 폴더에서 실행하거나, 영어 이름 폴더로 옮겨 주세요.")
+    return relative if str(relative).isascii() else path
+
+
+CHROMA_DIR = _ascii_chroma_path(CHROMA_DIR)
+
+
 # ---------------------------------------------------------------------------
 # OpenAI (SSAFY GMS 경유)
 # ---------------------------------------------------------------------------
