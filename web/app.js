@@ -150,7 +150,7 @@ function renderPainter() {
   $("wiki-link").href = d.wiki_url; $("wiki-link").hidden = !d.wiki_url;
   $("chat-title").innerHTML = `${esc(d.name)}에게 <em class="k">묻다</em>`;
   $("ask-input").placeholder = `${d.name}에 대해 궁금한 점을 입력하세요`;
-  document.title = `${d.name} — 화가 도슨트`;
+  document.title = "Painter Guide-Meet the Painters";   // 탭 제목은 화가가 바뀌어도 그대로
   renderGallery();
 }
 

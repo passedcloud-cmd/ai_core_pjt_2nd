@@ -34,14 +34,14 @@
     {
       target: () => $("#open-picker"), place: "bottom",
       title: "먼저 대화할 화가를 골라요",
-      body: "1,343명의 화가 중에서 고를 수 있어요.<br><b>👆 이 버튼을 눌러 보세요.</b>",
+      body: "1,343명의 화가 중에서 고를 수 있어요.<br><b>'화가 선택' 버튼을 눌러 보세요.</b>",
       advance: "click",
     },
     {
       target: () => $("#picker .picker"), place: "right",
       before: () => waitFor(() => !$("#picker").hidden),
       title: "이름으로 찾아요",
-      body: "한글이나 영어 이름을 입력하면 바로 걸러져요.<br><b>👆 '모네'를 입력하고 클로드 모네를 골라 보세요.</b><br><small>(다른 화가를 골라도 괜찮아요)</small>",
+      body: "한글이나 영어 이름을 입력하면 바로 걸러져요.<br><b>'모네'를 입력하고 클로드 모네를 골라 보세요.</b><br><small>(다른 화가를 골라도 괜찮아요)</small>",
       advance: "event", event: "tour:painter-selected",
       // 화가를 고르지 않고 창만 닫으면 이전 단계로. 단, 목록에서 화가를 누른 경우엔 창이 먼저 닫히고
       // 화가 정보는 조금 뒤에 오므로 되돌아가지 않고 기다린다 (처음엔 이 순서 때문에 2단계로 되돌아가는 문제가 있었음)
@@ -64,7 +64,7 @@
     {
       target: () => $("#ask-form"), place: "top",
       title: "이제 질문해 볼까요?",
-      body: () => `궁금한 걸 자유롭게 물어보세요.<br><b>👆 질문을 입력하고 Enter를 누르세요.</b>`,
+      body: () => `궁금한 걸 자유롭게 물어보세요.<br><b>질문을 입력하고 Enter를 누르세요.</b>`,
       extra: { label: "예시 질문 넣기", run: () => {
         const input = $("#ask-input");
         input.value = EXAMPLE_Q[appState() && appState().current] || `${currentName()}의 대표작은 뭐야?`;
